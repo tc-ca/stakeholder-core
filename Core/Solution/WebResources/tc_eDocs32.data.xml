@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<WebResource>
+  <WebResourceId>{bd23f0ca-54b5-e511-80ec-005056972b5e}</WebResourceId>
+  <Name>tc_eDocs32</Name>
+  <DisplayName>eDocs32</DisplayName>
+  <WebResourceType>5</WebResourceType>
+  <IntroducedVersion>0.1.3</IntroducedVersion>
+  <IsEnabledForMobileClient>0</IsEnabledForMobileClient>
+  <IsAvailableForMobileOffline>0</IsAvailableForMobileOffline>
+  <IsCustomizable>1</IsCustomizable>
+  <CanBeDeleted>1</CanBeDeleted>
+  <IsHidden>0</IsHidden>
+  <FileName>/WebResources/tc_eDocs32BD23F0CA-54B5-E511-80EC-005056972B5E</FileName>
+</WebResource>

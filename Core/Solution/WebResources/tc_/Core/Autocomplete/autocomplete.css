@@ -1,0 +1,20 @@
+.autocomplete-container {
+    position: absolute;
+    background-color: white;
+    border-radius: 5px;
+    z-index: 1;
+}
+
+.autocomplete-item {
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 5px;
+}
+
+.autocomplete-item:hover {
+    background-color: lightblue;
+}
+
+.autocomplete-active {
+    background-color: lightblue;
+}

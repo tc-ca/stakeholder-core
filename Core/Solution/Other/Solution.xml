@@ -1,0 +1,308 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ImportExportXml version="8.2.0002.0112" SolutionPackageVersion="8.2" languagecode="1033" generatedBy="OnPremise" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SolutionManifest>
+    <UniqueName>Core</UniqueName>
+    <LocalizedNames>
+      <LocalizedName description="Core Solution" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="Core CRM solution. Contains common components shared between many solutions." languagecode="1033" />
+    </Descriptions>
+    <Version>0.5.2.4</Version>
+    <Managed>0</Managed>
+    <Publisher>
+      <UniqueName>DefaultPublisherTransportCanada</UniqueName>
+      <LocalizedNames>
+        <LocalizedName description="Transport Canada" languagecode="1033" />
+        <LocalizedName description="Transports Canada" languagecode="1036" />
+      </LocalizedNames>
+      <Descriptions>
+        <Description description="Default publisher for this organization" languagecode="1033" />
+        <Description description="Éditeur par défaut pour cette organisation" languagecode="1036" />
+      </Descriptions>
+      <EMailAddress xsi:nil="true"></EMailAddress>
+      <SupportingWebsiteUrl xsi:nil="true"></SupportingWebsiteUrl>
+      <CustomizationPrefix>tc</CustomizationPrefix>
+      <CustomizationOptionValuePrefix>94801</CustomizationOptionValuePrefix>
+      <Addresses>
+        <Address>
+          <AddressNumber>1</AddressNumber>
+          <AddressTypeCode xsi:nil="true"></AddressTypeCode>
+          <City xsi:nil="true"></City>
+          <County xsi:nil="true"></County>
+          <Country xsi:nil="true"></Country>
+          <Fax xsi:nil="true"></Fax>
+          <FreightTermsCode xsi:nil="true"></FreightTermsCode>
+          <ImportSequenceNumber xsi:nil="true"></ImportSequenceNumber>
+          <Latitude xsi:nil="true"></Latitude>
+          <Line1 xsi:nil="true"></Line1>
+          <Line2 xsi:nil="true"></Line2>
+          <Line3 xsi:nil="true"></Line3>
+          <Longitude xsi:nil="true"></Longitude>
+          <Name xsi:nil="true"></Name>
+          <PostalCode xsi:nil="true"></PostalCode>
+          <PostOfficeBox xsi:nil="true"></PostOfficeBox>
+          <PrimaryContactName xsi:nil="true"></PrimaryContactName>
+          <ShippingMethodCode xsi:nil="true"></ShippingMethodCode>
+          <StateOrProvince xsi:nil="true"></StateOrProvince>
+          <Telephone1 xsi:nil="true"></Telephone1>
+          <Telephone2 xsi:nil="true"></Telephone2>
+          <Telephone3 xsi:nil="true"></Telephone3>
+          <TimeZoneRuleVersionNumber xsi:nil="true"></TimeZoneRuleVersionNumber>
+          <UPSZone xsi:nil="true"></UPSZone>
+          <UTCOffset xsi:nil="true"></UTCOffset>
+          <UTCConversionTimeZoneCode xsi:nil="true"></UTCConversionTimeZoneCode>
+        </Address>
+        <Address>
+          <AddressNumber>2</AddressNumber>
+          <AddressTypeCode xsi:nil="true"></AddressTypeCode>
+          <City xsi:nil="true"></City>
+          <County xsi:nil="true"></County>
+          <Country xsi:nil="true"></Country>
+          <Fax xsi:nil="true"></Fax>
+          <FreightTermsCode xsi:nil="true"></FreightTermsCode>
+          <ImportSequenceNumber xsi:nil="true"></ImportSequenceNumber>
+          <Latitude xsi:nil="true"></Latitude>
+          <Line1 xsi:nil="true"></Line1>
+          <Line2 xsi:nil="true"></Line2>
+          <Line3 xsi:nil="true"></Line3>
+          <Longitude xsi:nil="true"></Longitude>
+          <Name xsi:nil="true"></Name>
+          <PostalCode xsi:nil="true"></PostalCode>
+          <PostOfficeBox xsi:nil="true"></PostOfficeBox>
+          <PrimaryContactName xsi:nil="true"></PrimaryContactName>
+          <ShippingMethodCode xsi:nil="true"></ShippingMethodCode>
+          <StateOrProvince xsi:nil="true"></StateOrProvince>
+          <Telephone1 xsi:nil="true"></Telephone1>
+          <Telephone2 xsi:nil="true"></Telephone2>
+          <Telephone3 xsi:nil="true"></Telephone3>
+          <TimeZoneRuleVersionNumber xsi:nil="true"></TimeZoneRuleVersionNumber>
+          <UPSZone xsi:nil="true"></UPSZone>
+          <UTCOffset xsi:nil="true"></UTCOffset>
+          <UTCConversionTimeZoneCode xsi:nil="true"></UTCConversionTimeZoneCode>
+        </Address>
+      </Addresses>
+    </Publisher>
+    <RootComponents>
+      <RootComponent type="1" schemaName="account" behavior="0" />
+      <RootComponent type="1" schemaName="contact" behavior="0" />
+      <RootComponent type="1" schemaName="systemuser" behavior="0" />
+      <RootComponent type="1" schemaName="tc_ayemployee" behavior="0" />
+      <RootComponent type="1" schemaName="tc_ayorganizationunit" behavior="0" />
+      <RootComponent type="1" schemaName="tc_dydocumentprofiletemplate" behavior="0" />
+      <RootComponent type="1" schemaName="tc_dyeventlog" behavior="0" />
+      <RootComponent type="1" schemaName="tc_dyidgenerator" behavior="0" />
+      <RootComponent type="1" schemaName="tc_tyeventtype" behavior="0" />
+      <RootComponent type="1" schemaName="tc_tytag" behavior="0" />
+      <RootComponent type="1" schemaName="tc_tytagcategory" behavior="0" />
+      <RootComponent type="20" id="{1331f3bf-e8cd-e611-812f-000c2958e3a5}" behavior="0" />
+      <RootComponent type="20" id="{73b1990c-e9cd-e611-812f-000c2958e3a5}" behavior="0" />
+      <RootComponent type="20" behavior="0" parentId="{119f245c-3cc8-4b62-b31c-d1a046ced15d}" />
+      <RootComponent type="60" id="{15915835-b87c-49ec-9ffc-bfac3ac44ef1}" behavior="0" />
+      <RootComponent type="60" id="{7028ee4e-8cee-4285-871e-652f30a5d821}" behavior="0" />
+      <RootComponent type="60" id="{70ad8b15-e3f3-4d7d-9e4b-16cb4e51b484}" behavior="0" />
+      <RootComponent type="60" id="{c9e7ec2d-efca-4e4c-b3e3-f63c4bba5e4b}" behavior="0" />
+      <RootComponent type="61" schemaName="tc_/Core/AjaxLoader.gif" behavior="0" />
+      <RootComponent type="61" schemaName="tc_/Core/autocomplete.css" behavior="0" />
+      <RootComponent type="61" schemaName="tc_/Core/autocomplete.html" behavior="0" />
+      <RootComponent type="61" schemaName="tc_/Core/autocomplete.js" behavior="0" />
+      <RootComponent type="61" schemaName="tc_/Core/Autocomplete/autocomplete.css" behavior="0" />
+      <RootComponent type="61" schemaName="tc_/Core/Autocomplete/autocomplete.js" behavior="0" />
+      <RootComponent type="61" schemaName="tc_/Core/BulkAssociate/associate.js" behavior="0" />
+      <RootComponent type="61" schemaName="tc_/Core/BulkAssociate/controls.html" behavior="0" />
+      <RootComponent type="61" schemaName="tc_/Core/BulkAssociate/labels.js" behavior="0" />
+      <RootComponent type="61" schemaName="tc_/Core/CoreSearch.js" behavior="0" />
+      <RootComponent type="61" schemaName="tc_/Core/CoreSearchLabels.xml" behavior="0" />
+      <RootComponent type="61" schemaName="tc_/Core/css/bootstrap.min.css" behavior="0" />
+      <RootComponent type="61" schemaName="tc_/Core/DataTable.html" behavior="0" />
+      <RootComponent type="61" schemaName="tc_/Core/DataTable.js" behavior="0" />
+      <RootComponent type="61" schemaName="tc_/Core/DataTables/datatables.min.css" behavior="0" />
+      <RootComponent type="61" schemaName="tc_/Core/DataTables/datatables.min.js" behavior="0" />
+      <RootComponent type="61" schemaName="tc_/Core/Delete.png" behavior="0" />
+      <RootComponent type="61" schemaName="tc_/Core/Documents/DocumentRepository.js" behavior="0" />
+      <RootComponent type="61" schemaName="tc_/Core/Documents/EntitySelect.css" behavior="0" />
+      <RootComponent type="61" schemaName="tc_/Core/Documents/EntitySelect.html" behavior="0" />
+      <RootComponent type="61" schemaName="tc_/Core/Documents/EntitySelect.js" behavior="0" />
+      <RootComponent type="61" schemaName="tc_/Core/Documents/FileUpload.js" behavior="0" />
+      <RootComponent type="61" schemaName="tc_/Core/Documents/Labels/search.js" behavior="0" />
+      <RootComponent type="61" schemaName="tc_/Core/Documents/Labels/upload.js" behavior="0" />
+      <RootComponent type="61" schemaName="tc_/Core/Documents/List.html" behavior="0" />
+      <RootComponent type="61" schemaName="tc_/Core/Documents/list.js" behavior="0" />
+      <RootComponent type="61" schemaName="tc_/Core/Documents/OpiAndClassification.css" behavior="0" />
+      <RootComponent type="61" schemaName="tc_/Core/Documents/OpiAndClassification.html" behavior="0" />
+      <RootComponent type="61" schemaName="tc_/Core/Documents/OpiAndClassification.js" behavior="0" />
+      <RootComponent type="61" schemaName="tc_/Core/Documents/rdims.client.js" behavior="0" />
+      <RootComponent type="61" schemaName="tc_/Core/Documents/Search.html" behavior="0" />
+      <RootComponent type="61" schemaName="tc_/Core/Documents/search.js" behavior="0" />
+      <RootComponent type="61" schemaName="tc_/Core/Documents/TemplateLabels.js" behavior="0" />
+      <RootComponent type="61" schemaName="tc_/Core/Documents/TemplateRepository.js" behavior="0" />
+      <RootComponent type="61" schemaName="tc_/Core/Documents/Upload.css" behavior="0" />
+      <RootComponent type="61" schemaName="tc_/Core/Documents/Upload.html" behavior="0" />
+      <RootComponent type="61" schemaName="tc_/Core/Documents/Upload.js" behavior="0" />
+      <RootComponent type="61" schemaName="tc_/Core/Documents/Whitelist.xml" behavior="0" />
+      <RootComponent type="61" schemaName="tc_/Core/employee.js" behavior="0" />
+      <RootComponent type="61" schemaName="tc_/Core/EmployeeSearch.html" behavior="0" />
+      <RootComponent type="61" schemaName="tc_/Core/EmployeeSearch.js" behavior="0" />
+      <RootComponent type="61" schemaName="tc_/Core/EmployeeSearchLabels.xml" behavior="0" />
+      <RootComponent type="61" schemaName="tc_/Core/EmployeeUtilities.js" behavior="0" />
+      <RootComponent type="61" schemaName="tc_/Core/Events.js" behavior="0" />
+      <RootComponent type="61" schemaName="tc_/Core/fullcalendar/3.9.0/en.ca.js" behavior="0" />
+      <RootComponent type="61" schemaName="tc_/Core/fullcalendar/3.9.0/fr.ca.js" behavior="0" />
+      <RootComponent type="61" schemaName="tc_/Core/fullcalendar/3.9.0/fullcalendar.min.css" behavior="0" />
+      <RootComponent type="61" schemaName="tc_/Core/fullcalendar/3.9.0/fullcalendar.min.js" behavior="0" />
+      <RootComponent type="61" schemaName="tc_/Core/fullcalendar/3.9.0/moment.min.js" behavior="0" />
+      <RootComponent type="61" schemaName="tc_/Core/Icons/DocumentProfileTemplate16.png" behavior="0" />
+      <RootComponent type="61" schemaName="tc_/Core/Icons/DocumentProfileTemplate32.png" behavior="0" />
+      <RootComponent type="61" schemaName="tc_/Core/Icons/eDocs16.png" behavior="0" />
+      <RootComponent type="61" schemaName="tc_/Core/Icons/eDocs32.png" behavior="0" />
+      <RootComponent type="61" schemaName="tc_/Core/Icons/employee16.png" behavior="0" />
+      <RootComponent type="61" schemaName="tc_/Core/Icons/Employee32.png" behavior="0" />
+      <RootComponent type="61" schemaName="tc_/Core/Icons/EventLog16.png" behavior="0" />
+      <RootComponent type="61" schemaName="tc_/Core/Icons/EventLog32.png" behavior="0" />
+      <RootComponent type="61" schemaName="tc_/Core/Icons/EventType16.png" behavior="0" />
+      <RootComponent type="61" schemaName="tc_/Core/Icons/EventType32.png" behavior="0" />
+      <RootComponent type="61" schemaName="tc_/Core/Icons/IdGenerator16.png" behavior="0" />
+      <RootComponent type="61" schemaName="tc_/Core/Icons/IdGenerator32.png" behavior="0" />
+      <RootComponent type="61" schemaName="tc_/Core/Icons/organization16.png" behavior="0" />
+      <RootComponent type="61" schemaName="tc_/Core/Icons/organization32.png" behavior="0" />
+      <RootComponent type="61" schemaName="tc_/Core/ie.polyfills.js" behavior="0" />
+      <RootComponent type="61" schemaName="tc_/Core/jquery.2.2.4.min.js" behavior="0" />
+      <RootComponent type="61" schemaName="tc_/Core/jquery.ui.1.11.4.min.css" behavior="0" />
+      <RootComponent type="61" schemaName="tc_/Core/jquery.ui.1.11.4.min.js" behavior="0" />
+      <RootComponent type="61" schemaName="tc_/Core/Labels/search.js" behavior="0" />
+      <RootComponent type="61" schemaName="tc_/Core/networkdays.js" behavior="0" />
+      <RootComponent type="61" schemaName="tc_/Core/OrganizationSearch.js" behavior="0" />
+      <RootComponent type="61" schemaName="tc_/Core/OrganizationSearchLabels.xml" behavior="0" />
+      <RootComponent type="61" schemaName="tc_/Core/OrganizationUnit.js" behavior="0" />
+      <RootComponent type="61" schemaName="tc_/Core/Paging.js" behavior="0" />
+      <RootComponent type="61" schemaName="tc_/Core/QueryReader.js" behavior="0" />
+      <RootComponent type="61" schemaName="tc_/Core/QuickCreate/Contact.js" behavior="0" />
+      <RootComponent type="61" schemaName="tc_/Core/QuickCreate/Organization.js" behavior="0" />
+      <RootComponent type="61" schemaName="tc_/Core/QuickCreate/QuickConfig.js" behavior="0" />
+      <RootComponent type="61" schemaName="tc_/Core/RdimsDocument.js" behavior="0" />
+      <RootComponent type="61" schemaName="tc_/Core/RdimsDocumentSearch.js" behavior="0" />
+      <RootComponent type="61" schemaName="tc_/Core/RdimsDocumentSearchLabels.xml" behavior="0" />
+      <RootComponent type="61" schemaName="tc_/Core/RequiredLevels.js" behavior="0" />
+      <RootComponent type="61" schemaName="tc_/Core/SDK.MetaData.js" behavior="0" />
+      <RootComponent type="61" schemaName="tc_/Core/SDK.REST.js" behavior="0" />
+      <RootComponent type="61" schemaName="tc_/Core/Search.css" behavior="0" />
+      <RootComponent type="61" schemaName="tc_/Core/Search.html" behavior="0" />
+      <RootComponent type="61" schemaName="tc_/Core/tag16.png" behavior="0" />
+      <RootComponent type="61" schemaName="tc_/Core/tag32.png" behavior="0" />
+      <RootComponent type="61" schemaName="tc_/Core/tags16.png" behavior="0" />
+      <RootComponent type="61" schemaName="tc_/Core/tags32.png" behavior="0" />
+      <RootComponent type="61" schemaName="tc_/Core/tcdirectory.client.js" behavior="0" />
+      <RootComponent type="61" schemaName="tc_/Core/TCDirectory.js" behavior="0" />
+      <RootComponent type="61" schemaName="tc_/Core/Translations.js" behavior="0" />
+      <RootComponent type="61" schemaName="tc_/Core/UserDetails.js" behavior="0" />
+      <RootComponent type="61" schemaName="tc_CaseManagement" behavior="0" />
+      <RootComponent type="61" schemaName="tc_eDocs32" behavior="0" />
+      <RootComponent type="62" behavior="0" />
+      <RootComponent type="91" schemaName="Core.Charts, Version=1.0.0.0, Culture=neutral, PublicKeyToken=90be6a16c58c0f7d" behavior="0" />
+      <RootComponent type="91" schemaName="Core.DocumentProfileTemplate, Version=1.0.0.0, Culture=neutral, PublicKeyToken=deba2e7d16d90bb6" behavior="0" />
+      <RootComponent type="91" schemaName="Core.Events, Version=1.0.0.0, Culture=neutral, PublicKeyToken=9676513de3297ac1" behavior="0" />
+      <RootComponent type="91" schemaName="Core.Localization, Version=1.0.0.0, Culture=neutral, PublicKeyToken=270ec4ec01352598" behavior="0" />
+      <RootComponent type="91" schemaName="Core.TCDirectory, Version=0.2.2.0, Culture=neutral, PublicKeyToken=4ae8a913f113a078" behavior="0" />
+      <RootComponent type="91" schemaName="Core.User, Version=1.0.0.0, Culture=neutral, PublicKeyToken=f963c938e2370194" behavior="0" />
+      <RootComponent type="91" schemaName="Core.Workflow, Version=1.0.0.0, Culture=neutral, PublicKeyToken=270ec4ec01352598" behavior="0" />
+      <RootComponent type="92" id="{04f4cf9d-3cf5-e611-8133-000c2958e3a5}" behavior="0" />
+      <RootComponent type="92" id="{0a451699-c2f3-e611-8133-000c2958e3a5}" behavior="0" />
+      <RootComponent type="92" id="{12de4346-b7f3-e611-8133-000c2958e3a5}" behavior="0" />
+      <RootComponent type="92" id="{1ad90b64-a6f3-e611-8133-000c2958e3a5}" behavior="0" />
+      <RootComponent type="92" id="{1bccbbb0-c2f3-e611-8133-000c2958e3a5}" behavior="0" />
+      <RootComponent type="92" id="{2251672d-b4f3-e611-8133-000c2958e3a5}" behavior="0" />
+      <RootComponent type="92" id="{2288462d-a7f3-e611-8133-000c2958e3a5}" behavior="0" />
+      <RootComponent type="92" id="{24d0984f-b7f3-e611-8133-000c2958e3a5}" behavior="0" />
+      <RootComponent type="92" id="{34496107-a7f3-e611-8133-000c2958e3a5}" behavior="0" />
+      <RootComponent type="92" id="{3b1931c4-9cec-e611-8132-000c2958e3a5}" behavior="0" />
+      <RootComponent type="92" id="{40b309e3-9cec-e611-8132-000c2958e3a5}" behavior="0" />
+      <RootComponent type="92" id="{44479644-a7f3-e611-8133-000c2958e3a5}" behavior="0" />
+      <RootComponent type="92" id="{4664cace-9cec-e611-8132-000c2958e3a5}" behavior="0" />
+      <RootComponent type="92" id="{73b142f4-bbe8-e611-8131-000c2958e3a5}" behavior="0" />
+      <RootComponent type="92" id="{9fd40450-b4f3-e611-8133-000c2958e3a5}" behavior="0" />
+      <RootComponent type="92" id="{a41710f4-37ea-e611-8131-000c2958e3a5}" behavior="0" />
+      <RootComponent type="92" id="{a44aca1f-bce8-e611-8131-000c2958e3a5}" behavior="0" />
+      <RootComponent type="92" id="{a91567dd-c7f3-e611-8133-000c2958e3a5}" behavior="0" />
+      <RootComponent type="92" id="{acfe131c-b4f3-e611-8133-000c2958e3a5}" behavior="0" />
+      <RootComponent type="92" id="{c3fbdc0a-bce8-e611-8131-000c2958e3a5}" behavior="0" />
+      <RootComponent type="92" id="{c6e250ee-c7f3-e611-8133-000c2958e3a5}" behavior="0" />
+      <RootComponent type="92" id="{ed777159-b4f3-e611-8133-000c2958e3a5}" behavior="0" />
+      <RootComponent type="92" id="{f1b171a9-3cf5-e611-8133-000c2958e3a5}" behavior="0" />
+      <RootComponent type="92" id="{ff98bbf4-9cec-e611-8132-000c2958e3a5}" behavior="0" />
+    </RootComponents>
+    <MissingDependencies>
+      <MissingDependency>
+        <Required key="0" type="1" schemaName="msdyn_postconfig" displayName="Post Configuration" solution="ActivityFeedsCore (8.2.0.0)" />
+        <Dependent key="1" type="62" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="2" type="1" schemaName="tc_tyorganizationtype" displayName="Organization Type" solution="Active" />
+        <Dependent key="3" type="10" schemaName="tc_TYOrganizationType_Account_OrganizationTypeId" displayName="tc_TYOrganizationType_Account_OrganizationTypeId" parentSchemaName="account" parentDisplayName="Organization" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="4" type="1" schemaName="tc_ayorganizationgroupmember" displayName="Organization Group Member" solution="Active" />
+        <Dependent key="5" type="1" schemaName="account" displayName="Organization" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="6" type="1" schemaName="tc_aycontactgroupmember" displayName="Contact Group Member" solution="Active" />
+        <Dependent key="7" type="1" schemaName="contact" displayName="Contact" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="8" type="1" schemaName="msdyn_wallsavedqueryusersettings" displayName="Filter" solution="ActivityFeedsCore (8.2.0.0)" />
+        <Dependent key="9" type="1" schemaName="systemuser" displayName="User" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="10" type="1" schemaName="msdyn_postruleconfig" displayName="Post Rule Configuration" solution="ActivityFeedsCore (8.2.0.0)" />
+        <Dependent key="1" type="62" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="11" type="2" schemaName="tc_typenm" displayName="Name" parentSchemaName="tc_tyorganizationtype" parentDisplayName="Organization Type" solution="Active" />
+        <Dependent key="3" type="10" schemaName="tc_TYOrganizationType_Account_OrganizationTypeId" displayName="tc_TYOrganizationType_Account_OrganizationTypeId" parentSchemaName="account" parentDisplayName="Organization" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="12" type="2" schemaName="tc_tyorganizationtypeid" displayName="Organization Type" parentSchemaName="tc_tyorganizationtype" parentDisplayName="Organization Type" solution="Active" />
+        <Dependent key="3" type="10" schemaName="tc_TYOrganizationType_Account_OrganizationTypeId" displayName="tc_TYOrganizationType_Account_OrganizationTypeId" parentSchemaName="account" parentDisplayName="Organization" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="13" type="1" schemaName="tc_tyregion" displayName="Region" solution="Active" />
+        <Dependent key="14" type="10" schemaName="tc_TYRegion_Contact" displayName="tc_TYRegion_Contact" parentSchemaName="tc_tyregion" parentDisplayName="Region" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="15" type="26" schemaName="Connected Organizations" displayName="Connected Organizations" parentSchemaName="connection" parentDisplayName="Connection" solution="Active" id="{f62b5f46-d7c8-e811-8b96-00155ddc0400}" />
+        <Dependent key="16" type="60" displayName="Contact" parentDisplayName="Contact" id="{1fed44d1-ae68-4a41-bd2b-f13acac4acfa}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="17" type="61" schemaName="msdyn_/RecordWall.htm" displayName="msdyn_/RecordWall.htm" solution="ActivityFeedsCore (8.2.0.0)" />
+        <Dependent key="18" type="60" displayName="Information" parentDisplayName="Contact" id="{894cc46a-b0cb-4ab0-8bf6-200544e46a2d}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="17" type="61" schemaName="msdyn_/RecordWall.htm" displayName="msdyn_/RecordWall.htm" solution="ActivityFeedsCore (8.2.0.0)" />
+        <Dependent key="19" type="60" displayName="Information" parentDisplayName="Organization" id="{b053a39a-041a-4356-acef-ddf00182762b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="17" type="61" schemaName="msdyn_/RecordWall.htm" displayName="msdyn_/RecordWall.htm" solution="ActivityFeedsCore (8.2.0.0)" />
+        <Dependent key="20" type="60" displayName="Information" parentDisplayName="User" id="{c0d7d7dd-afd0-4675-85fe-1cc5a48be6df}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="21" type="61" schemaName="tc_/Core/AddressValidation/main.html" displayName="tc_/Core/AddressValidation/main.html" solution="Active" />
+        <Dependent key="22" type="60" displayName="Organization" parentDisplayName="Organization" id="{8448b78f-8f42-454e-8e2a-f8196b0419af}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="21" type="61" schemaName="tc_/Core/AddressValidation/main.html" displayName="tc_/Core/AddressValidation/main.html" solution="Active" />
+        <Dependent key="16" type="60" displayName="Contact" parentDisplayName="Contact" id="{1fed44d1-ae68-4a41-bd2b-f13acac4acfa}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="23" type="61" schemaName="msdyn_/ActivityFeeds.Form.js" displayName="msdyn_/ActivityFeeds.Form.js" solution="ActivityFeedsCore (8.2.0.0)" />
+        <Dependent key="19" type="60" displayName="Information" parentDisplayName="Organization" id="{b053a39a-041a-4356-acef-ddf00182762b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="23" type="61" schemaName="msdyn_/ActivityFeeds.Form.js" displayName="msdyn_/ActivityFeeds.Form.js" solution="ActivityFeedsCore (8.2.0.0)" />
+        <Dependent key="18" type="60" displayName="Information" parentDisplayName="Contact" id="{894cc46a-b0cb-4ab0-8bf6-200544e46a2d}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="23" type="61" schemaName="msdyn_/ActivityFeeds.Form.js" displayName="msdyn_/ActivityFeeds.Form.js" solution="ActivityFeedsCore (8.2.0.0)" />
+        <Dependent key="20" type="60" displayName="Information" parentDisplayName="User" id="{c0d7d7dd-afd0-4675-85fe-1cc5a48be6df}" />
+      </MissingDependency>
+    </MissingDependencies>
+  </SolutionManifest>
+</ImportExportXml>

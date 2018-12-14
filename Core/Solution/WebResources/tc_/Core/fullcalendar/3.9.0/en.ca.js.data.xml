@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<WebResource>
+  <WebResourceId>{f3aa896c-2c81-e811-8b8b-00155ddc0400}</WebResourceId>
+  <Name>tc_/Core/fullcalendar/3.9.0/en.ca.js</Name>
+  <DisplayName>Core - fullcalendar - 3.9.0 - en.ca.js</DisplayName>
+  <WebResourceType>3</WebResourceType>
+  <IntroducedVersion>0.5.0.2</IntroducedVersion>
+  <IsEnabledForMobileClient>0</IsEnabledForMobileClient>
+  <IsAvailableForMobileOffline>0</IsAvailableForMobileOffline>
+  <DependencyXml>&lt;Dependencies&gt;&lt;Dependency componentType="WebResource"/&gt;&lt;/Dependencies&gt;</DependencyXml>
+  <IsCustomizable>1</IsCustomizable>
+  <CanBeDeleted>1</CanBeDeleted>
+  <IsHidden>0</IsHidden>
+  <FileName>/WebResources/tc_Corefullcalendar390encajsF3AA896C-2C81-E811-8B8B-00155DDC0400</FileName>
+</WebResource>

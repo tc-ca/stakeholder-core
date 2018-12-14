@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedquery>
+  <IsCustomizable>1</IsCustomizable>
+  <CanBeDeleted>0</CanBeDeleted>
+  <isquickfindquery>0</isquickfindquery>
+  <isprivate>0</isprivate>
+  <isdefault>0</isdefault>
+  <returnedtypecode>10011</returnedtypecode>
+  <savedqueryid>{3886e3df-c3ec-427b-b8ce-4cec7734def8}</savedqueryid>
+  <layoutxml>
+    <grid name="resultset" object="10011" jump="tc_categorynm" select="1" icon="1" preview="1">
+      <row name="result" id="tc_tytagcategoryid">
+        <cell name="tc_categorynm" width="300" />
+        <cell name="createdon" width="125" />
+      </row>
+    </grid>
+  </layoutxml>
+  <querytype>0</querytype>
+  <fetchxml>
+    <fetch version="1.0" mapping="logical">
+      <entity name="tc_tytagcategory">
+        <attribute name="tc_tytagcategoryid" />
+        <attribute name="tc_categorynm" />
+        <attribute name="createdon" />
+        <order attribute="tc_categorynm" descending="false" />
+        <filter type="and">
+          <condition attribute="statecode" operator="eq" value="1" />
+        </filter>
+      </entity>
+    </fetch>
+  </fetchxml>
+  <IntroducedVersion>0.1.2.1</IntroducedVersion>
+  <LocalizedNames>
+    <LocalizedName description="Inactive Tag Categories" languagecode="1033" />
+  </LocalizedNames>
+</savedquery>

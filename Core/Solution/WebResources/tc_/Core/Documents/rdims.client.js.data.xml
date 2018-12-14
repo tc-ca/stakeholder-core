@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<WebResource>
+  <WebResourceId>{3ce8f23f-7b79-e811-8b89-00155ddc0400}</WebResourceId>
+  <Name>tc_/Core/Documents/rdims.client.js</Name>
+  <DisplayName>Core - Documents - rdims.client.js</DisplayName>
+  <WebResourceType>3</WebResourceType>
+  <IntroducedVersion>0.5.0.0</IntroducedVersion>
+  <IsEnabledForMobileClient>0</IsEnabledForMobileClient>
+  <IsAvailableForMobileOffline>0</IsAvailableForMobileOffline>
+  <DependencyXml>&lt;Dependencies&gt;&lt;Dependency componentType="WebResource"/&gt;&lt;/Dependencies&gt;</DependencyXml>
+  <IsCustomizable>1</IsCustomizable>
+  <CanBeDeleted>1</CanBeDeleted>
+  <IsHidden>0</IsHidden>
+  <FileName>/WebResources/tc_CoreDocumentsrdimsclientjs3CE8F23F-7B79-E811-8B89-00155DDC0400</FileName>
+</WebResource>

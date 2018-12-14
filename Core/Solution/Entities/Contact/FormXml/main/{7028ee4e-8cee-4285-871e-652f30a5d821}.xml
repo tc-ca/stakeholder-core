@@ -1,0 +1,409 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<systemform>
+  <formid>{7028ee4e-8cee-4285-871e-652f30a5d821}</formid>
+  <IntroducedVersion>0.4.0.6</IntroducedVersion>
+  <FormPresentation>1</FormPresentation>
+  <FormActivationState>1</FormActivationState>
+  <form showImage="true" shownavigationbar="true" maxWidth="1900">
+    <ancestor id="{1fed44d1-ae68-4a41-bd2b-f13acac4acfa}" />
+    <hiddencontrols>
+      <data id="fullname" datafieldname="fullname" classid="{5546E6CD-394C-4bee-94A8-4425E17EF6C6}" />
+      <data id="address1_addressid" datafieldname="address1_addressid" classid="{5546E6CD-394C-4bee-94A8-4425E17EF6C6}" />
+      <data id="address2_addressid" datafieldname="address2_addressid" classid="{5546E6CD-394C-4bee-94A8-4425E17EF6C6}" />
+    </hiddencontrols>
+    <tabs>
+      <tab name="SUMMARY_TAB" id="{15bb2d4b-71da-74ea-3c5b-e497d78a55a2}" IsUserDefined="0" showlabel="true" expanded="true" locklevel="0" visible="false" labelid="{0f58276c-74a1-4c18-aef9-fac78303a08d}">
+        <labels>
+          <label description="Summary" languagecode="1033" />
+          <label description="Résumé" languagecode="1036" />
+        </labels>
+        <columns>
+          <column width="28%">
+            <sections>
+              <section name="CONTACT_INFORMATION" showlabel="true" showbar="false" id="{9d943649-0387-1882-caa1-36de40d5a86c}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" celllabelposition="Left" labelid="{aa9ec8ad-4b8a-4386-8d08-e49d896d8a56}">
+                <labels>
+                  <label description="CONTACT INFORMATION" languagecode="1033" />
+                  <label description="INFORMATIONS SUR LE CONTACT" languagecode="1036" />
+                </labels>
+                <rows>
+                  <row>
+                    <cell id="{542e581d-cca1-5e40-e6d9-d67a9d1468b4}" showlabel="true" locklevel="0" labelid="{dc0d2308-450d-4797-a691-84b719ef2c24}">
+                      <labels>
+                        <label description="Full Name" languagecode="1033" />
+                        <label description="Nom complet" languagecode="1036" />
+                      </labels>
+                      <control id="fullname" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="fullname" disabled="false" uniqueid="{7a77407c-9841-dea9-32ce-96ee042b0cb6}" />
+                    </cell>
+                  </row>
+                  <row>
+                    <cell id="{4dae524a-4074-6112-a325-54019a139470}" showlabel="true" locklevel="0">
+                      <labels>
+                        <label description="Documents" languagecode="1033" />
+                      </labels>
+                      <control id="tc_documentstxt" classid="{E0DECE4B-6FC8-4a8f-A065-082708572369}" datafieldname="tc_documentstxt" disabled="false" />
+                    </cell>
+                  </row>
+                </rows>
+              </section>
+            </sections>
+          </column>
+          <column width="44%">
+            <sections>
+              <section id="{dc70961a-91e4-41ae-a66b-94e595b91938}" name="SUMMARY_TAB_column_2_section_1" columns="11" showlabel="false" showbar="false" IsUserDefined="0">
+                <labels>
+                  <label description="section" languagecode="1033" />
+                </labels>
+                <rows>
+                  <row>
+                    <cell id="{6cda4e47-c721-47c8-9c44-1c987f9f3f65}" showlabel="false">
+                      <labels>
+                        <label description="" languagecode="1033" />
+                      </labels>
+                    </cell>
+                    <cell id="{bb9ec253-97cf-495e-aadb-8e6cfdd10a9e}" showlabel="false">
+                      <labels>
+                        <label description="" languagecode="1033" />
+                      </labels>
+                    </cell>
+                  </row>
+                </rows>
+              </section>
+            </sections>
+          </column>
+          <column width="28%">
+            <sections>
+              <section id="{7b57b833-3a34-4d74-85ce-abddf8569321}" name="SUMMARY_TAB_column_3_section_1" columns="11" showlabel="false" showbar="false" IsUserDefined="0">
+                <labels>
+                  <label description="section" languagecode="1033" />
+                </labels>
+                <rows>
+                  <row>
+                    <cell id="{259db362-28a3-4d72-bda2-e080d9df6676}" showlabel="false">
+                      <labels>
+                        <label description="" languagecode="1033" />
+                      </labels>
+                    </cell>
+                    <cell id="{53cc2595-3d21-42d1-ac1d-6cf8a7a10134}" showlabel="false">
+                      <labels>
+                        <label description="" languagecode="1033" />
+                      </labels>
+                    </cell>
+                  </row>
+                </rows>
+              </section>
+            </sections>
+          </column>
+        </columns>
+      </tab>
+      <tab name="view" id="{72a35967-ec56-0e65-46ee-0a9ab68ea53a}" IsUserDefined="0" locklevel="0" showlabel="false" expanded="true" labelid="{b1de23b4-ff37-4288-88a2-32409a25dffc}">
+        <labels>
+          <label description="View Documents" languagecode="1033" />
+        </labels>
+        <columns>
+          <column width="100%">
+            <sections>
+              <section name="tab_3_section_1" showlabel="false" showbar="false" locklevel="0" id="{21541a0d-824b-9cb4-7e50-224b1ceb5e4b}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" labelid="{291d0134-4227-478d-b903-e228572db73f}" height="auto">
+                <labels>
+                  <label description="Section" languagecode="1033" />
+                </labels>
+                <rows>
+                  <row height="auto">
+                    <cell id="{6886d2ca-7622-0924-6554-9c018765d7c4}" showlabel="false" colspan="1" auto="true" rowspan="1">
+                      <labels>
+                        <label description="List" languagecode="1033" />
+                      </labels>
+                      <control id="WebResource_List" classid="{9FDF5F91-88B1-47f4-AD53-C11EFC01A01D}">
+                        <parameters>
+                          <Url>tc_/Core/Documents/List.html</Url>
+                          <Data>{
+  "control": "WebResource_List",
+  "field": "tc_documentstxt"
+}</Data>
+                          <PassParameters>false</PassParameters>
+                          <ShowOnMobileClient>false</ShowOnMobileClient>
+                          <Security>false</Security>
+                          <Scrolling>no</Scrolling>
+                          <Border>false</Border>
+                          <WebResourceId>{9E41960E-6579-E811-8B89-00155DDC0400}</WebResourceId>
+                        </parameters>
+                      </control>
+                      <events>
+                        <event name="onload" application="false">
+                          <dependencies />
+                        </event>
+                      </events>
+                    </cell>
+                  </row>
+                </rows>
+              </section>
+            </sections>
+          </column>
+        </columns>
+      </tab>
+      <tab name="upload" id="{d4461eea-187c-7ac6-6e2c-8a5ac9832488}" IsUserDefined="0" locklevel="0" showlabel="true" expanded="false" labelid="{776f65ca-49bf-4e00-86d4-ac3a168d1e5f}">
+        <labels>
+          <label description="Upload a Document" languagecode="1033" />
+        </labels>
+        <columns>
+          <column width="100%">
+            <sections>
+              <section name="tab_2_section_1" showlabel="false" showbar="false" locklevel="0" id="{b73e7963-e91c-d477-d18d-d74e4854183a}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" labelid="{1980af50-8325-4360-be3b-4e0ce35f9b4a}" height="auto">
+                <labels>
+                  <label description="Section" languagecode="1033" />
+                </labels>
+                <rows>
+                  <row height="auto">
+                    <cell id="{ba405112-1bb4-5cd2-956e-d68110b78035}" showlabel="false" colspan="1" auto="true" rowspan="1">
+                      <labels>
+                        <label description="Upload" languagecode="1033" />
+                      </labels>
+                      <control id="WebResource_Upload" classid="{9FDF5F91-88B1-47f4-AD53-C11EFC01A01D}">
+                        <parameters>
+                          <Url>tc_/Core/Documents/Upload.html</Url>
+                          <Data>{
+  "control": "WebResource_Upload",
+  "field": "tc_documentstxt",
+  "view": "WebResource_List"
+}</Data>
+                          <PassParameters>false</PassParameters>
+                          <ShowOnMobileClient>false</ShowOnMobileClient>
+                          <Security>false</Security>
+                          <Scrolling>no</Scrolling>
+                          <Border>false</Border>
+                          <WebResourceId>{B86C2A9E-4B7A-E811-8B8A-00155DDC0400}</WebResourceId>
+                        </parameters>
+                      </control>
+                      <events>
+                        <event name="onload" application="false">
+                          <dependencies />
+                        </event>
+                      </events>
+                    </cell>
+                  </row>
+                </rows>
+              </section>
+            </sections>
+          </column>
+        </columns>
+      </tab>
+      <tab name="find" id="{0a828661-1142-d6b4-e4cd-10e1a6127b41}" IsUserDefined="0" locklevel="0" showlabel="true" expanded="false" labelid="{cc0fd820-68fe-4520-8067-b28328470da8}">
+        <labels>
+          <label description="Add an Existing Document" languagecode="1033" />
+        </labels>
+        <columns>
+          <column width="100%">
+            <sections>
+              <section name="tab_4_section_1" showlabel="false" showbar="false" locklevel="0" id="{7456a737-a17b-9084-49bd-b64c1a3ae458}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" labelid="{9c54fb88-fe96-4935-bdea-83cb110b7087}" height="auto">
+                <labels>
+                  <label description="Section" languagecode="1033" />
+                </labels>
+                <rows>
+                  <row height="auto">
+                    <cell id="{c7d9b985-81e5-4c45-bd19-9607de7e981e}" showlabel="false" colspan="1" auto="true" rowspan="1">
+                      <labels>
+                        <label description="Search" languagecode="1033" />
+                      </labels>
+                      <control id="WebResource_Search" classid="{9FDF5F91-88B1-47f4-AD53-C11EFC01A01D}">
+                        <parameters>
+                          <Url>tc_/Core/Documents/Search.html</Url>
+                          <PassParameters>false</PassParameters>
+                          <Security>false</Security>
+                          <Scrolling>no</Scrolling>
+                          <Border>false</Border>
+                          <ShowOnMobileClient>false</ShowOnMobileClient>
+                          <Data>{
+  "control": "WebResource_Search",
+  "field": "tc_documentstxt",
+  "view": "WebResource_List"
+}</Data>
+                          <WebResourceId>{DAFADC43-BD7B-E811-8B8A-00155DDC0400}</WebResourceId>
+                        </parameters>
+                      </control>
+                      <events>
+                        <event name="onload" application="false">
+                          <dependencies />
+                        </event>
+                      </events>
+                    </cell>
+                  </row>
+                </rows>
+              </section>
+            </sections>
+          </column>
+        </columns>
+      </tab>
+    </tabs>
+    <header id="{3ff9aa06-4e43-41ce-afa9-22a038af5c19}" celllabelposition="Top" columns="1" labelwidth="115">
+      <rows>
+        <row>
+          <cell id="{24be01cc-16a6-8eea-8916-42d20a1097ae}" showlabel="true" locklevel="1" labelid="{5494ebc7-03c4-4958-aec3-551cf3f6ba54}">
+            <labels>
+              <label description="Owner" languagecode="1033" />
+              <label description="Propriétaire" languagecode="1036" />
+            </labels>
+            <control id="header_ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" />
+          </cell>
+        </row>
+      </rows>
+    </header>
+    <footer id="{7e004167-cef8-4016-bd73-bd286235d63c}" columns="111">
+      <rows>
+        <row>
+          <cell id="{9b5913cc-b530-cb96-4c44-dc0244115a7d}" showlabel="true" locklevel="0" labelid="{491b0f57-cd33-4c3c-9260-32c334ad181d}">
+            <labels>
+              <label description="Created On" languagecode="1033" />
+              <label description="Créé le" languagecode="1036" />
+            </labels>
+            <control id="footer_createdon" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="createdon" disabled="true" />
+          </cell>
+          <cell id="{8da8678b-aa0e-0e87-01a3-279bc617a6e0}" showlabel="true" locklevel="0" labelid="{2d40c48a-dd70-4360-a548-8affa8da731b}">
+            <labels>
+              <label description="Modified On" languagecode="1033" />
+              <label description="Modifié le" languagecode="1036" />
+            </labels>
+            <control id="footer_modifiedon" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="modifiedon" disabled="true" />
+          </cell>
+          <cell id="{82914c3d-dc9c-337a-18da-86a954097e2d}" showlabel="true" locklevel="0" labelid="{2347bfd8-4296-45f5-8b22-6ca8652e797d}">
+            <labels>
+              <label description="Modified By" languagecode="1033" />
+              <label description="Modifié par" languagecode="1036" />
+            </labels>
+            <control id="footer_modifiedby" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="modifiedby" disabled="true" />
+          </cell>
+        </row>
+      </rows>
+    </footer>
+    <clientresources>
+      <internalresources>
+        <clientincludes>
+          <internaljscriptfile src="$webresource:Contact_main_system_library.js" />
+        </clientincludes>
+      </internalresources>
+    </clientresources>
+    <events>
+      <event name="onload" application="true" active="true">
+        <InternalHandlers>
+          <Handler functionName="Mscrm.ContactMainSystemLibraryWebResource.form_onload" libraryName="Contact_main_system_library.js" handlerUniqueId="4ea24ebd-795d-434e-af94-6812c3867b54" enabled="true" />
+        </InternalHandlers>
+      </event>
+    </events>
+    <Navigation>
+      <NavBar>
+        <NavBarByRelationshipItem RelationshipName="invoice_customer_contacts" Id="navInvoices" Sequence="10" Area="Info" Show="false">
+          <Privileges>
+            <Privilege Entity="" Privilege="ReadActivity" />
+          </Privileges>
+          <Titles>
+            <Title LCID="1033" Text="Invoice" />
+          </Titles>
+        </NavBarByRelationshipItem>
+        <NavBarByRelationshipItem RelationshipName="quote_customer_contacts" Id="navQuotes" Sequence="10" Area="Info" Show="false">
+          <Privileges>
+            <Privilege Entity="" Privilege="ReadActivity" />
+          </Privileges>
+          <Titles>
+            <Title LCID="1033" Text="Quote" />
+          </Titles>
+        </NavBarByRelationshipItem>
+        <NavBarByRelationshipItem RelationshipName="contract_customer_contacts" Id="navContracts" Sequence="10" Area="Info" Show="false">
+          <Privileges>
+            <Privilege Entity="" Privilege="ReadActivity" />
+          </Privileges>
+          <Titles>
+            <Title LCID="1033" Text="Contract" />
+          </Titles>
+        </NavBarByRelationshipItem>
+        <NavBarByRelationshipItem RelationshipName="contact_customer_relationship_customer" Id="navRelationships" Sequence="10" Area="Info" Show="false">
+          <Privileges>
+            <Privilege Entity="" Privilege="ReadActivity" />
+          </Privileges>
+          <Titles>
+            <Title LCID="1033" Text="CustomerRelationship" />
+          </Titles>
+        </NavBarByRelationshipItem>
+        <NavBarByRelationshipItem RelationshipName="Contact_CustomerAddress" Id="navAddresses" Sequence="10" Area="Info" Show="false">
+          <Privileges>
+            <Privilege Entity="" Privilege="ReadActivity" />
+          </Privileges>
+          <Titles>
+            <Title LCID="1033" Text="Addresses" />
+          </Titles>
+        </NavBarByRelationshipItem>
+        <NavBarByRelationshipItem RelationshipName="order_customer_contacts" Id="navOrders" Sequence="10" Area="Info" Show="false">
+          <Privileges>
+            <Privilege Entity="" Privilege="ReadActivity" />
+          </Privileges>
+          <Titles>
+            <Title LCID="1033" Text="SalesOrder" />
+          </Titles>
+        </NavBarByRelationshipItem>
+        <NavBarByRelationshipItem RelationshipName="contact_customer_contacts" Id="navSubConts" Sequence="10" Area="Info" Show="false">
+          <Privileges>
+            <Privilege Entity="" Privilege="ReadActivity" />
+          </Privileges>
+          <Titles>
+            <Title LCID="1033" Text="Contacts" />
+          </Titles>
+        </NavBarByRelationshipItem>
+        <NavBarByRelationshipItem RelationshipName="listcontact_association" Id="navListsInSFA" Sequence="10" Area="Info" Show="false">
+          <Privileges>
+            <Privilege Entity="" Privilege="ReadActivity" />
+          </Privileges>
+          <Titles>
+            <Title LCID="1033" Text="List" />
+          </Titles>
+        </NavBarByRelationshipItem>
+        <NavBarByRelationshipItem RelationshipName="hardcoded_{B7196B13-6B9D-42CD-BD58-B19A3953126F}navCampaignsInSFA" Sequence="20" Area="Marketing" Id="navCampaignsInSFA" Show="false">
+          <Titles>
+            <Title LCID="1033" Text="Campaigns" />
+          </Titles>
+        </NavBarByRelationshipItem>
+        <NavBarByRelationshipItem RelationshipName="hardcoded_{B7196B13-6B9D-42CD-BD58-B19A3953126F}navAsyncOperations" Sequence="9500" Area="ProcessCenter" Id="navAsyncOperations" Show="false">
+          <Titles>
+            <Title LCID="1033" Text="Workflows" />
+          </Titles>
+        </NavBarByRelationshipItem>
+        <NavBarByRelationshipItem RelationshipName="hardcoded_{B7196B13-6B9D-42CD-BD58-B19A3953126F}navProcessSessions" Sequence="9700" Area="ProcessCenter" Id="navProcessSessions" Show="false">
+          <Titles>
+            <Title LCID="1033" Text="Dialog Sessions" />
+          </Titles>
+        </NavBarByRelationshipItem>
+      </NavBar>
+      <NavBarAreas>
+        <NavBarArea Id="Info">
+          <Titles>
+            <Title LCID="1033" Text="Common" />
+          </Titles>
+        </NavBarArea>
+        <NavBarArea Id="Sales">
+          <Titles>
+            <Title LCID="1033" Text="Sales" />
+          </Titles>
+        </NavBarArea>
+        <NavBarArea Id="Service">
+          <Titles>
+            <Title LCID="1033" Text="Service" />
+          </Titles>
+        </NavBarArea>
+        <NavBarArea Id="Marketing">
+          <Titles>
+            <Title LCID="1033" Text="Marketing" />
+          </Titles>
+        </NavBarArea>
+        <NavBarArea Id="ProcessCenter">
+          <Titles>
+            <Title LCID="1033" Text="Process Sessions" />
+          </Titles>
+        </NavBarArea>
+      </NavBarAreas>
+    </Navigation>
+    <DisplayConditions Order="3">
+      <Everyone />
+    </DisplayConditions>
+  </form>
+  <IsCustomizable>1</IsCustomizable>
+  <CanBeDeleted>1</CanBeDeleted>
+  <LocalizedNames>
+    <LocalizedName description="Document Management" languagecode="1033" />
+  </LocalizedNames>
+</systemform>

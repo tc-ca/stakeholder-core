@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<WebResource>
+  <WebResourceId>{c23cc63a-906d-e811-8b89-00155ddc0400}</WebResourceId>
+  <Name>tc_/Core/DataTable.html</Name>
+  <DisplayName>Core - DataTable.html</DisplayName>
+  <WebResourceType>1</WebResourceType>
+  <IntroducedVersion>0.4.0.2</IntroducedVersion>
+  <IsEnabledForMobileClient>0</IsEnabledForMobileClient>
+  <IsAvailableForMobileOffline>0</IsAvailableForMobileOffline>
+  <DependencyXml>&lt;Dependencies&gt;&lt;Dependency componentType="WebResource"/&gt;&lt;/Dependencies&gt;</DependencyXml>
+  <IsCustomizable>1</IsCustomizable>
+  <CanBeDeleted>1</CanBeDeleted>
+  <IsHidden>0</IsHidden>
+  <FileName>/WebResources/tc_CoreDataTablehtmlC23CC63A-906D-E811-8B89-00155DDC0400</FileName>
+</WebResource>

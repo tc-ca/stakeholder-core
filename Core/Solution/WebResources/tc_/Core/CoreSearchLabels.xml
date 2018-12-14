@@ -1,0 +1,18 @@
+Label	1033	1036
+add	Add Selected	Ajouter
+addFilter	Add a filter	Ajoute un filtre
+after	After	Apr�s
+afterOrOn	After or on	Apr�s o� sur
+before	Before	Avant
+beforeOrOn	Before or on	Avant o� sur
+on	On	Sur
+date	Date	Date
+dateValidation	Invalid date entered	La date donn�e est invalide
+filter	Filter By	Filtre Sur
+numberValidation	Invalid number entered	La chiffre donn�e est invalide
+number	Number	Chiffre
+operator	Operator	Op�rateur
+search	Search	Recherche
+select	Select	Choisi
+value	Text	Texte
+duplicateException	This record is already being tracked in CRM. Do you wish to view it now?	Ce record d�ja existe dans Dynamics CRM. Est-ce que vous voulez l'ouvert maintenant?

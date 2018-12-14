@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<systemform>
+  <formid>{0c68b363-c9ae-4bfa-916c-03db16a9599c}</formid>
+  <IntroducedVersion>0.3.1.0</IntroducedVersion>
+  <FormPresentation>1</FormPresentation>
+  <FormActivationState>1</FormActivationState>
+  <form maxWidth="400">
+    <tabs>
+      <tab id="{f3c76933-0fb3-4b75-9f54-590e3eb1e6c4}" name="tab_1" showlabel="false">
+        <labels>
+          <label description="Tab" languagecode="1033" />
+        </labels>
+        <columns>
+          <column width="100%">
+            <sections>
+              <section id="{35d37eb9-904c-4e1d-bf74-73125574b23e}" name="tab_1_column_1_section_1" columns="1" showlabel="false" showbar="false" IsUserDefined="0">
+                <labels>
+                  <label description="section" languagecode="1033" />
+                </labels>
+                <rows>
+                  <row>
+                    <cell id="{5bb21c19-1d03-a33b-4ba3-e5a798a142b6}" showlabel="true" locklevel="0">
+                      <labels>
+                        <label description="Event" languagecode="1033" />
+                      </labels>
+                      <control id="tc_eventnm" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="tc_eventnm" disabled="false" />
+                    </cell>
+                  </row>
+                  <row>
+                    <cell id="{ac4d91b2-b96e-0716-0701-8b03c145c053}" showlabel="true" locklevel="0">
+                      <labels>
+                        <label description="Created By" languagecode="1033" />
+                        <label description="Créé par" languagecode="1036" />
+                      </labels>
+                      <control id="createdby" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="createdby" disabled="false" />
+                    </cell>
+                  </row>
+                  <row>
+                    <cell id="{a5205441-d7b1-418c-583d-45087d7472ec}" showlabel="true" locklevel="0">
+                      <labels>
+                        <label description="Created On" languagecode="1033" />
+                        <label description="Créé le" languagecode="1036" />
+                      </labels>
+                      <control id="createdon" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="createdon" disabled="false" />
+                    </cell>
+                  </row>
+                  <row>
+                    <cell id="{948690b1-00a1-0c49-14bb-873b0bcc0193}" showlabel="true" locklevel="0">
+                      <labels>
+                        <label description="External User" languagecode="1033" />
+                      </labels>
+                      <control id="tc_employeeid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="tc_employeeid" disabled="false" />
+                    </cell>
+                  </row>
+                </rows>
+              </section>
+            </sections>
+          </column>
+        </columns>
+      </tab>
+    </tabs>
+    <DisplayConditions Order="1">
+      <Role Id="{627090ff-40a3-4053-8790-584edc5be201}" />
+      <Role Id="{119f245c-3cc8-4b62-b31c-d1a046ced15d}" />
+    </DisplayConditions>
+  </form>
+  <IsCustomizable>1</IsCustomizable>
+  <CanBeDeleted>1</CanBeDeleted>
+  <LocalizedNames>
+    <LocalizedName description="Quick View" languagecode="1033" />
+  </LocalizedNames>
+</systemform>

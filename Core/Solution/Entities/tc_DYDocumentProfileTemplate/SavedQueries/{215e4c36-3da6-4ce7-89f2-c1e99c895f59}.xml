@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedquery>
+  <IsCustomizable>1</IsCustomizable>
+  <CanBeDeleted>0</CanBeDeleted>
+  <isquickfindquery>0</isquickfindquery>
+  <isprivate>0</isprivate>
+  <isdefault>1</isdefault>
+  <returnedtypecode>10012</returnedtypecode>
+  <savedqueryid>{215e4c36-3da6-4ce7-89f2-c1e99c895f59}</savedqueryid>
+  <layoutxml>
+    <grid name="" object="10012" jump="tc_templatecd" select="1" icon="1" preview="1">
+      <row name="tc_dydocumentprofiletemplate" id="tc_dydocumentprofiletemplateid">
+        <cell name="tc_templatecd" width="300" />
+        <cell name="tc_languageid" width="100" />
+        <cell name="tc_entitycd" width="100" />
+        <cell name="tc_entitydefaultind" width="100" />
+        <cell name="ownerid" width="100" />
+      </row>
+    </grid>
+  </layoutxml>
+  <querytype>2</querytype>
+  <fetchxml>
+    <fetch version="1.0" mapping="logical">
+      <entity name="tc_dydocumentprofiletemplate">
+        <attribute name="tc_templatecd" />
+        <order attribute="tc_templatecd" descending="false" />
+        <filter type="and">
+          <condition attribute="statecode" operator="eq" value="0" />
+        </filter>
+        <attribute name="ownerid" />
+        <attribute name="tc_languageid" />
+        <attribute name="tc_entitydefaultind" />
+        <attribute name="tc_entitycd" />
+        <attribute name="tc_dydocumentprofiletemplateid" />
+      </entity>
+    </fetch>
+  </fetchxml>
+  <IntroducedVersion>0.4.0.0</IntroducedVersion>
+  <LocalizedNames>
+    <LocalizedName description="Document Profile Template Associated View" languagecode="1033" />
+  </LocalizedNames>
+</savedquery>

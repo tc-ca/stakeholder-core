@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<WebResource>
+  <WebResourceId>{aff92d20-ebcd-e611-812f-000c2958e3a5}</WebResourceId>
+  <Name>tc_/Core/SDK.MetaData.js</Name>
+  <DisplayName>Core - SDK.MetaData.js</DisplayName>
+  <WebResourceType>3</WebResourceType>
+  <IntroducedVersion>0.3.0.0</IntroducedVersion>
+  <IsEnabledForMobileClient>0</IsEnabledForMobileClient>
+  <IsAvailableForMobileOffline>0</IsAvailableForMobileOffline>
+  <IsCustomizable>1</IsCustomizable>
+  <CanBeDeleted>1</CanBeDeleted>
+  <IsHidden>0</IsHidden>
+  <FileName>/WebResources/tc_CoreSDKMetaDatajsAFF92D20-EBCD-E611-812F-000C2958E3A5</FileName>
+</WebResource>

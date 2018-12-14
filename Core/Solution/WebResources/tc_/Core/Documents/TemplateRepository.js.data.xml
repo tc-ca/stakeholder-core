@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<WebResource>
+  <WebResourceId>{f949fb14-f1cd-e611-812f-000c2958e3a5}</WebResourceId>
+  <Name>tc_/Core/Documents/TemplateRepository.js</Name>
+  <DisplayName>Core - Documents - TemplateRepository.js</DisplayName>
+  <Description>Instantiation retrieves the global default, entity default, and user specified document profile templates for the current entity.</Description>
+  <WebResourceType>3</WebResourceType>
+  <IntroducedVersion>0.4.0.0</IntroducedVersion>
+  <IsEnabledForMobileClient>0</IsEnabledForMobileClient>
+  <IsAvailableForMobileOffline>0</IsAvailableForMobileOffline>
+  <IsCustomizable>1</IsCustomizable>
+  <CanBeDeleted>1</CanBeDeleted>
+  <IsHidden>0</IsHidden>
+  <FileName>/WebResources/tc_CoreDocumentsTemplateRepositoryjsF949FB14-F1CD-E611-812F-000C2958E3A5</FileName>
+</WebResource>

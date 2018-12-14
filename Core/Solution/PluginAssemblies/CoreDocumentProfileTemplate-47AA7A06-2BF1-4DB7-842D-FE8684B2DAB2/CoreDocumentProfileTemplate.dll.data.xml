@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PluginAssembly FullName="Core.DocumentProfileTemplate, Version=1.0.0.0, Culture=neutral, PublicKeyToken=deba2e7d16d90bb6" CustomizationLevel="1">
+  <IsolationMode>2</IsolationMode>
+  <SourceType>0</SourceType>
+  <IntroducedVersion>1.0</IntroducedVersion>
+  <FileName>/PluginAssemblies/CoreDocumentProfileTemplate-47AA7A06-2BF1-4DB7-842D-FE8684B2DAB2/CoreDocumentProfileTemplate.dll</FileName>
+  <PluginTypes>
+    <PluginType AssemblyQualifiedName="Core.DocumentProfileTemplate.Handler, Core.DocumentProfileTemplate, Version=1.0.0.0, Culture=neutral, PublicKeyToken=deba2e7d16d90bb6" Name="Core.DocumentProfileTemplate.Handler">
+      <FriendlyName>494b68d2-0b66-41a1-8b45-769060e55400</FriendlyName>
+    </PluginType>
+  </PluginTypes>
+</PluginAssembly>

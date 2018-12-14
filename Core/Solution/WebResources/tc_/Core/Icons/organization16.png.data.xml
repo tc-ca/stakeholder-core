@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<WebResource>
+  <WebResourceId>{6f9146a5-ebcd-e611-812f-000c2958e3a5}</WebResourceId>
+  <Name>tc_/Core/Icons/organization16.png</Name>
+  <DisplayName>Core - Icons - organization16.png</DisplayName>
+  <WebResourceType>5</WebResourceType>
+  <IntroducedVersion>0.3.0.0</IntroducedVersion>
+  <IsEnabledForMobileClient>0</IsEnabledForMobileClient>
+  <IsAvailableForMobileOffline>0</IsAvailableForMobileOffline>
+  <IsCustomizable>1</IsCustomizable>
+  <CanBeDeleted>1</CanBeDeleted>
+  <IsHidden>0</IsHidden>
+  <FileName>/WebResources/tc_CoreIconsorganization16png6F9146A5-EBCD-E611-812F-000C2958E3A5</FileName>
+</WebResource>

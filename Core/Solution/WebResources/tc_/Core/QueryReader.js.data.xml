@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<WebResource>
+  <WebResourceId>{1125eff1-a7ba-e811-80e7-005056813013}</WebResourceId>
+  <Name>tc_/Core/QueryReader.js</Name>
+  <DisplayName>Core - QueryReader.js</DisplayName>
+  <WebResourceType>3</WebResourceType>
+  <IntroducedVersion>0.5.1.0</IntroducedVersion>
+  <IsEnabledForMobileClient>0</IsEnabledForMobileClient>
+  <IsAvailableForMobileOffline>0</IsAvailableForMobileOffline>
+  <DependencyXml>&lt;Dependencies&gt;&lt;Dependency componentType="WebResource"/&gt;&lt;/Dependencies&gt;</DependencyXml>
+  <IsCustomizable>1</IsCustomizable>
+  <CanBeDeleted>1</CanBeDeleted>
+  <IsHidden>0</IsHidden>
+  <FileName>/WebResources/tc_CoreQueryReaderjs1125EFF1-A7BA-E811-80E7-005056813013</FileName>
+</WebResource>

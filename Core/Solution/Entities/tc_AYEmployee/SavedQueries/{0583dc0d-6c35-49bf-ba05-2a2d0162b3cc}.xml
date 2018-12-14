@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedquery>
+  <IsCustomizable>1</IsCustomizable>
+  <CanBeDeleted>0</CanBeDeleted>
+  <isquickfindquery>0</isquickfindquery>
+  <isprivate>0</isprivate>
+  <isdefault>1</isdefault>
+  <returnedtypecode>10005</returnedtypecode>
+  <savedqueryid>{0583dc0d-6c35-49bf-ba05-2a2d0162b3cc}</savedqueryid>
+  <layoutxml>
+    <grid name="resultset" object="10005" jump="tc_fullnamenm" select="1" icon="1" preview="1">
+      <row name="result" id="tc_ayemployeeid">
+        <cell name="tc_fullnamenm" width="300" />
+        <cell name="createdon" width="125" />
+      </row>
+    </grid>
+  </layoutxml>
+  <querytype>1</querytype>
+  <fetchxml>
+    <fetch version="1.0" mapping="logical">
+      <entity name="tc_ayemployee">
+        <attribute name="tc_ayemployeeid" />
+        <attribute name="tc_fullnamenm" />
+        <attribute name="createdon" />
+        <order attribute="tc_fullnamenm" descending="false" />
+      </entity>
+    </fetch>
+  </fetchxml>
+  <IntroducedVersion>0.3.0.0</IntroducedVersion>
+  <LocalizedNames>
+    <LocalizedName description="Employee Advanced Find View" languagecode="1033" />
+  </LocalizedNames>
+</savedquery>

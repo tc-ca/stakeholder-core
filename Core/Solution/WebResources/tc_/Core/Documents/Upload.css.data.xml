@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<WebResource>
+  <WebResourceId>{e5512a24-9a02-e711-8133-000c2958e3a5}</WebResourceId>
+  <Name>tc_/Core/Documents/Upload.css</Name>
+  <DisplayName>Core - Documents - Upload.css</DisplayName>
+  <WebResourceType>2</WebResourceType>
+  <IntroducedVersion>0.4.1.0</IntroducedVersion>
+  <IsEnabledForMobileClient>0</IsEnabledForMobileClient>
+  <IsAvailableForMobileOffline>0</IsAvailableForMobileOffline>
+  <IsCustomizable>1</IsCustomizable>
+  <CanBeDeleted>1</CanBeDeleted>
+  <IsHidden>0</IsHidden>
+  <FileName>/WebResources/tc_CoreDocumentsUploadcssE5512A24-9A02-E711-8133-000C2958E3A5</FileName>
+</WebResource>

@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PluginAssembly FullName="Core.Charts, Version=1.0.0.0, Culture=neutral, PublicKeyToken=90be6a16c58c0f7d" CustomizationLevel="1">
+  <IsolationMode>2</IsolationMode>
+  <SourceType>0</SourceType>
+  <IntroducedVersion>1.0</IntroducedVersion>
+  <FileName>/PluginAssemblies/CoreCharts-26F039E8-8F53-4878-BCC3-0B42EA498D05/CoreCharts.dll</FileName>
+  <PluginTypes>
+    <PluginType AssemblyQualifiedName="Core.Charts.Retrieve, Core.Charts, Version=1.0.0.0, Culture=neutral, PublicKeyToken=90be6a16c58c0f7d" Name="Core.Charts.Retrieve">
+      <FriendlyName>b4b325de-941f-4b8b-8b79-e1b8b314c6ac</FriendlyName>
+    </PluginType>
+  </PluginTypes>
+</PluginAssembly>

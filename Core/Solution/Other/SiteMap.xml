@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SiteMap>
+  <SiteMap IntroducedVersion="7.0.0.0">
+    <Area Id="CM" Icon="$webresource:tc_CaseManagement">
+      <Titles>
+        <Title LCID="1033" Title="Case Management" />
+        <Title LCID="1036" Title="Gestion de cas" />
+      </Titles>
+      <Group Id="CMGEN" IsProfile="false" ToolTipResourseId="SitemapDesigner.Unknown">
+        <Titles>
+          <Title LCID="1033" Title="General" />
+          <Title LCID="1036" Title="Général" />
+        </Titles>
+        <SubArea Id="nav_dashboards" ResourceId="Homepage_Dashboards" DescriptionResourceId="Dashboards_Description" Icon="/_imgs/area/18_home.gif" Url="/workplace/home_dashboards.aspx" DefaultDashboard="063e7659-05d9-4030-960d-10fe269a5a8b" IntroducedVersion="7.0.0.0" GetStartedPanePath="Dashboards_Web_User_Visor.html" GetStartedPanePathAdmin="Dashboards_Web_Admin_Visor.html" GetStartedPanePathAdminOutlook="Dashboards_Outlook_Admin_Visor.html" GetStartedPanePathOutlook="Dashboards_Outlook_User_Visor.html" AvailableOffline="true" PassParams="false" />
+        <SubArea Id="nav_activities" DescriptionResourceId="Activities_SubArea_Description" Icon="/_imgs/imagestrips/transparent_spacer.gif" Url="/_root/homepage.aspx?etc=4200" IntroducedVersion="7.0.0.0" GetStartedPanePath="Activities_Web_User_Visor.html" GetStartedPanePathAdmin="Activities_Web_Admin_Visor.html" GetStartedPanePathAdminOutlook="Activities_Outlook_Admin_Visor.html" GetStartedPanePathOutlook="Activities_Outlook_User_Visor.html" Entity="activitypointer" AvailableOffline="true" PassParams="false" />
+        <SubArea Id="nav_accts" DescriptionResourceId="Account_SubArea_Description" Icon="/_imgs/imagestrips/transparent_spacer.gif" IntroducedVersion="7.0.0.0" GetStartedPanePath="Accounts_Web_User_Visor.html" GetStartedPanePathAdmin="Accounts_Web_Admin_Visor.html" GetStartedPanePathAdminOutlook="Accounts_Outlook_Admin_Visor.html" GetStartedPanePathOutlook="Accounts_Outlook_User_Visor.html" Entity="account" AvailableOffline="true" PassParams="false" />
+        <SubArea Id="nav_contacts" DescriptionResourceId="Contact_SubArea_Description" Icon="/_imgs/imagestrips/transparent_spacer.gif" IntroducedVersion="7.0.0.0" GetStartedPanePath="Contacts_Web_User_Visor.html" GetStartedPanePathAdmin="Contacts_Web_Admin_Visor.html" GetStartedPanePathAdminOutlook="Contacts_Outlook_Admin_Visor.html" GetStartedPanePathOutlook="Contacts_Outlook_User_Visor.html" Entity="contact" AvailableOffline="true" PassParams="false" />
+        <SubArea Id="nav_cases" DescriptionResourceId="Cases_SubArea_Description" Icon="/_imgs/imagestrips/transparent_spacer.gif" IntroducedVersion="7.0.0.0" GetStartedPanePath="Cases_Web_User_Visor.html" GetStartedPanePathAdmin="Cases_Web_Admin_Visor.html" GetStartedPanePathAdminOutlook="Cases_Outlook_Admin_Visor.html" GetStartedPanePathOutlook="Cases_Outlook_User_Visor.html" Entity="incident" AvailableOffline="true" PassParams="false" />
+        <SubArea Id="nav_apptbook" ResourceId="Homepage_AppointmentBook" DescriptionResourceId="AppointmentBook_SubArea_Description" Icon="/_imgs/ico_18_servicecal.gif" Url="/sm/home_apptbook.aspx" IntroducedVersion="7.0.0.0" AvailableOffline="false" PassParams="false" />
+        <SubArea Id="nav_queues" ResourceId="Homepage_Queues" DescriptionResourceId="Queues_SubArea_Description" Icon="/_imgs/ico_18_2020.gif" Url="/_root/homepage.aspx?etc=2029" IntroducedVersion="7.0.0.0" GetStartedPanePath="Queues_Web_User_Visor.html" GetStartedPanePathAdmin="Queues_Web_Admin_Visor.html" GetStartedPanePathAdminOutlook="Queues_Outlook_Admin_Visor.html" GetStartedPanePathOutlook="Queues_Outlook_User_Visor.html" Entity="queueitem" AvailableOffline="true" PassParams="false">
+          <Privilege Entity="queue" Privilege="Read" />
+        </SubArea>
+        <SubArea Id="nav_reports" DescriptionResourceId="Reports_Description" Icon="/_imgs/imagestrips/transparent_spacer.gif" IntroducedVersion="7.0.0.0" Entity="report" AvailableOffline="true" PassParams="false">
+          <Privilege Entity="report" Privilege="Read" />
+        </SubArea>
+        <SubArea Id="nav_traces" ResourceId="Homepage_Alerts" DescriptionResourceId="Alerts_SubArea_Description" Icon="/_imgs/area/18_alerts.png" Url="/_root/tracewall.aspx" IntroducedVersion="7.0.0.0" AvailableOffline="false" PassParams="false">
+          <Privilege Entity="tracelog" Privilege="Read" />
+        </SubArea>
+        <SubArea Id="nav_calendar" ResourceId="Homepage_Calendar" Icon="/_imgs/area/18_calendar.gif" Url="/workplace/home_calendar.aspx" IntroducedVersion="7.0.0.0" Client="Web" AvailableOffline="true" PassParams="false">
+          <Privilege Entity="activitypointer" Privilege="Read" />
+        </SubArea>
+      </Group>
+    </Area>
+    <Area Id="Settings" ResourceId="Area_Settings" DescriptionResourceId="Settings_Area_Description" Icon="/_imgs/settings_24x24.gif" ShowGroups="true" IntroducedVersion="7.0.0.0">
+      <Group Id="Business_Setting" ResourceId="Menu_Label_Business" DescriptionResourceId="Menu_Label_Business" IntroducedVersion="7.0.0.0" IsProfile="false" ToolTipResourseId="SitemapDesigner.Unknown">
+        <SubArea Id="nav_businessmanagement" ResourceId="Homepage_BusinessManagement" DescriptionResourceId="BizManagement_SubArea_Description" Icon="/_imgs/ico_18_busmanagement.gif" Url="/tools/business/business.aspx" IntroducedVersion="7.0.0.0" AvailableOffline="false" PassParams="false" />
+        <SubArea Id="nav_template" ResourceId="Homepage_Template" DescriptionResourceId="Template_SubArea_Description" Icon="/_imgs/ico_18_templates.gif" Url="/tools/templates/templates.aspx" IntroducedVersion="7.0.0.0" AvailableOffline="false" PassParams="false" />
+        <SubArea Id="nav_productcatalog" ResourceId="Homepage_ProductCatalog" DescriptionResourceId="ProductCatalog_SubArea_Description" Icon="/_imgs/ico_18_productcatalog.gif" Url="/tools/productcatalog/productcatalog.aspx" IntroducedVersion="7.0.0.0" AvailableOffline="false" PassParams="false">
+          <Privilege Entity="product" Privilege="Read" />
+        </SubArea>
+        <SubArea Id="nav_servicemanagement" ResourceId="Homepage_ServiceManagement" DescriptionResourceId="ServiceManagement_SubArea_Description" Icon="/WebResources/msdyn_/Images/Subarea_Default_Icon.png" Url="/tools/servicemanagement/servicemanagement.aspx" IntroducedVersion="7.0.0.0" AvailableOffline="false" PassParams="false" />
+      </Group>
+      <Group Id="Customizations" ResourceId="Homepage_SystemCustomization" DescriptionResourceId="Homepage_SystemCustomization" IntroducedVersion="7.0.0.0" IsProfile="false" ToolTipResourseId="SitemapDesigner.Unknown">
+        <SubArea Id="nav_syscust" ResourceId="Menu_Label_Customizations" DescriptionResourceId="Customization_SubArea_Description" Icon="/_imgs/area/18_syscust.gif" Url="/tools/systemcustomization/systemcustomization.aspx" IntroducedVersion="7.0.0.0" AvailableOffline="false" PassParams="false" />
+        <SubArea Id="nav_solution" ResourceId="Web.Tools.Solution.map_xml.aspx_1" DescriptionResourceId="Web.Tools.Solution.map_xml.aspx_2" Icon="/_imgs/imagestrips/transparent_spacer.gif" Url="/tools/Solution/home_solution.aspx?etc=7100" IntroducedVersion="7.0.0.0" GetStartedPanePath="Solutions_Web_Admin_Visor.html" GetStartedPanePathAdmin="Solutions_Web_Admin_Visor.html" GetStartedPanePathAdminOutlook="Solutions_Outlook_Admin_Visor.html" GetStartedPanePathOutlook="Solutions_Outlook_Admin_Visor.html" Entity="solution" AvailableOffline="false" PassParams="false">
+          <Privilege Entity="solution" Privilege="Read" />
+        </SubArea>
+        <SubArea Id="nav_marketplace" ResourceId="Homepage_Marketplace" DescriptionResourceId="Marketplace_SubArea_Description" Icon="/_imgs/SystemCustomization/ico_18_marketplace.png" Url="/tools/SystemCustomization/SolutionsMarketplace/SolutionsMarketplace.aspx" IntroducedVersion="7.0.0.0" Client="Web" AvailableOffline="true" PassParams="false" />
+      </Group>
+      <Group Id="System_Setting" ResourceId="Menu_Label_System" DescriptionResourceId="Menu_Label_System" IntroducedVersion="7.0.0.0" IsProfile="false" ToolTipResourseId="SitemapDesigner.Unknown">
+        <SubArea Id="nav_administration" ResourceId="Homepage_Administration" DescriptionResourceId="Administration_SubArea_Description" Icon="/_imgs/ico_18_administration.gif" Url="/tools/Admin/admin.aspx" IntroducedVersion="7.0.0.0" AvailableOffline="false" PassParams="false" />
+        <SubArea Id="nav_security" ResourceId="AdminSecurity_SubArea_Title" DescriptionResourceId="AdminSecurity_SubArea_Description" Icon="/_imgs/area/Security_32.png" Url="/tools/AdminSecurity/adminsecurity_area.aspx" IntroducedVersion="7.0.0.0" AvailableOffline="false" PassParams="false" />
+        <SubArea Id="nav_datamanagement" ResourceId="Homepage_DataManagement" DescriptionResourceId="DataManagement_SubArea_Description" Icon="/_imgs/ico_18_datamanagement.gif" Url="/tools/DataManagement/datamanagement.aspx" IntroducedVersion="7.0.0.0" AvailableOffline="false" PassParams="false" />
+        <SubArea Id="nav_systemjobs" ResourceId="Homepage_SystemJobs" DescriptionResourceId="SystemJobs_SubArea_Description" Icon="/_imgs/imagestrips/transparent_spacer.gif" Url="/tools/business/home_asyncoperation.aspx" IntroducedVersion="7.0.0.0" Entity="asyncoperation" AvailableOffline="false" PassParams="false" />
+        <SubArea Id="nav_documentmanagement" ResourceId="DocumentManagement.SettingsArea.Heading" DescriptionResourceId="DocumentManagement.SettingsArea.Description" Icon="/_imgs/DocumentManagement_16.png" Url="/tools/documentmanagement/documentmanagement.aspx" IntroducedVersion="7.0.0.0" AvailableOffline="false" PassParams="false">
+          <Privilege Entity="sharepointsite" Privilege="Read" />
+          <Privilege Entity="sharepointdocumentlocation" Privilege="Read" />
+        </SubArea>
+        <SubArea Id="nav_audit" ResourceId="Audit_SubArea_Title" DescriptionResourceId="Audit_SubArea_Description" Icon="/_imgs/area/16_audit.png" Url="/tools/audit/audit_area.aspx" IntroducedVersion="7.0.0.0" AvailableOffline="false" PassParams="false" />
+        <SubArea Id="nav_social" ResourceId="Social_SubArea_Title" DescriptionResourceId="Social_SubArea_Description" Icon="/_imgs/area/16_social.png" Url="/tools/social/social_area.aspx" IntroducedVersion="7.0.0.0" AvailableOffline="false" PassParams="false" />
+        <SubArea Id="msdyn_postconfig" ResourceId="Activity_Feed_Configuration" Icon="/WebResources/msdyn_/Images/Subarea_Default_Icon.png" IntroducedVersion="7.0.0.0" Entity="msdyn_postconfig" AvailableOffline="true" PassParams="false" />
+        <SubArea Id="msdyn_postruleconfig" ResourceId="Activity_Feed_Rules_Configuration" Icon="/WebResources/msdyn_/Images/Subarea_Default_Icon.png" IntroducedVersion="7.0.0.0" Entity="msdyn_postruleconfig" AvailableOffline="true" PassParams="false" />
+      </Group>
+      <Group Id="ProcessCenter" ResourceId="Menu_Label_ProcessCenter" DescriptionResourceId="Menu_Label_ProcessCenter" IntroducedVersion="7.0.0.0" IsProfile="false" ToolTipResourseId="SitemapDesigner.Unknown">
+        <SubArea Id="nav_workflow" DescriptionResourceId="Workflow_SubArea_Description" Icon="/_imgs/imagestrips/transparent_spacer.gif" IntroducedVersion="7.0.0.0" GetStartedPanePath="Workflows_Web_User_Visor.html" GetStartedPanePathAdmin="Workflows_Web_Admin_Visor.html" GetStartedPanePathAdminOutlook="Workflows_Outlook_Admin_Visor.html" GetStartedPanePathOutlook="Workflows_Outlook_User_Visor.html" Entity="workflow" AvailableOffline="false" PassParams="false" />
+      </Group>
+      <Group Id="Extensions" ResourceId="Group_Extensions" IsProfile="false" ToolTipResourseId="SitemapDesigner.Unknown">
+        <SubArea Id="tc_ayemployee" Icon="/WebResources/msdyn_/Images/Subarea_Default_Icon.png" Entity="tc_ayemployee" AvailableOffline="true" PassParams="false" />
+        <SubArea Id="tc_dyeventlog" Icon="/WebResources/msdyn_/Images/Subarea_Default_Icon.png" Entity="tc_dyeventlog" AvailableOffline="true" PassParams="false" />
+        <SubArea Id="tc_tyeventtype" Icon="/WebResources/msdyn_/Images/Subarea_Default_Icon.png" Entity="tc_tyeventtype" AvailableOffline="true" PassParams="false" />
+        <SubArea Id="tc_dyidgenerator" Icon="/WebResources/msdyn_/Images/Subarea_Default_Icon.png" Entity="tc_dyidgenerator" AvailableOffline="true" PassParams="false" />
+        <SubArea Id="tc_ayorganizationunit" Icon="/WebResources/msdyn_/Images/Subarea_Default_Icon.png" Entity="tc_ayorganizationunit" AvailableOffline="true" PassParams="false" />
+      </Group>
+    </Area>
+    <Area Id="HLP" ResourceId="Area_Help" DescriptionResourceId="Help_Area_Description" Icon="/_imgs/icn_help16.png" ShowGroups="true" IntroducedVersion="7.0.0.0">
+      <Group Id="HLP_GRP" ResourceId="Group_Help" DescriptionResourceId="Help_Description" IntroducedVersion="7.0.0.0" IsProfile="false" ToolTipResourseId="SitemapDesigner.Unknown">
+        <SubArea Id="Help_Resource_Center" ResourceId="Area_CustomerCenter" DescriptionResourceId="ResourceCenter_Area_Description" Icon="/WebResources/msdyn_/Images/Subarea_Default_Icon.png" Url="http://go.microsoft.com/fwlink/?LinkId=296269&amp;clcid=0x409" IntroducedVersion="7.0.0.0" AvailableOffline="false" PassParams="false" />
+      </Group>
+    </Area>
+  </SiteMap>
+</SiteMap>

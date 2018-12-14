@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<WebResource>
+  <WebResourceId>{0cfa5ac6-1323-e811-8141-000c2958e3a5}</WebResourceId>
+  <Name>tc_/Core/RequiredLevels.js</Name>
+  <DisplayName>Core - RequiredLevels.js</DisplayName>
+  <WebResourceType>3</WebResourceType>
+  <IntroducedVersion>0.3.3.2</IntroducedVersion>
+  <IsEnabledForMobileClient>0</IsEnabledForMobileClient>
+  <IsAvailableForMobileOffline>0</IsAvailableForMobileOffline>
+  <IsCustomizable>1</IsCustomizable>
+  <CanBeDeleted>1</CanBeDeleted>
+  <IsHidden>0</IsHidden>
+  <FileName>/WebResources/tc_CoreRequiredLevelsjs0CFA5AC6-1323-E811-8141-000C2958E3A5</FileName>
+</WebResource>

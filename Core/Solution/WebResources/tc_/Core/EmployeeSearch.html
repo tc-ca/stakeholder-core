@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="DataTables/datatables.min.css" />
+    <link rel="stylesheet" type="text/css" href="Search.css" />
+    <script src="../../ClientGlobalContext.js.aspx" type="text/javascript"></script>
+    <script src="jquery.2.2.4.min.js" type="text/javascript"></script>
+    <script src="DataTables/datatables.min.js" type="text/javascript"></script>
+    <script src="EmployeeSearch.js" type="text/javascript"></script>
+    <script src="TCDirectory.js" type="text/javascript"></script>
+    <script src="Translations.js" type="text/javascript"></script>
+</head>
+<body>
+    <div id="loading"><img src="AjaxLoader.gif" /></div>
+    <table class="row">
+        <colgroup>
+            <col width="100" />
+            <col />
+        </colgroup>
+        <tr>
+            <td id="filterLabel" class="label noselect"></td>
+            <td>
+                <select class="input-list" id="filter">
+                    <option value="" class="grid-popup-option noselect">--</option>
+                </select>
+            </td>
+        </tr>
+    </table>
+    <table class="row" id="valueControl">
+        <colgroup>
+            <col width="100" />
+            <col />
+        </colgroup>
+        <tr>
+            <td id="valueLabel" class="label noselect"></td>
+            <td><input id="valueInput" class="input-text" type="text" value="--" /></td>
+        </tr>
+    </table>
+    <div class="row">
+        <div id="searchButton" class="control noselect"></div>
+    </div>
+    <br/>
+    <table id="data" class="display" cellspacing="0" width="100%">
+        <thead>
+            <tr id="dataHeaders">
+            </tr>
+        </thead>
+    </table>
+    <div class="row">
+        <div id="addButton" class="control noselect"></div>
+    </div>
+</body>
+</html>

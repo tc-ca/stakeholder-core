@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedquery>
+  <IsCustomizable>1</IsCustomizable>
+  <CanBeDeleted>0</CanBeDeleted>
+  <isquickfindquery>0</isquickfindquery>
+  <isprivate>0</isprivate>
+  <isdefault>1</isdefault>
+  <returnedtypecode>10006</returnedtypecode>
+  <savedqueryid>{643760c6-d5f0-43ea-991d-1941e786114f}</savedqueryid>
+  <layoutxml>
+    <grid name="" object="10006" jump="tc_namenm" select="1" icon="1" preview="0">
+      <row name="tc_ayorganizationunit" id="tc_ayorganizationunitid">
+        <cell name="tc_namenm" width="300" />
+        <cell name="tc_parentorganizationid" width="100" />
+        <cell name="tc_regionnm" width="100" />
+      </row>
+    </grid>
+  </layoutxml>
+  <querytype>64</querytype>
+  <fetchxml>
+    <fetch version="1.0" mapping="logical">
+      <entity name="tc_ayorganizationunit">
+        <attribute name="tc_ayorganizationunitid" />
+        <attribute name="tc_namenm" />
+        <filter type="and">
+          <condition attribute="statecode" operator="eq" value="0" />
+        </filter>
+        <order attribute="tc_namenm" descending="false" />
+        <attribute name="tc_parentorganizationid" />
+        <attribute name="tc_regionnm" />
+      </entity>
+    </fetch>
+  </fetchxml>
+  <IntroducedVersion>0.3.0.0</IntroducedVersion>
+  <LocalizedNames>
+    <LocalizedName description="TC Organization Lookup View" languagecode="1033" />
+  </LocalizedNames>
+</savedquery>

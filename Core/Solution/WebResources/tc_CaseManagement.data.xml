@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<WebResource>
+  <WebResourceId>{f8869167-611c-e611-80ea-000c2958e3a5}</WebResourceId>
+  <Name>tc_CaseManagement</Name>
+  <DisplayName>CaseManagement</DisplayName>
+  <WebResourceType>5</WebResourceType>
+  <IntroducedVersion>0.1.3.1</IntroducedVersion>
+  <IsEnabledForMobileClient>0</IsEnabledForMobileClient>
+  <IsAvailableForMobileOffline>0</IsAvailableForMobileOffline>
+  <IsCustomizable>1</IsCustomizable>
+  <CanBeDeleted>1</CanBeDeleted>
+  <IsHidden>0</IsHidden>
+  <FileName>/WebResources/tc_CaseManagementF8869167-611C-E611-80EA-000C2958E3A5</FileName>
+</WebResource>

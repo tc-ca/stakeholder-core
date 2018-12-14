@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedquery>
+  <IsCustomizable>1</IsCustomizable>
+  <CanBeDeleted>0</CanBeDeleted>
+  <isquickfindquery>0</isquickfindquery>
+  <isprivate>0</isprivate>
+  <isdefault>1</isdefault>
+  <returnedtypecode>10006</returnedtypecode>
+  <savedqueryid>{2c7a2b00-822f-4967-93a9-42832e630a45}</savedqueryid>
+  <layoutxml>
+    <grid name="resultset" object="10006" jump="tc_namenm" select="1" icon="1" preview="1">
+      <row name="result" id="tc_ayorganizationunitid">
+        <cell name="tc_namenm" width="200" />
+        <cell name="tc_acronymlbl" width="100" />
+        <cell name="tc_parentorganizationid" width="200" />
+        <cell name="tc_regionnm" width="150" />
+      </row>
+    </grid>
+  </layoutxml>
+  <querytype>0</querytype>
+  <fetchxml>
+    <fetch version="1.0" output-format="xml-platform" mapping="logical" distinct="false">
+      <entity name="tc_ayorganizationunit">
+        <attribute name="tc_namenm" />
+        <attribute name="tc_regionnm" />
+        <attribute name="tc_acronymlbl" />
+        <attribute name="tc_parentorganizationid" />
+        <order attribute="tc_namenm" descending="false" />
+        <filter type="and">
+          <condition attribute="tc_archivedind" operator="eq" value="0" />
+        </filter>
+        <attribute name="tc_ayorganizationunitid" />
+      </entity>
+    </fetch>
+  </fetchxml>
+  <IntroducedVersion>0.3.0.0</IntroducedVersion>
+  <LocalizedNames>
+    <LocalizedName description="TC Organizations" languagecode="1033" />
+  </LocalizedNames>
+</savedquery>

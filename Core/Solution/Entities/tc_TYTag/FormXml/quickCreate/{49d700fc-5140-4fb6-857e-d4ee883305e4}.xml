@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<systemform>
+  <formid>{49d700fc-5140-4fb6-857e-d4ee883305e4}</formid>
+  <IntroducedVersion>0.3.3.2</IntroducedVersion>
+  <FormPresentation>1</FormPresentation>
+  <FormActivationState>1</FormActivationState>
+  <form maxWidth="1900">
+    <tabs>
+      <tab id="{7b0e0e3e-e230-4111-a87c-59d2e9692e83}" name="tab_1" showlabel="false">
+        <labels>
+          <label description="Tab" languagecode="1033" />
+        </labels>
+        <columns>
+          <column width="33%">
+            <sections>
+              <section id="{d52e67ed-3bd5-47ef-801f-9c4543d70fca}" name="tab_1_column_1_section_1" columns="1" showlabel="false" showbar="false" IsUserDefined="0">
+                <labels>
+                  <label description="section" languagecode="1033" />
+                </labels>
+                <rows>
+                  <row>
+                    <cell id="{872504cf-d468-4c73-b5bf-1d6edd840196}" showlabel="false">
+                      <labels>
+                        <label description="" languagecode="1033" />
+                      </labels>
+                    </cell>
+                  </row>
+                </rows>
+              </section>
+            </sections>
+          </column>
+          <column width="33%">
+            <sections>
+              <section id="{34fc924a-4fe7-4e9f-9908-bb3ffaca8aab}" name="tab_1_column_2_section_1" columns="1" showlabel="false" showbar="false" IsUserDefined="0">
+                <labels>
+                  <label description="section" languagecode="1033" />
+                </labels>
+                <rows>
+                  <row>
+                    <cell id="{1b185e39-7578-4b8c-be61-9b846ff46874}" showlabel="false">
+                      <labels>
+                        <label description="" languagecode="1033" />
+                      </labels>
+                    </cell>
+                  </row>
+                </rows>
+              </section>
+            </sections>
+          </column>
+          <column width="33%">
+            <sections>
+              <section id="{9e7063cf-eb4b-4715-8be9-eb5fb90b8d3c}" name="tab_1_column_3_section_1" columns="1" showlabel="false" showbar="false" IsUserDefined="0">
+                <labels>
+                  <label description="section" languagecode="1033" />
+                </labels>
+                <rows>
+                  <row>
+                    <cell id="{1d96e295-0aed-1555-5b11-c8e6e4de5025}" showlabel="true" locklevel="0">
+                      <labels>
+                        <label description="Name" languagecode="1033" />
+                      </labels>
+                      <control id="tc_tagnm" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="tc_tagnm" disabled="false" />
+                    </cell>
+                  </row>
+                  <row>
+                    <cell id="{ae705108-c74c-0461-dc4c-69647642d9b8}" showlabel="true" locklevel="0">
+                      <labels>
+                        <label description="Category" languagecode="1033" />
+                      </labels>
+                      <control id="tc_categoryid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="tc_categoryid" disabled="false" />
+                    </cell>
+                  </row>
+                </rows>
+              </section>
+            </sections>
+          </column>
+        </columns>
+      </tab>
+    </tabs>
+    <DisplayConditions Order="1">
+      <Role Id="{627090ff-40a3-4053-8790-584edc5be201}" />
+      <Role Id="{119f245c-3cc8-4b62-b31c-d1a046ced15d}" />
+    </DisplayConditions>
+  </form>
+  <IsCustomizable>1</IsCustomizable>
+  <CanBeDeleted>1</CanBeDeleted>
+  <LocalizedNames>
+    <LocalizedName description="Quick Create" languagecode="1033" />
+  </LocalizedNames>
+</systemform>

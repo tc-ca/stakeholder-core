@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<WebResource>
+  <WebResourceId>{9c33b138-6579-e811-8b89-00155ddc0400}</WebResourceId>
+  <Name>tc_/Core/Documents/list.js</Name>
+  <DisplayName>Core - Documents - list.js</DisplayName>
+  <WebResourceType>3</WebResourceType>
+  <IntroducedVersion>0.6.0.0</IntroducedVersion>
+  <IsEnabledForMobileClient>0</IsEnabledForMobileClient>
+  <IsAvailableForMobileOffline>0</IsAvailableForMobileOffline>
+  <DependencyXml>&lt;Dependencies&gt;&lt;Dependency componentType="WebResource"/&gt;&lt;/Dependencies&gt;</DependencyXml>
+  <IsCustomizable>1</IsCustomizable>
+  <CanBeDeleted>1</CanBeDeleted>
+  <IsHidden>0</IsHidden>
+  <FileName>/WebResources/tc_CoreDocumentslistjs9C33B138-6579-E811-8B89-00155DDC0400</FileName>
+</WebResource>

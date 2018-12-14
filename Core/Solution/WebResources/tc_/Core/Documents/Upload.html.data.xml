@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<WebResource>
+  <WebResourceId>{ca0cab12-9a02-e711-8133-000c2958e3a5}</WebResourceId>
+  <Name>tc_/Core/Documents/Upload.html</Name>
+  <DisplayName>Core - Documents - Upload.html</DisplayName>
+  <WebResourceType>1</WebResourceType>
+  <IntroducedVersion>0.5.0.0</IntroducedVersion>
+  <IsEnabledForMobileClient>0</IsEnabledForMobileClient>
+  <IsAvailableForMobileOffline>0</IsAvailableForMobileOffline>
+  <DependencyXml>&lt;Dependencies&gt;&lt;Dependency componentType="WebResource"/&gt;&lt;/Dependencies&gt;</DependencyXml>
+  <IsCustomizable>1</IsCustomizable>
+  <CanBeDeleted>1</CanBeDeleted>
+  <IsHidden>0</IsHidden>
+  <FileName>/WebResources/tc_CoreDocumentsUploadhtmlCA0CAB12-9A02-E711-8133-000C2958E3A5</FileName>
+</WebResource>

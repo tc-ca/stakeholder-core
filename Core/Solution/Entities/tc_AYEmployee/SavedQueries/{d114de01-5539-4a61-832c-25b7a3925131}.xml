@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedquery>
+  <IsCustomizable>1</IsCustomizable>
+  <CanBeDeleted>0</CanBeDeleted>
+  <isquickfindquery>0</isquickfindquery>
+  <isprivate>0</isprivate>
+  <isdefault>1</isdefault>
+  <returnedtypecode>10005</returnedtypecode>
+  <savedqueryid>{d114de01-5539-4a61-832c-25b7a3925131}</savedqueryid>
+  <layoutxml>
+    <grid name="resultset" object="10005" jump="tc_fullnamenm" select="1" icon="1" preview="1">
+      <row name="result" id="tc_ayemployeeid">
+        <cell name="tc_fullnamenm" width="200" />
+        <cell name="emailaddress" width="200" />
+        <cell name="tc_phonenum" width="125" />
+      </row>
+    </grid>
+  </layoutxml>
+  <querytype>0</querytype>
+  <fetchxml>
+    <fetch version="1.0" output-format="xml-platform" mapping="logical" distinct="false">
+      <entity name="tc_ayemployee">
+        <attribute name="tc_fullnamenm" />
+        <attribute name="tc_phonenum" />
+        <attribute name="emailaddress" />
+        <order attribute="tc_fullnamenm" descending="false" />
+        <filter type="and">
+          <condition attribute="tc_isformeremployeeind" operator="eq" value="0" />
+        </filter>
+        <attribute name="tc_ayemployeeid" />
+      </entity>
+    </fetch>
+  </fetchxml>
+  <IntroducedVersion>0.3.0.0</IntroducedVersion>
+  <LocalizedNames>
+    <LocalizedName description="Employees" languagecode="1033" />
+  </LocalizedNames>
+</savedquery>

@@ -1,0 +1,10 @@
+**/.vs
+**/packages
+**/**/bin
+**/**/obj
+*/*.user
+*.cred
+Core/*.ps1
+Core/*.log
+**/CRMDeveloperExtensions.config
+**/*.zip

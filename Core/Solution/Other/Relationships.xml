@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EntityRelationships>
+  <EntityRelationship Name="account_master_account" unmodified="1" />
+  <EntityRelationship Name="account_originating_lead" unmodified="1" />
+  <EntityRelationship Name="account_parent_account" unmodified="1" />
+  <EntityRelationship Name="account_primary_contact" unmodified="1" />
+  <EntityRelationship Name="business_unit_accounts" unmodified="1" />
+  <EntityRelationship Name="business_unit_contacts" unmodified="1" />
+  <EntityRelationship Name="business_unit_system_users" unmodified="1" />
+  <EntityRelationship Name="business_unit_tc_dydocumentprofiletemplate" />
+  <EntityRelationship Name="business_unit_tc_dyidgenerator" />
+  <EntityRelationship Name="business_unit_tc_tytag" />
+  <EntityRelationship Name="business_unit_tc_tytagcategory" />
+  <EntityRelationship Name="calendar_system_users" unmodified="1" />
+  <EntityRelationship Name="contact_customer_accounts" />
+  <EntityRelationship Name="contact_customer_contacts" />
+  <EntityRelationship Name="contact_master_contact" unmodified="1" />
+  <EntityRelationship Name="contact_originating_lead" unmodified="1" />
+  <EntityRelationship Name="contact_owning_user" unmodified="1" />
+  <EntityRelationship Name="equipment_accounts" unmodified="1" />
+  <EntityRelationship Name="equipment_contacts" unmodified="1" />
+  <EntityRelationship Name="listaccount_association" unmodified="1" />
+  <EntityRelationship Name="listcontact_association" unmodified="1" />
+  <EntityRelationship Name="lk_accountbase_createdby" unmodified="1" />
+  <EntityRelationship Name="lk_accountbase_modifiedby" unmodified="1" />
+  <EntityRelationship Name="lk_contactbase_createdby" unmodified="1" />
+  <EntityRelationship Name="lk_contactbase_modifiedby" unmodified="1" />
+  <EntityRelationship Name="lk_externalparty_account_createdby" unmodified="1" />
+  <EntityRelationship Name="lk_externalparty_account_modifiedby" unmodified="1" />
+  <EntityRelationship Name="lk_externalparty_contact_createdby" unmodified="1" />
+  <EntityRelationship Name="lk_externalparty_contact_modifiedby" unmodified="1" />
+  <EntityRelationship Name="lk_systemuserbase_createdby" unmodified="1" />
+  <EntityRelationship Name="lk_systemuserbase_modifiedby" unmodified="1" />
+  <EntityRelationship Name="lk_tc_ayemployee_createdby" />
+  <EntityRelationship Name="lk_tc_ayemployee_modifiedby" />
+  <EntityRelationship Name="lk_tc_ayorganizationunit_createdby" />
+  <EntityRelationship Name="lk_tc_ayorganizationunit_modifiedby" />
+  <EntityRelationship Name="lk_tc_dydocumentprofiletemplate_createdby" />
+  <EntityRelationship Name="lk_tc_dydocumentprofiletemplate_modifiedby" />
+  <EntityRelationship Name="lk_tc_dyeventlog_createdby" />
+  <EntityRelationship Name="lk_tc_dyeventlog_modifiedby" />
+  <EntityRelationship Name="lk_tc_dyidgenerator_createdby" />
+  <EntityRelationship Name="lk_tc_dyidgenerator_modifiedby" />
+  <EntityRelationship Name="lk_tc_tyeventtype_createdby" />
+  <EntityRelationship Name="lk_tc_tyeventtype_modifiedby" />
+  <EntityRelationship Name="lk_tc_tytag_createdby" />
+  <EntityRelationship Name="lk_tc_tytag_modifiedby" />
+  <EntityRelationship Name="lk_tc_tytagcategory_createdby" />
+  <EntityRelationship Name="lk_tc_tytagcategory_modifiedby" />
+  <EntityRelationship Name="manualsla_account" unmodified="1" />
+  <EntityRelationship Name="manualsla_contact" unmodified="1" />
+  <EntityRelationship Name="MobileOfflineProfile_SystemUser" unmodified="1" />
+  <EntityRelationship Name="organization_system_users" unmodified="1" />
+  <EntityRelationship Name="organization_tc_ayemployee" />
+  <EntityRelationship Name="organization_tc_ayorganizationunit" />
+  <EntityRelationship Name="organization_tc_dyeventlog" />
+  <EntityRelationship Name="organization_tc_tyeventtype" />
+  <EntityRelationship Name="owner_accounts" unmodified="1" />
+  <EntityRelationship Name="owner_contacts" unmodified="1" />
+  <EntityRelationship Name="owner_tc_dydocumentprofiletemplate" />
+  <EntityRelationship Name="owner_tc_dyidgenerator" />
+  <EntityRelationship Name="owner_tc_tytag" />
+  <EntityRelationship Name="owner_tc_tytagcategory" />
+  <EntityRelationship Name="position_users" unmodified="1" />
+  <EntityRelationship Name="price_level_accounts" unmodified="1" />
+  <EntityRelationship Name="price_level_contacts" unmodified="1" />
+  <EntityRelationship Name="queue_system_user" unmodified="1" />
+  <EntityRelationship Name="service_accounts" unmodified="1" />
+  <EntityRelationship Name="service_contacts" unmodified="1" />
+  <EntityRelationship Name="site_system_users" unmodified="1" />
+  <EntityRelationship Name="sla_account" unmodified="1" />
+  <EntityRelationship Name="sla_contact" unmodified="1" />
+  <EntityRelationship Name="system_user_accounts" unmodified="1" />
+  <EntityRelationship Name="system_user_contacts" unmodified="1" />
+  <EntityRelationship Name="systemuser_defaultmailbox_mailbox" unmodified="1" />
+  <EntityRelationship Name="tc_AYEmployee_AYOrganizationUnit_ManagerId" />
+  <EntityRelationship Name="tc_ayemployee_dydocumentprofiletemplate_AuthorId" />
+  <EntityRelationship Name="tc_ayemployee_dyeventlog_EmployeeId" />
+  <EntityRelationship Name="tc_AYEmployee_SystemUser_EmployeeId" />
+  <EntityRelationship Name="tc_ayorganizationunit_ayemployee_OrganizationId" />
+  <EntityRelationship Name="tc_ayorganizationunit_ayorganizationunit_ParentOrganizationId" />
+  <EntityRelationship Name="tc_Contact_AYEmployee_ContactId" />
+  <EntityRelationship Name="tc_systemuser_ayemployee_UserAccountId" />
+  <EntityRelationship Name="tc_Team_DYIdGenerator_TeamId" />
+  <EntityRelationship Name="tc_tyeventtype_dyeventlog_TypeId" />
+  <EntityRelationship Name="tc_TYOrganizationType_Account_OrganizationTypeId" />
+  <EntityRelationship Name="tc_TYRegion_Contact" />
+  <EntityRelationship Name="tc_TYTagCategory_TYTag_CategoryId" />
+  <EntityRelationship Name="team_accounts" unmodified="1" />
+  <EntityRelationship Name="team_contacts" unmodified="1" />
+  <EntityRelationship Name="team_tc_dydocumentprofiletemplate" />
+  <EntityRelationship Name="team_tc_dyidgenerator" />
+  <EntityRelationship Name="team_tc_tytag" />
+  <EntityRelationship Name="team_tc_tytagcategory" />
+  <EntityRelationship Name="territory_accounts" unmodified="1" />
+  <EntityRelationship Name="territory_system_users" unmodified="1" />
+  <EntityRelationship Name="transactioncurrency_account" unmodified="1" />
+  <EntityRelationship Name="transactioncurrency_contact" unmodified="1" />
+  <EntityRelationship Name="user_accounts" unmodified="1" />
+  <EntityRelationship Name="user_parent_user" unmodified="1" />
+  <EntityRelationship Name="user_tc_dydocumentprofiletemplate" />
+  <EntityRelationship Name="user_tc_dyidgenerator" />
+  <EntityRelationship Name="user_tc_tytag" />
+  <EntityRelationship Name="user_tc_tytagcategory" />
+</EntityRelationships>

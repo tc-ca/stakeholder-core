@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<WebResource>
+  <WebResourceId>{1fb0c973-16e7-e611-8131-000c2958e3a5}</WebResourceId>
+  <Name>tc_/Core/Icons/EventLog32.png</Name>
+  <DisplayName>Core - Icons - EventLog32.png</DisplayName>
+  <WebResourceType>5</WebResourceType>
+  <IntroducedVersion>0.3.0.1</IntroducedVersion>
+  <IsEnabledForMobileClient>0</IsEnabledForMobileClient>
+  <IsAvailableForMobileOffline>0</IsAvailableForMobileOffline>
+  <IsCustomizable>1</IsCustomizable>
+  <CanBeDeleted>1</CanBeDeleted>
+  <IsHidden>0</IsHidden>
+  <FileName>/WebResources/tc_CoreIconsEventLog32png1FB0C973-16E7-E611-8131-000C2958E3A5</FileName>
+</WebResource>

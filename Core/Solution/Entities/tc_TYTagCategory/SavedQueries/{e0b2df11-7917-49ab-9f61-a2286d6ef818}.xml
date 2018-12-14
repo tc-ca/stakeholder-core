@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedquery>
+  <IsCustomizable>1</IsCustomizable>
+  <CanBeDeleted>0</CanBeDeleted>
+  <isquickfindquery>1</isquickfindquery>
+  <isprivate>0</isprivate>
+  <isdefault>1</isdefault>
+  <returnedtypecode>10011</returnedtypecode>
+  <savedqueryid>{e0b2df11-7917-49ab-9f61-a2286d6ef818}</savedqueryid>
+  <layoutxml>
+    <grid name="resultset" object="10011" jump="tc_categorynm" select="1" icon="1" preview="1">
+      <row name="result" id="tc_tytagcategoryid">
+        <cell name="tc_categorynm" width="300" />
+        <cell name="createdon" width="125" />
+      </row>
+    </grid>
+  </layoutxml>
+  <querytype>4</querytype>
+  <fetchxml>
+    <fetch version="1.0" mapping="logical">
+      <entity name="tc_tytagcategory">
+        <attribute name="tc_tytagcategoryid" />
+        <attribute name="tc_categorynm" />
+        <attribute name="createdon" />
+        <order attribute="tc_categorynm" descending="false" />
+        <filter type="and">
+          <condition attribute="statecode" operator="eq" value="0" />
+        </filter>
+        <filter type="or" isquickfindfields="1">
+          <condition attribute="tc_categorynm" operator="like" value="{0}" />
+        </filter>
+      </entity>
+    </fetch>
+  </fetchxml>
+  <IntroducedVersion>0.1.2.1</IntroducedVersion>
+  <LocalizedNames>
+    <LocalizedName description="Quick Find Active Tag Categories" languagecode="1033" />
+  </LocalizedNames>
+</savedquery>

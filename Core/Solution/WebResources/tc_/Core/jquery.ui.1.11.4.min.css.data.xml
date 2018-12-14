@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<WebResource>
+  <WebResourceId>{30c064c8-eacd-e611-812f-000c2958e3a5}</WebResourceId>
+  <Name>tc_/Core/jquery.ui.1.11.4.min.css</Name>
+  <DisplayName>Core - jQuery UI Style.css</DisplayName>
+  <Description>jQuery UI style</Description>
+  <WebResourceType>2</WebResourceType>
+  <IntroducedVersion>0.3.0.0</IntroducedVersion>
+  <IsEnabledForMobileClient>0</IsEnabledForMobileClient>
+  <IsAvailableForMobileOffline>0</IsAvailableForMobileOffline>
+  <IsCustomizable>1</IsCustomizable>
+  <CanBeDeleted>1</CanBeDeleted>
+  <IsHidden>0</IsHidden>
+  <FileName>/WebResources/tc_Corejqueryui1114mincss30C064C8-EACD-E611-812F-000C2958E3A5</FileName>
+</WebResource>

@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<WebResource>
+  <WebResourceId>{6c70fb92-b67b-e811-8b8a-00155ddc0400}</WebResourceId>
+  <Name>tc_/Core/Labels/search.js</Name>
+  <DisplayName>Core - Labels - search.js</DisplayName>
+  <WebResourceType>3</WebResourceType>
+  <IntroducedVersion>0.5.0.0</IntroducedVersion>
+  <IsEnabledForMobileClient>0</IsEnabledForMobileClient>
+  <IsAvailableForMobileOffline>0</IsAvailableForMobileOffline>
+  <DependencyXml>&lt;Dependencies&gt;&lt;Dependency componentType="WebResource"/&gt;&lt;/Dependencies&gt;</DependencyXml>
+  <IsCustomizable>1</IsCustomizable>
+  <CanBeDeleted>1</CanBeDeleted>
+  <IsHidden>0</IsHidden>
+  <FileName>/WebResources/tc_CoreLabelssearchjs6C70FB92-B67B-E811-8B8A-00155DDC0400</FileName>
+</WebResource>

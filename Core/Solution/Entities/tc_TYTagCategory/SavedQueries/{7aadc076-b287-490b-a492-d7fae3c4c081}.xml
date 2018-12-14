@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedquery>
+  <IsCustomizable>1</IsCustomizable>
+  <CanBeDeleted>0</CanBeDeleted>
+  <isquickfindquery>0</isquickfindquery>
+  <isprivate>0</isprivate>
+  <isdefault>1</isdefault>
+  <returnedtypecode>10011</returnedtypecode>
+  <savedqueryid>{7aadc076-b287-490b-a492-d7fae3c4c081}</savedqueryid>
+  <layoutxml>
+    <grid name="" object="10011" jump="tc_categorynm" select="1" icon="1" preview="1">
+      <row name="tc_tytagcategory" id="tc_tytagcategoryid">
+        <cell name="tc_categorynm" width="300" />
+      </row>
+    </grid>
+  </layoutxml>
+  <querytype>2</querytype>
+  <fetchxml>
+    <fetch version="1.0" mapping="logical">
+      <entity name="tc_tytagcategory">
+        <attribute name="tc_categorynm" />
+        <order attribute="tc_categorynm" descending="false" />
+        <filter type="and">
+          <condition attribute="statecode" operator="eq" value="0" />
+        </filter>
+        <attribute name="tc_tytagcategoryid" />
+      </entity>
+    </fetch>
+  </fetchxml>
+  <IntroducedVersion>0.1.2.1</IntroducedVersion>
+  <LocalizedNames>
+    <LocalizedName description="Tag Category Associated View" languagecode="1033" />
+  </LocalizedNames>
+</savedquery>

@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<WebResource>
+  <WebResourceId>{3612582b-eacd-e611-812f-000c2958e3a5}</WebResourceId>
+  <Name>tc_/Core/autocomplete.js</Name>
+  <DisplayName>Core - Autocomplete.js</DisplayName>
+  <Description>Controls the Core - Autocomplete.html web resource</Description>
+  <WebResourceType>3</WebResourceType>
+  <IntroducedVersion>0.3.0.0</IntroducedVersion>
+  <IsEnabledForMobileClient>0</IsEnabledForMobileClient>
+  <IsAvailableForMobileOffline>0</IsAvailableForMobileOffline>
+  <IsCustomizable>1</IsCustomizable>
+  <CanBeDeleted>1</CanBeDeleted>
+  <IsHidden>0</IsHidden>
+  <FileName>/WebResources/tc_Coreautocompletejs3612582B-EACD-E611-812F-000C2958E3A5</FileName>
+</WebResource>

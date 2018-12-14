@@ -1,0 +1,259 @@
+body{
+    font-family: 'Segoe UI';
+    font-size: 11px;
+    font-weight: normal;
+    min-width: 300px;
+}
+
+.control {
+    border-radius: 10px;
+    background-color: rgb(0,32,80);
+    color: white;
+    cursor: pointer;
+    display: inline-block;
+    font-family: Tahoma;
+    font-size: 14px;
+    padding: 5px 10px;
+}
+
+.control:hover {
+    background-color: rgb(220,220,220);
+    color: rgb(0,32,80);
+}
+
+.control:active {
+    background-color: rgb(180,180,180);
+    color: rgb(0,32,80);
+}
+
+.input-text{
+    border: none;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    font-size: 12px;
+    color: rgb(0,0,0);
+    font-weight: 600;
+    padding-top: 2px;
+    padding-bottom: 3px;
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 95%;
+}
+
+.input-text:hover{
+    background-color: rgb(243,241,241);
+    border-color: rgb(204,204,204);
+    border-style: solid;
+    border-width: 1px;
+    box-shadow: 1px 1px 2px #ccc;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    margin-left: 9px;
+    margin-right: 9px;
+}
+
+.input-text:focus{
+    border-color: rgb(204,204,204);
+    border-style: solid;
+    border-width: 1px;
+    margin-bottom: 4px;
+    margin-left: 9px;
+    margin-right: 9px;
+    margin-top: 4px;
+}
+
+.input-textarea{
+    resize: none; 
+    height: 48px; 
+    max-height: 48px; 
+    overflow-y: auto;
+}
+
+.input-list{
+    border: none;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    font-size: 12px;
+    color: rgb(0,0,0);
+    font-weight: 600;
+    padding-top: 2px;
+    padding-bottom: 3px;
+    padding-left: 5px;
+    padding-right: 5px;
+    white-space: nowrap;
+    display: inline;
+    width: 95%;
+}
+
+.input-list::-ms-expand{
+    display: none;
+}
+
+.input-list:hover{
+    background-color: rgb(243,241,241);
+    border-color: rgb(204,204,204);
+    border-style: solid;
+    border-width: 1px;
+    box-shadow: 1px 1px 2px #ccc;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    margin-left: 9px;
+    margin-right: 9px;
+}
+
+.input-list:focus{
+    border-color: rgb(204,204,204);
+    border-style: solid;
+    border-width: 1px;
+    margin-bottom: 4px;
+    margin-left: 9px;
+    margin-right: 9px;
+    margin-top: 4px;
+}
+
+.label{
+    cursor: default;
+    color: rgb(68,68,68);
+    font-family: 'Segoe UI', Tahoma, Arial;
+    font-size: 12px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+    overflow: hidden;
+    white-space: nowrap;
+    min-width: 100px;
+    width: 100px;
+    float: left;
+}
+
+.noselect{
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none;   /* Chrome/Safari/Opera */
+    -moz-user-select: none;      /* Firefox */
+    -ms-user-select: none;       /* Internet Explorer/Edge */
+    user-select: none;           /* Non-prefixed version, currently
+                                  not supported by any browser */
+}
+
+.row{
+    width: 100%;
+    max-width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    margin: 0px;
+    padding: 0px;
+}
+
+.upload-image{
+    cursor: pointer;
+    height: 24px;
+    width: 24px;
+    border: solid;
+    border-color: rgb(150,150,150);
+    border-radius: 15px;
+    border-width: 3px;
+    margin: 5px 5px 5px 5px;
+    float: left;
+}
+
+.upload-image:hover{
+    background-color: rgb(215,235,249);
+}
+
+.validation-error{
+    color: rgb(255,0,0);
+    display: none;
+    white-space: normal;
+    text-wrap: normal;
+    width: 95%;
+}
+
+#fileUpload{
+    border: none;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-top: 2px;
+    padding-bottom: 3px;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    font-size: 12px;
+    color: rgb(0,0,0);
+    font-weight: 600;
+    cursor: pointer;
+    width: 200px;
+    min-width: 200px;
+    float: left;
+}
+
+#fileUpload:hover{
+    background-color: rgb(243,241,241);
+    border-color: rgb(204,204,204);
+    border-style: solid;
+    border-width: 1px;
+    box-shadow: 1px 1px 2px #ccc;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    margin-left: 9px;
+    margin-right: 9px;
+}
+
+#fileUpload:focus{
+    border-color: rgb(204,204,204);
+    border-style: solid;
+    border-width: 1px;
+    margin-bottom: 4px;
+    margin-left: 9px;
+    margin-right: 9px;
+    margin-top: 4px;
+}
+
+#fileUploadInput{
+    display: none;
+}
+
+#loading{
+    position: fixed;
+    top: 5px;
+    right: 5px;
+}
+
+.ui-autocomplete{
+    max-height: 50px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    border-radius: 3px;
+    font-family: 'Segoe UI';
+    font-size: 11px;
+    font-weight: normal;
+    background-color: rgb(255,255,255);
+}
+
+.ui-autocomplete.source:hover {
+    background-color: rgb(215,235,249);
+    border: solid;
+    border-radius: 3px;
+    border-color: rgb(204,204,204);
+}
+
+.ui-menu .ui-menu-item a.ui-corner-all:hover, .ui-menu .ui-menu-item a.ui-corner-all:focus, .ui-menu .ui-menu-item a.ui-corner-all:active {
+    color: rgb(0,0,0);
+    background: none!important;
+}
+
+.ui-state-hover, .ui-widget-content .ui-state-hover, .ui-widget-header .ui-state-hover, .ui-state-focus, .ui-widget-content .ui-state-focus, .ui-widget-header .ui-state-focus {
+    background-color: rgb(215,235,249);
+    color: rgb(0,0,0);
+    border: none;
+    border-radius: 3px;
+    font-weight: normal;
+}

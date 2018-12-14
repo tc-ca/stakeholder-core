@@ -1,0 +1,156 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<systemform>
+  <formid>{002e30f5-5140-42eb-8b3a-068f8e4ef8a2}</formid>
+  <IntroducedVersion>0.3.2.0</IntroducedVersion>
+  <FormPresentation>1</FormPresentation>
+  <FormActivationState>1</FormActivationState>
+  <form shownavigationbar="true" showImage="false" maxWidth="1900">
+    <tabs>
+      <tab name="searchTab" id="{9ed45740-6e58-7266-e23e-151e8aaada96}" IsUserDefined="0" locklevel="0" showlabel="true" expanded="true" labelid="{780d00b6-a078-4546-9f66-3fefbbbdfa35}">
+        <labels>
+          <label description="Search" languagecode="1033" />
+        </labels>
+        <columns>
+          <column width="100%">
+            <sections>
+              <section name="tab_2_section_1" showlabel="false" showbar="false" locklevel="0" id="{82190557-7e74-a789-b3b4-93333d7d142d}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" height="auto" labelid="{e5b95621-2efd-41ad-80a9-056ab700b0ec}">
+                <labels>
+                  <label description="Section" languagecode="1033" />
+                </labels>
+                <rows>
+                  <row height="auto">
+                    <cell id="{daa42030-e662-dd70-338e-897db8e8dea0}" showlabel="false" colspan="1" auto="true" rowspan="1" labelid="{56557f29-3499-45f0-baac-714f3a53f3d3}">
+                      <labels>
+                        <label description="Search" languagecode="1033" />
+                      </labels>
+                      <control id="WebResource_Search" classid="{9FDF5F91-88B1-47f4-AD53-C11EFC01A01D}">
+                        <parameters>
+                          <Url>tc_/Core/Search.html</Url>
+                          <Data>control=WebResource_Search&amp;scripts=["TCDirectory.js","OrganizationSearch.js"]</Data>
+                          <PassParameters>false</PassParameters>
+                          <ShowOnMobileClient>false</ShowOnMobileClient>
+                          <Security>false</Security>
+                          <Scrolling>no</Scrolling>
+                          <Border>false</Border>
+                          <WebResourceId>{D70AA67E-E2FA-E611-8133-000C2958E3A5}</WebResourceId>
+                        </parameters>
+                      </control>
+                      <events>
+                        <event name="onload" application="0">
+                          <dependencies />
+                        </event>
+                      </events>
+                    </cell>
+                  </row>
+                </rows>
+              </section>
+            </sections>
+          </column>
+        </columns>
+      </tab>
+      <tab verticallayout="true" id="{664ceccd-772f-437b-973c-deaf3fb2de7f}" IsUserDefined="1" name="{664ceccd-772f-437b-973c-deaf3fb2de7f}" locklevel="0" showlabel="true" visible="false" expanded="false" labelid="{9470bd56-974b-4489-81f9-240a2acf7eda}">
+        <labels>
+          <label description="General" languagecode="1033" />
+          <label description="Général" languagecode="1036" />
+        </labels>
+        <columns>
+          <column width="100%">
+            <sections>
+              <section showlabel="false" showbar="false" IsUserDefined="0" id="{218eabc9-8ac0-45e9-9622-0032659a921c}" labelid="{69972366-59c3-4f44-b56e-825af7fe8433}">
+                <labels>
+                  <label description="General" languagecode="1033" />
+                  <label description="Général" languagecode="1036" />
+                </labels>
+                <rows>
+                  <row>
+                    <cell id="{a6842e83-8cf1-4eb6-a4ad-f9326c35c6bf}" labelid="{22e707b0-ae31-4919-82b0-ed15a8792752}">
+                      <labels>
+                        <label description="Name" languagecode="1033" />
+                      </labels>
+                      <control id="tc_namenm" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="tc_namenm" />
+                    </cell>
+                  </row>
+                </rows>
+              </section>
+            </sections>
+          </column>
+        </columns>
+      </tab>
+    </tabs>
+    <footer id="{29c16d45-8c52-49b0-a4a0-6a350e30c5c0}" columns="11" labelwidth="115" celllabelalignment="Left" celllabelposition="Left">
+      <rows>
+        <row>
+          <cell id="{ceaaebd4-8b09-5e82-55d6-bdaca9312978}" showlabel="true" locklevel="0" labelid="{31538b2a-1178-45db-b9bf-69d515072bd7}">
+            <labels>
+              <label description="Created By" languagecode="1033" />
+              <label description="Créé par" languagecode="1036" />
+            </labels>
+            <control id="footer_createdby" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="createdby" disabled="true" />
+          </cell>
+          <cell id="{e58bc3d2-c5e9-dad0-43c7-621bca295a29}" showlabel="true" locklevel="0" labelid="{88f5154e-3fd3-4c62-9c3f-fe26a4d059f1}">
+            <labels>
+              <label description="Created On" languagecode="1033" />
+              <label description="Créé le" languagecode="1036" />
+            </labels>
+            <control id="footer_createdon" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="createdon" disabled="true" />
+          </cell>
+        </row>
+        <row>
+          <cell id="{01e0da68-9228-14d4-c76b-05c22d8a0ebc}" showlabel="true" locklevel="0" labelid="{dea973b1-dd0e-49cc-bce6-72936e71e3bb}">
+            <labels>
+              <label description="Modified By" languagecode="1033" />
+              <label description="Modifié par" languagecode="1036" />
+            </labels>
+            <control id="footer_modifiedby" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="modifiedby" disabled="true" />
+          </cell>
+          <cell id="{530cedbe-c4de-7a12-e5dc-827054064b6d}" showlabel="true" locklevel="0" labelid="{1b1396b1-bd7d-438e-bafe-5bafec0a9876}">
+            <labels>
+              <label description="Modified On" languagecode="1033" />
+              <label description="Modifié le" languagecode="1036" />
+            </labels>
+            <control id="footer_modifiedon" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="modifiedon" disabled="true" />
+          </cell>
+        </row>
+      </rows>
+    </footer>
+    <Navigation>
+      <NavBar></NavBar>
+      <NavBarAreas>
+        <NavBarArea Id="Info">
+          <Titles>
+            <Title LCID="1033" Text="Common" />
+          </Titles>
+        </NavBarArea>
+        <NavBarArea Id="Sales">
+          <Titles>
+            <Title LCID="1033" Text="Sales" />
+          </Titles>
+        </NavBarArea>
+        <NavBarArea Id="Service">
+          <Titles>
+            <Title LCID="1033" Text="Service" />
+          </Titles>
+        </NavBarArea>
+        <NavBarArea Id="Marketing">
+          <Titles>
+            <Title LCID="1033" Text="Marketing" />
+          </Titles>
+        </NavBarArea>
+        <NavBarArea Id="ProcessCenter">
+          <Titles>
+            <Title LCID="1033" Text="Process Sessions" />
+          </Titles>
+        </NavBarArea>
+      </NavBarAreas>
+    </Navigation>
+    <DisplayConditions Order="1">
+      <Role Id="{627090ff-40a3-4053-8790-584edc5be201}" />
+      <Role Id="{119f245c-3cc8-4b62-b31c-d1a046ced15d}" />
+    </DisplayConditions>
+  </form>
+  <IsCustomizable>1</IsCustomizable>
+  <CanBeDeleted>1</CanBeDeleted>
+  <LocalizedNames>
+    <LocalizedName description="Search" languagecode="1033" />
+  </LocalizedNames>
+</systemform>

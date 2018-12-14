@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedquery>
+  <IsCustomizable>1</IsCustomizable>
+  <CanBeDeleted>0</CanBeDeleted>
+  <isquickfindquery>0</isquickfindquery>
+  <isprivate>0</isprivate>
+  <isdefault>1</isdefault>
+  <returnedtypecode>10006</returnedtypecode>
+  <savedqueryid>{0616d615-7aed-4d44-ab75-af7467d33562}</savedqueryid>
+  <layoutxml>
+    <grid name="resultset" object="10006" jump="tc_namenm" select="1" icon="1" preview="1">
+      <row name="result" id="tc_ayorganizationunitid">
+        <cell name="tc_namenm" width="300" />
+        <cell name="createdon" width="125" />
+      </row>
+    </grid>
+  </layoutxml>
+  <querytype>1</querytype>
+  <fetchxml>
+    <fetch version="1.0" mapping="logical">
+      <entity name="tc_ayorganizationunit">
+        <attribute name="tc_ayorganizationunitid" />
+        <attribute name="tc_namenm" />
+        <attribute name="createdon" />
+        <order attribute="tc_namenm" descending="false" />
+      </entity>
+    </fetch>
+  </fetchxml>
+  <IntroducedVersion>0.3.0.0</IntroducedVersion>
+  <LocalizedNames>
+    <LocalizedName description="TC Organization Advanced Find View" languagecode="1033" />
+  </LocalizedNames>
+</savedquery>

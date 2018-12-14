@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<WebResource>
+  <WebResourceId>{38e28d0a-eacd-e611-812f-000c2958e3a5}</WebResourceId>
+  <Name>tc_/Core/autocomplete.html</Name>
+  <DisplayName>Core - Autocomplete.html</DisplayName>
+  <Description>Provides an autocomplete text input control that can be configured to replace an existing text input on a form. The control updates the value of the provided attribute when it changes, and automatically hides controls belonging to it.
+Requires two parameters:
+    field: The name of the attribute to replace/update
+    url: The REST url that returns options for autocompletion in JSON format
+    ex. https://crmdev.tc.gc.ca:8082/NASDS/Sites?$select=LOCATION&amp;$filter=startswith(LOCATION, '
+    The end will be appended with the search term followed by the "')" characters.
+</Description>
+  <WebResourceType>1</WebResourceType>
+  <IntroducedVersion>0.3.0.0</IntroducedVersion>
+  <IsEnabledForMobileClient>0</IsEnabledForMobileClient>
+  <IsAvailableForMobileOffline>0</IsAvailableForMobileOffline>
+  <IsCustomizable>1</IsCustomizable>
+  <CanBeDeleted>1</CanBeDeleted>
+  <IsHidden>0</IsHidden>
+  <FileName>/WebResources/tc_Coreautocompletehtml38E28D0A-EACD-E611-812F-000C2958E3A5</FileName>
+</WebResource>

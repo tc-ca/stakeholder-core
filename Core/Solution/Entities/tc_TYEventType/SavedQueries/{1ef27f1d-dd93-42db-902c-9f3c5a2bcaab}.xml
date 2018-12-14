@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedquery>
+  <IsCustomizable>1</IsCustomizable>
+  <CanBeDeleted>0</CanBeDeleted>
+  <isquickfindquery>0</isquickfindquery>
+  <isprivate>0</isprivate>
+  <isdefault>1</isdefault>
+  <returnedtypecode>10009</returnedtypecode>
+  <savedqueryid>{1ef27f1d-dd93-42db-902c-9f3c5a2bcaab}</savedqueryid>
+  <layoutxml>
+    <grid name="resultset" object="10009" jump="tc_typenm" select="1" icon="1" preview="1">
+      <row name="result" id="tc_tyeventtypeid">
+        <cell name="tc_typenm" width="300" />
+      </row>
+    </grid>
+  </layoutxml>
+  <querytype>1</querytype>
+  <fetchxml>
+    <fetch version="1.0" mapping="logical">
+      <entity name="tc_tyeventtype">
+        <attribute name="tc_typenm" />
+        <order attribute="tc_typenm" descending="false" />
+        <attribute name="tc_tyeventtypeid" />
+      </entity>
+    </fetch>
+  </fetchxml>
+  <IntroducedVersion>0.3.1.7</IntroducedVersion>
+  <LocalizedNames>
+    <LocalizedName description="Event Type Advanced Find View" languagecode="1033" />
+  </LocalizedNames>
+</savedquery>

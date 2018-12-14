@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<systemform>
+  <formid>{4968ca12-0f3d-4e29-ace4-7b9a75c478f1}</formid>
+  <IntroducedVersion>0.1.0</IntroducedVersion>
+  <FormPresentation>1</FormPresentation>
+  <FormActivationState>1</FormActivationState>
+  <form maxWidth="400">
+    <tabs>
+      <tab id="{36f8f204-981c-423b-8b71-71beff7ca03a}" name="tab_1" showlabel="false">
+        <labels>
+          <label description="Tab" languagecode="1033" />
+        </labels>
+        <columns>
+          <column width="100%">
+            <sections>
+              <section id="{3bbe5033-247e-43a4-9435-40ef34a2e3ec}" name="tab_1_column_1_section_1" columns="1" showlabel="false" showbar="false" IsUserDefined="0">
+                <labels>
+                  <label description="section" languagecode="1033" />
+                </labels>
+                <rows>
+                  <row>
+                    <cell id="{30deea16-aaa1-1e96-0b53-466e28e6006a}" showlabel="true" locklevel="0">
+                      <labels>
+                        <label description="Full Name" languagecode="1033" />
+                        <label description="Nom complet" languagecode="1036" />
+                      </labels>
+                      <control id="fullname" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="fullname" disabled="false" />
+                    </cell>
+                  </row>
+                  <row>
+                    <cell id="{b9624e0c-c906-84db-62d7-057a0a1d3732}" showlabel="true" locklevel="0">
+                      <labels>
+                        <label description="Primary Email" languagecode="1033" />
+                        <label description="Adresse de messagerie principale" languagecode="1036" />
+                      </labels>
+                      <control id="internalemailaddress" classid="{ADA2203E-B4CD-49be-9DDF-234642B43B52}" datafieldname="internalemailaddress" disabled="false" />
+                    </cell>
+                  </row>
+                  <row>
+                    <cell id="{b8673194-855e-6d2e-dd96-6be6a194e446}" showlabel="true" locklevel="0">
+                      <labels>
+                        <label description="Directory Information" languagecode="1033" />
+                      </labels>
+                      <control id="tc_employeeid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="tc_employeeid" disabled="false" />
+                    </cell>
+                  </row>
+                </rows>
+              </section>
+            </sections>
+          </column>
+        </columns>
+      </tab>
+    </tabs>
+    <DisplayConditions Order="1">
+      <Role Id="{627090ff-40a3-4053-8790-584edc5be201}" />
+      <Role Id="{119f245c-3cc8-4b62-b31c-d1a046ced15d}" />
+    </DisplayConditions>
+  </form>
+  <IsCustomizable>1</IsCustomizable>
+  <CanBeDeleted>1</CanBeDeleted>
+  <LocalizedNames>
+    <LocalizedName description="Quick View" languagecode="1033" />
+  </LocalizedNames>
+  <Descriptions>
+    <Description description="Name, employee information, and email" languagecode="1033" />
+  </Descriptions>
+</systemform>

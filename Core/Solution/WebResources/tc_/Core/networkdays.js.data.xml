@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<WebResource>
+  <WebResourceId>{e41ec2dd-eacd-e611-812f-000c2958e3a5}</WebResourceId>
+  <Name>tc_/Core/networkdays.js</Name>
+  <DisplayName>Core - NetWorkDays.js</DisplayName>
+  <Description>Meant to replicate the behavior of excel’s NETWORKDAYS() formula. Currently does not account for stat holidays.
+
+netWorkDays(s, e)
+    s: Start date
+    e: End date
+    return: The number of working days between s and e</Description>
+  <WebResourceType>3</WebResourceType>
+  <IntroducedVersion>0.3.0.0</IntroducedVersion>
+  <IsEnabledForMobileClient>0</IsEnabledForMobileClient>
+  <IsAvailableForMobileOffline>0</IsAvailableForMobileOffline>
+  <IsCustomizable>1</IsCustomizable>
+  <CanBeDeleted>1</CanBeDeleted>
+  <IsHidden>0</IsHidden>
+  <FileName>/WebResources/tc_CorenetworkdaysjsE41EC2DD-EACD-E611-812F-000C2958E3A5</FileName>
+</WebResource>

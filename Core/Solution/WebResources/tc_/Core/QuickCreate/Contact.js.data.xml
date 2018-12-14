@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<WebResource>
+  <WebResourceId>{3419382b-b239-e811-8141-000c2958e3a5}</WebResourceId>
+  <Name>tc_/Core/QuickCreate/Contact.js</Name>
+  <DisplayName>Core - QuickCreate - Contact.js</DisplayName>
+  <WebResourceType>3</WebResourceType>
+  <IntroducedVersion>0.3.3.4</IntroducedVersion>
+  <IsEnabledForMobileClient>0</IsEnabledForMobileClient>
+  <IsAvailableForMobileOffline>0</IsAvailableForMobileOffline>
+  <IsCustomizable>1</IsCustomizable>
+  <CanBeDeleted>1</CanBeDeleted>
+  <IsHidden>0</IsHidden>
+  <FileName>/WebResources/tc_CoreQuickCreateContactjs3419382B-B239-E811-8141-000C2958E3A5</FileName>
+</WebResource>

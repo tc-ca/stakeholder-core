@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PluginAssembly FullName="Core.Localization, Version=1.0.0.0, Culture=neutral, PublicKeyToken=270ec4ec01352598" CustomizationLevel="1">
+  <IsolationMode>2</IsolationMode>
+  <SourceType>0</SourceType>
+  <IntroducedVersion>1.0</IntroducedVersion>
+  <FileName>/PluginAssemblies/CoreLocalization-3590E7B3-8D84-4B52-9167-06F0A99FFBAE/CoreLocalization.dll</FileName>
+  <PluginTypes>
+    <PluginType AssemblyQualifiedName="Core.Localization.Create, Core.Localization, Version=1.0.0.0, Culture=neutral, PublicKeyToken=270ec4ec01352598" Name="Core.Localization.Create">
+      <FriendlyName>df05c2cc-0fff-48f9-9ee4-a4370365ed8c</FriendlyName>
+    </PluginType>
+    <PluginType AssemblyQualifiedName="Core.Localization.Retrieve, Core.Localization, Version=1.0.0.0, Culture=neutral, PublicKeyToken=270ec4ec01352598" Name="Core.Localization.Retrieve">
+      <FriendlyName>916037c5-dbd1-4dcc-b05f-d3349985f3ee</FriendlyName>
+    </PluginType>
+    <PluginType AssemblyQualifiedName="Core.Localization.RetrieveMultiple, Core.Localization, Version=1.0.0.0, Culture=neutral, PublicKeyToken=270ec4ec01352598" Name="Core.Localization.RetrieveMultiple">
+      <FriendlyName>17fc5875-378e-4a15-81d3-84bec4d8a198</FriendlyName>
+    </PluginType>
+    <PluginType AssemblyQualifiedName="Core.Localization.Update, Core.Localization, Version=1.0.0.0, Culture=neutral, PublicKeyToken=270ec4ec01352598" Name="Core.Localization.Update">
+      <FriendlyName>ace9105f-4b81-464d-88f8-2dfc304ee19c</FriendlyName>
+    </PluginType>
+  </PluginTypes>
+</PluginAssembly>

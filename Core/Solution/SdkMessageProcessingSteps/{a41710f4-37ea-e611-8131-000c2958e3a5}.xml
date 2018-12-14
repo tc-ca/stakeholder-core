@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SdkMessageProcessingStep Name="Core.Localization.Create: Create tc_dyeventlog" SdkMessageProcessingStepId="{a41710f4-37ea-e611-8131-000c2958e3a5}">
+  <PluginTypeName>Core.Localization.Create, Core.Localization, Version=1.0.0.0, Culture=neutral, PublicKeyToken=270ec4ec01352598</PluginTypeName>
+  <PrimaryEntity>tc_dyeventlog</PrimaryEntity>
+  <AsyncAutoDelete>0</AsyncAutoDelete>
+  <Configuration>&lt;Settings&gt;
+  &lt;Items&gt;
+    &lt;Item&gt;
+      &lt;Field&gt;tc_eventnm&lt;/Field&gt;
+      &lt;FieldEn&gt;tc_eventenm&lt;/FieldEn&gt;
+      &lt;FieldFr&gt;tc_eventfnm&lt;/FieldFr&gt;
+    &lt;/Item&gt;
+  &lt;/Items&gt;
+&lt;/Settings&gt;</Configuration>
+  <Description>Core.Localization.Create: Create tc_dyeventlog</Description>
+  <FilteringAttributes></FilteringAttributes>
+  <InvocationSource>0</InvocationSource>
+  <Mode>0</Mode>
+  <Rank>1</Rank>
+  <SdkMessageId>{9ebdbb1b-ea3e-db11-86a7-000a3a5473e8}</SdkMessageId>
+  <EventHandlerTypeCode>4602</EventHandlerTypeCode>
+  <Stage>10</Stage>
+  <IsCustomizable>1</IsCustomizable>
+  <IsHidden>0</IsHidden>
+  <SupportedDeployment>0</SupportedDeployment>
+  <IntroducedVersion>1.0</IntroducedVersion>
+  <SdkMessageProcessingStepImages />
+</SdkMessageProcessingStep>

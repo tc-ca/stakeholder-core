@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedquery>
+  <IsCustomizable>1</IsCustomizable>
+  <CanBeDeleted>0</CanBeDeleted>
+  <isquickfindquery>0</isquickfindquery>
+  <isprivate>0</isprivate>
+  <isdefault>1</isdefault>
+  <returnedtypecode>10005</returnedtypecode>
+  <savedqueryid>{0cb59d4e-50e8-44ed-bb1a-701060206e3b}</savedqueryid>
+  <layoutxml>
+    <grid name="" object="10005" jump="tc_fullnamenm" select="1" icon="1" preview="0">
+      <row name="tc_ayemployee" id="tc_ayemployeeid">
+        <cell name="tc_fullnamenm" width="300" />
+        <cell name="emailaddress" width="100" />
+        <cell name="tc_phonenum" width="100" />
+      </row>
+    </grid>
+  </layoutxml>
+  <querytype>64</querytype>
+  <fetchxml>
+    <fetch version="1.0" mapping="logical">
+      <entity name="tc_ayemployee">
+        <attribute name="tc_ayemployeeid" />
+        <attribute name="tc_fullnamenm" />
+        <filter type="and">
+          <condition attribute="statecode" operator="eq" value="0" />
+        </filter>
+        <order attribute="tc_fullnamenm" descending="false" />
+        <attribute name="tc_phonenum" />
+        <attribute name="emailaddress" />
+      </entity>
+    </fetch>
+  </fetchxml>
+  <IntroducedVersion>0.3.0.0</IntroducedVersion>
+  <LocalizedNames>
+    <LocalizedName description="Employee Lookup View" languagecode="1033" />
+  </LocalizedNames>
+</savedquery>

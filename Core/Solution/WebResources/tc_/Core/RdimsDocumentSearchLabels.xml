@@ -1,0 +1,9 @@
+Label	1033	1036
+application	Application	Application
+documentNumber	Document Number	Num�ro SGDDI
+documentName	Document Name	Nom du Document
+author	Author	Auteur
+createdOn	Created On	Cr�e sur
+createdBy	Created By	Cr�e par
+duplicateException	This document is now being tracked in CRM. Would you like to view it now?	Ce document a �t� traqu� dans CRM. Voulez-vous l'ouvrir maintenant?
+editedOn	Modified On	Modifi� sur

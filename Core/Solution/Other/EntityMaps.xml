@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EntityMaps>
+  <EntityMap>
+    <EntitySource>contact</EntitySource>
+    <EntityTarget>tc_ayemployee</EntityTarget>
+    <AttributeMaps />
+  </EntityMap>
+  <EntityMap>
+    <EntitySource>systemuser</EntitySource>
+    <EntityTarget>tc_ayemployee</EntityTarget>
+    <AttributeMaps />
+  </EntityMap>
+  <EntityMap>
+    <EntitySource>tc_ayemployee</EntitySource>
+    <EntityTarget>systemuser</EntityTarget>
+    <AttributeMaps />
+  </EntityMap>
+  <EntityMap>
+    <EntitySource>tc_ayemployee</EntitySource>
+    <EntityTarget>tc_ayorganizationunit</EntityTarget>
+    <AttributeMaps />
+  </EntityMap>
+  <EntityMap>
+    <EntitySource>tc_ayemployee</EntitySource>
+    <EntityTarget>tc_dydocumentprofiletemplate</EntityTarget>
+    <AttributeMaps />
+  </EntityMap>
+  <EntityMap>
+    <EntitySource>tc_ayemployee</EntitySource>
+    <EntityTarget>tc_dyeventlog</EntityTarget>
+    <AttributeMaps />
+  </EntityMap>
+  <EntityMap>
+    <EntitySource>tc_ayorganizationunit</EntitySource>
+    <EntityTarget>tc_ayemployee</EntityTarget>
+    <AttributeMaps />
+  </EntityMap>
+  <EntityMap>
+    <EntitySource>tc_ayorganizationunit</EntitySource>
+    <EntityTarget>tc_ayorganizationunit</EntityTarget>
+    <AttributeMaps />
+  </EntityMap>
+  <EntityMap>
+    <EntitySource>tc_tyeventtype</EntitySource>
+    <EntityTarget>tc_dyeventlog</EntityTarget>
+    <AttributeMaps />
+  </EntityMap>
+  <EntityMap>
+    <EntitySource>tc_tytagcategory</EntitySource>
+    <EntityTarget>tc_tytag</EntityTarget>
+    <AttributeMaps />
+  </EntityMap>
+  <EntityMap>
+    <EntitySource>team</EntitySource>
+    <EntityTarget>tc_dyidgenerator</EntityTarget>
+    <AttributeMaps />
+  </EntityMap>
+</EntityMaps>

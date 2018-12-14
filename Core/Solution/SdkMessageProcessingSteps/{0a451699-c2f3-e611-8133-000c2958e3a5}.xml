@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SdkMessageProcessingStep Name="Core.TCDirectory.EmployeePostCreate: Post create tc_ayemployee" SdkMessageProcessingStepId="{0a451699-c2f3-e611-8133-000c2958e3a5}">
+  <PluginTypeName>Core.TCDirectory.EmployeePostCreate, Core.TCDirectory, Version=0.2.2.0, Culture=neutral, PublicKeyToken=4ae8a913f113a078</PluginTypeName>
+  <PrimaryEntity>tc_ayemployee</PrimaryEntity>
+  <AsyncAutoDelete>0</AsyncAutoDelete>
+  <Description>Core.TCDirectory.EmployeePostCreate: Post create tc_ayemployee</Description>
+  <FilteringAttributes></FilteringAttributes>
+  <InvocationSource>1</InvocationSource>
+  <Mode>1</Mode>
+  <Rank>2</Rank>
+  <SdkMessageId>{9ebdbb1b-ea3e-db11-86a7-000a3a5473e8}</SdkMessageId>
+  <EventHandlerTypeCode>4602</EventHandlerTypeCode>
+  <Stage>40</Stage>
+  <IsCustomizable>1</IsCustomizable>
+  <IsHidden>0</IsHidden>
+  <SupportedDeployment>0</SupportedDeployment>
+  <IntroducedVersion>1.0</IntroducedVersion>
+  <SdkMessageProcessingStepImages />
+</SdkMessageProcessingStep>

@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<WebResource>
+  <WebResourceId>{8cf08266-23e7-e611-8131-000c2958e3a5}</WebResourceId>
+  <Name>tc_/Core/Translations.js</Name>
+  <DisplayName>Core - Translations.js</DisplayName>
+  <Description>JavaScript library for parsing a text document containing localized labels for web resources.</Description>
+  <WebResourceType>3</WebResourceType>
+  <IntroducedVersion>0.3.1.0</IntroducedVersion>
+  <IsEnabledForMobileClient>0</IsEnabledForMobileClient>
+  <IsAvailableForMobileOffline>0</IsAvailableForMobileOffline>
+  <IsCustomizable>1</IsCustomizable>
+  <CanBeDeleted>1</CanBeDeleted>
+  <IsHidden>0</IsHidden>
+  <FileName>/WebResources/tc_CoreTranslationsjs8CF08266-23E7-E611-8131-000C2958E3A5</FileName>
+</WebResource>

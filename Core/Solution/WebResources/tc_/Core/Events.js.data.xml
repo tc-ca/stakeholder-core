@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<WebResource>
+  <WebResourceId>{bf0fde98-eacd-e611-812f-000c2958e3a5}</WebResourceId>
+  <Name>tc_/Core/Events.js</Name>
+  <DisplayName>Core - Events.js</DisplayName>
+  <Description>The following was created by John Resig (Creator of jQuery library) to address IE's improperly functioning addEventListener.
+
+addEvent()
+in:
+    obj - The DOM element to add an event to
+    type - The type of event (ex. 'click')
+    fn - The function to attach
+
+removeEvent()
+in:
+    obj - The DOM element to remove the event from
+    type - The type of event (ex. 'click')
+    fn - The function to be removed</Description>
+  <WebResourceType>3</WebResourceType>
+  <IntroducedVersion>0.3.0.0</IntroducedVersion>
+  <IsEnabledForMobileClient>0</IsEnabledForMobileClient>
+  <IsAvailableForMobileOffline>0</IsAvailableForMobileOffline>
+  <IsCustomizable>1</IsCustomizable>
+  <CanBeDeleted>1</CanBeDeleted>
+  <IsHidden>0</IsHidden>
+  <FileName>/WebResources/tc_CoreEventsjsBF0FDE98-EACD-E611-812F-000C2958E3A5</FileName>
+</WebResource>

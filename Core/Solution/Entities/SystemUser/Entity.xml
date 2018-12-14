@@ -1,0 +1,127 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Entity>
+  <Name LocalizedName="User" OriginalName="User">SystemUser</Name>
+  <ObjectTypeCode>8</ObjectTypeCode>
+  <EntityInfo>
+    <entity Name="SystemUser">
+      <LocalizedNames>
+        <LocalizedName description="User" languagecode="1033" />
+        <LocalizedName description="Utilisateur" languagecode="1036" />
+      </LocalizedNames>
+      <LocalizedCollectionNames>
+        <LocalizedCollectionName description="Users" languagecode="1033" />
+        <LocalizedCollectionName description="Utilisateurs" languagecode="1036" />
+      </LocalizedCollectionNames>
+      <Descriptions>
+        <Description description="Person with access to the Microsoft CRM system and who owns objects in the Microsoft CRM database." languagecode="1033" />
+        <Description description="Personne ayant accès au système Microsoft CRM et qui possède des objets dans la base de données Microsoft CRM." languagecode="1036" />
+      </Descriptions>
+      <attributes>
+        <attribute PhysicalName="tc_EmployeeId">
+          <Type>lookup</Type>
+          <Name>tc_employeeid</Name>
+          <LogicalName>tc_employeeid</LogicalName>
+          <RequiredLevel>none</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>auto</ImeMode>
+          <ValidForUpdateApi>1</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>1</ValidForCreateApi>
+          <IsCustomField>1</IsCustomField>
+          <IsAuditEnabled>1</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>0.3.0.0</IntroducedVersion>
+          <IsCustomizable>1</IsCustomizable>
+          <IsRenameable>1</IsRenameable>
+          <CanModifySearchSettings>1</CanModifySearchSettings>
+          <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
+          <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
+          <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
+          <LookupStyle>single</LookupStyle>
+          <LookupTypes />
+          <displaynames>
+            <displayname description="Directory Information" languagecode="1033" />
+          </displaynames>
+          <Descriptions>
+            <Description description="The user's employee information record" languagecode="1033" />
+          </Descriptions>
+        </attribute>
+      </attributes>
+      <EntitySetName>systemusers</EntitySetName>
+      <IsDuplicateCheckSupported>0</IsDuplicateCheckSupported>
+      <IsBusinessProcessEnabled>1</IsBusinessProcessEnabled>
+      <IsRequiredOffline>1</IsRequiredOffline>
+      <IsInteractionCentricEnabled>0</IsInteractionCentricEnabled>
+      <IsCollaboration>0</IsCollaboration>
+      <AutoRouteToOwnerQueue>0</AutoRouteToOwnerQueue>
+      <IsConnectionsEnabled>1</IsConnectionsEnabled>
+      <IsDocumentManagementEnabled>0</IsDocumentManagementEnabled>
+      <IsOneNoteIntegrationEnabled>0</IsOneNoteIntegrationEnabled>
+      <IsKnowledgeManagementEnabled>0</IsKnowledgeManagementEnabled>
+      <IsSLAEnabled>0</IsSLAEnabled>
+      <IsDocumentRecommendationsEnabled>0</IsDocumentRecommendationsEnabled>
+      <IsBPFEntity>0</IsBPFEntity>
+      <OwnershipTypeMask>BusinessOwned</OwnershipTypeMask>
+      <EntityMask>ResourcePointer</EntityMask>
+      <IsAuditEnabled>0</IsAuditEnabled>
+      <IsActivity>0</IsActivity>
+      <ActivityTypeMask></ActivityTypeMask>
+      <IsActivityParty>1</IsActivityParty>
+      <IsReplicated>1</IsReplicated>
+      <IsReplicationUserFiltered>0</IsReplicationUserFiltered>
+      <IsMailMergeEnabled>0</IsMailMergeEnabled>
+      <IsVisibleInMobile>1</IsVisibleInMobile>
+      <IsVisibleInMobileClient>1</IsVisibleInMobileClient>
+      <IsReadOnlyInMobileClient>1</IsReadOnlyInMobileClient>
+      <IsOfflineInMobileClient>1</IsOfflineInMobileClient>
+      <DaysSinceRecordLastModified>9999</DaysSinceRecordLastModified>
+      <MobileOfflineFilters>
+    &lt;fetch version="1.0" output-format="xml-platform" mapping="logical" distinct="false"&gt;
+      &lt;entity name="systemuser"&gt;
+        &lt;filter type="and"&gt;
+          &lt;condition attribute="modifiedon" operator="on-or-after" value="1900-01-01"/&gt;
+        &lt;/filter&gt;
+      &lt;/entity&gt;
+    &lt;/fetch&gt;
+  </MobileOfflineFilters>
+      <IsMapiGridEnabled>1</IsMapiGridEnabled>
+      <IsReadingPaneEnabled>1</IsReadingPaneEnabled>
+      <IsQuickCreateEnabled>0</IsQuickCreateEnabled>
+      <SyncToExternalSearchIndex>0</SyncToExternalSearchIndex>
+      <IntroducedVersion>5.0.0.0</IntroducedVersion>
+      <EnforceStateTransitions>0</EnforceStateTransitions>
+      <EntityHelpUrlEnabled>0</EntityHelpUrlEnabled>
+      <ChangeTrackingEnabled>1</ChangeTrackingEnabled>
+      <IsEnabledForExternalChannels>0</IsEnabledForExternalChannels>
+    </entity>
+  </EntityInfo>
+  <FormXml />
+  <SavedQueries />
+  <RibbonDiffXml />
+  <Strings>
+    <Strings ResourceKey="Error_Message_0x80046203">
+      <String languagecode="1033" Comment="">This field map is invalid. A valid field map must meet these requirements:       - The data type must match.       - The length of the target field cannot be shorter than the source field.       - The format should match.       - The target field must not be used in another mapping.       - The source field must be visible on the entity form.       - The target field must be a field a user can enter data into.       - Address ID values cannot be mapped.</String>
+    </Strings>
+  </Strings>
+  <HierarchyRules>
+    <HierarchyRule unmodified="1">
+      <HierarchyRuleID>{809e575f-4801-42e6-8329-aa83bc5cc835}</HierarchyRuleID>
+      <PrimaryEntityFormID>{c68d6c09-d7a7-4959-8d0f-44b8cff9b452}</PrimaryEntityFormID>
+      <PrimaryEntityLogicalName>systemuser</PrimaryEntityLogicalName>
+      <ShowDisabled>1</ShowDisabled>
+      <IntroducedVersion>7.0.0.0</IntroducedVersion>
+      <LocalizedNames>
+        <LocalizedName description="User Hierarchy" languagecode="1033" />
+        <LocalizedName description="Hiérarchie d'utilisateur" languagecode="1036" />
+      </LocalizedNames>
+      <Descriptions>
+        <Description description="This is the user hierarchy definition." languagecode="1033" />
+        <Description description="Il s'agit de la définition de la hiérarchie d'utilisateur." languagecode="1036" />
+      </Descriptions>
+    </HierarchyRule>
+  </HierarchyRules>
+</Entity>

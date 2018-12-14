@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<WebResource>
+  <WebResourceId>{fc553858-e1f9-e611-8133-000c2958e3a5}</WebResourceId>
+  <Name>tc_/Core/DataTables/datatables.min.css</Name>
+  <DisplayName>Core - DataTables - datatables.min.css</DisplayName>
+  <WebResourceType>2</WebResourceType>
+  <IntroducedVersion>0.3.2.0</IntroducedVersion>
+  <IsEnabledForMobileClient>0</IsEnabledForMobileClient>
+  <IsAvailableForMobileOffline>0</IsAvailableForMobileOffline>
+  <IsCustomizable>1</IsCustomizable>
+  <CanBeDeleted>1</CanBeDeleted>
+  <IsHidden>0</IsHidden>
+  <FileName>/WebResources/tc_CoreDataTablesdatatablesmincssFC553858-E1F9-E611-8133-000C2958E3A5</FileName>
+</WebResource>

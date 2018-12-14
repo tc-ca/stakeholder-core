@@ -1,0 +1,163 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<systemform>
+  <formid>{5e7345a3-729a-436f-8c20-f1e36ce5ba3e}</formid>
+  <IntroducedVersion>0.3.0.1</IntroducedVersion>
+  <FormPresentation>1</FormPresentation>
+  <FormActivationState>1</FormActivationState>
+  <form>
+    <tabs>
+      <tab verticallayout="true" id="{b3e7d5c2-1f53-4179-8c5d-ba1363851650}" IsUserDefined="1">
+        <labels>
+          <label description="General" languagecode="1033" />
+          <label description="Général" languagecode="1036" />
+        </labels>
+        <columns>
+          <column width="100%">
+            <sections>
+              <section showlabel="false" showbar="false" IsUserDefined="0" id="{f4b4337f-57c2-4f72-86ee-146ff58e2735}">
+                <labels>
+                  <label description="General" languagecode="1033" />
+                  <label description="Général" languagecode="1036" />
+                </labels>
+                <rows>
+                  <row>
+                    <cell id="{982a9639-2333-4a38-80f0-6e93ed9ca548}" showlabel="true" locklevel="0">
+                      <labels>
+                        <label description="Event" languagecode="1033" />
+                      </labels>
+                      <control id="tc_eventnm" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="tc_eventnm" disabled="true" />
+                    </cell>
+                  </row>
+                  <row>
+                    <cell id="{2637911e-e4c5-a000-d83d-0d1ecb799be9}" showlabel="true" locklevel="0">
+                      <labels>
+                        <label description="Event Name (EN)" languagecode="1033" />
+                      </labels>
+                      <control id="tc_eventenm" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="tc_eventenm" disabled="true" />
+                    </cell>
+                  </row>
+                  <row>
+                    <cell id="{dce339d1-04d8-2359-ada6-6cbe1cdc454a}" showlabel="true" locklevel="0">
+                      <labels>
+                        <label description="Event Name (FR)" languagecode="1033" />
+                      </labels>
+                      <control id="tc_eventfnm" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="tc_eventfnm" disabled="true" />
+                    </cell>
+                  </row>
+                  <row>
+                    <cell id="{c5db35be-7da0-bad9-7c04-ac727dc070c4}" showlabel="true" locklevel="0">
+                      <labels>
+                        <label description="Type" languagecode="1033" />
+                      </labels>
+                      <control id="tc_typeid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="tc_typeid" disabled="true">
+                        <parameters>
+                          <AutoResolve>true</AutoResolve>
+                          <DisableMru>false</DisableMru>
+                          <DisableQuickFind>false</DisableQuickFind>
+                          <DisableViewPicker>false</DisableViewPicker>
+                          <DefaultViewId>{9C9E476D-2139-4D8F-B6BC-D474CBC355B6}</DefaultViewId>
+                          <AllowFilterOff>false</AllowFilterOff>
+                        </parameters>
+                      </control>
+                    </cell>
+                  </row>
+                  <row>
+                    <cell id="{560056e3-23c7-513e-c690-00aac4c36111}" showlabel="true" locklevel="0">
+                      <labels>
+                        <label description="External User" languagecode="1033" />
+                      </labels>
+                      <control id="tc_employeeid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="tc_employeeid" disabled="true">
+                        <parameters>
+                          <AutoResolve>true</AutoResolve>
+                          <DisableMru>false</DisableMru>
+                          <DisableQuickFind>false</DisableQuickFind>
+                          <DisableViewPicker>false</DisableViewPicker>
+                          <DefaultViewId>{0CB59D4E-50E8-44ED-BB1A-701060206E3B}</DefaultViewId>
+                          <AllowFilterOff>false</AllowFilterOff>
+                        </parameters>
+                      </control>
+                    </cell>
+                  </row>
+                </rows>
+              </section>
+            </sections>
+          </column>
+        </columns>
+      </tab>
+    </tabs>
+    <footer id="{ebd53206-62e7-4db4-9be4-dece84634ce6}" columns="11" labelwidth="115" celllabelalignment="Left" celllabelposition="Left">
+      <rows>
+        <row>
+          <cell id="{3b7aa2dd-0920-9704-8ed2-2b7a56521198}" showlabel="true" locklevel="0">
+            <labels>
+              <label description="Created By" languagecode="1033" />
+              <label description="Créé par" languagecode="1036" />
+            </labels>
+            <control id="footer_createdby" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="createdby" disabled="true" />
+          </cell>
+          <cell id="{4168de66-c4d2-ac79-17ba-99d3ac078721}" showlabel="true" locklevel="0">
+            <labels>
+              <label description="Created On" languagecode="1033" />
+              <label description="Créé le" languagecode="1036" />
+            </labels>
+            <control id="footer_createdon" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="createdon" disabled="true" />
+          </cell>
+        </row>
+      </rows>
+    </footer>
+    <Navigation>
+      <NavBar>
+        <NavBarByRelationshipItem RelationshipName="hardcoded_{B7196B13-6B9D-42CD-BD58-B19A3953126F}navAsyncOperations" Sequence="9500" Area="ProcessCenter" Id="navAsyncOperations" Show="false">
+          <Titles>
+            <Title LCID="1033" Text="Background Processes" />
+          </Titles>
+        </NavBarByRelationshipItem>
+        <NavBarByRelationshipItem RelationshipName="hardcoded_{B7196B13-6B9D-42CD-BD58-B19A3953126F}navAudit" Sequence="9600" Area="Info" Id="navAudit" Show="false">
+          <Titles>
+            <Title LCID="1033" Text="Audit History" />
+          </Titles>
+        </NavBarByRelationshipItem>
+        <NavBarByRelationshipItem RelationshipName="hardcoded_{B7196B13-6B9D-42CD-BD58-B19A3953126F}navProcessSessions" Sequence="9700" Area="ProcessCenter" Id="navProcessSessions" Show="false">
+          <Titles>
+            <Title LCID="1033" Text="Process Sessions" />
+          </Titles>
+        </NavBarByRelationshipItem>
+      </NavBar>
+      <NavBarAreas>
+        <NavBarArea Id="Info">
+          <Titles>
+            <Title LCID="1033" Text="Common" />
+          </Titles>
+        </NavBarArea>
+        <NavBarArea Id="Sales">
+          <Titles>
+            <Title LCID="1033" Text="Sales" />
+          </Titles>
+        </NavBarArea>
+        <NavBarArea Id="Service">
+          <Titles>
+            <Title LCID="1033" Text="Service" />
+          </Titles>
+        </NavBarArea>
+        <NavBarArea Id="Marketing">
+          <Titles>
+            <Title LCID="1033" Text="Marketing" />
+          </Titles>
+        </NavBarArea>
+        <NavBarArea Id="ProcessCenter">
+          <Titles>
+            <Title LCID="1033" Text="Process Sessions" />
+          </Titles>
+        </NavBarArea>
+      </NavBarAreas>
+    </Navigation>
+  </form>
+  <IsCustomizable>1</IsCustomizable>
+  <CanBeDeleted>1</CanBeDeleted>
+  <LocalizedNames>
+    <LocalizedName description="Information" languagecode="1033" />
+  </LocalizedNames>
+  <Descriptions>
+    <Description description="A form for this entity." languagecode="1033" />
+  </Descriptions>
+</systemform>

@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<WebResource>
+  <WebResourceId>{084ceaff-f0cd-e611-812f-000c2958e3a5}</WebResourceId>
+  <Name>tc_/Core/Documents/OpiAndClassification.js</Name>
+  <DisplayName>Core - Documents - OpiAndClassification.js</DisplayName>
+  <Description>Script providing autocomplete and logic for document OPI and classification input for document profile templates</Description>
+  <WebResourceType>3</WebResourceType>
+  <IntroducedVersion>0.4.0.0</IntroducedVersion>
+  <IsEnabledForMobileClient>0</IsEnabledForMobileClient>
+  <IsAvailableForMobileOffline>0</IsAvailableForMobileOffline>
+  <IsCustomizable>1</IsCustomizable>
+  <CanBeDeleted>1</CanBeDeleted>
+  <IsHidden>0</IsHidden>
+  <FileName>/WebResources/tc_CoreDocumentsOpiAndClassificationjs084CEAFF-F0CD-E611-812F-000C2958E3A5</FileName>
+</WebResource>

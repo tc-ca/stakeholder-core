@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedquery>
+  <IsCustomizable>1</IsCustomizable>
+  <CanBeDeleted>0</CanBeDeleted>
+  <isquickfindquery>1</isquickfindquery>
+  <isprivate>0</isprivate>
+  <isdefault>1</isdefault>
+  <returnedtypecode>10010</returnedtypecode>
+  <savedqueryid>{278197eb-0c21-486d-a011-b0b74b6ae1d4}</savedqueryid>
+  <layoutxml>
+    <grid name="resultset" object="10010" jump="tc_tagnm" select="1" icon="1" preview="1">
+      <row name="result" id="tc_tytagid">
+        <cell name="tc_tagnm" width="300" />
+        <cell name="tc_categoryid" width="200" />
+      </row>
+    </grid>
+  </layoutxml>
+  <querytype>4</querytype>
+  <fetchxml>
+    <fetch version="1.0" mapping="logical">
+      <entity name="tc_tytag">
+        <attribute name="tc_tagnm" />
+        <order attribute="tc_tagnm" descending="false" />
+        <filter type="and">
+          <condition attribute="statecode" operator="eq" value="0" />
+        </filter>
+        <filter type="or" isquickfindfields="1">
+          <condition attribute="tc_tagnm" operator="like" value="{0}" />
+          <condition attribute="tc_categoryid" operator="like" value="{0}" />
+        </filter>
+        <attribute name="tc_categoryid" />
+        <attribute name="tc_tytagid" />
+      </entity>
+    </fetch>
+  </fetchxml>
+  <IntroducedVersion>0.1.2.1</IntroducedVersion>
+  <LocalizedNames>
+    <LocalizedName description="Quick Find Active Tags" languagecode="1033" />
+  </LocalizedNames>
+</savedquery>

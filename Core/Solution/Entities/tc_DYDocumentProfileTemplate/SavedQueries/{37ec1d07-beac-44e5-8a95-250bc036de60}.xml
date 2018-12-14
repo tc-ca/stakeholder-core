@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedquery>
+  <IsCustomizable>1</IsCustomizable>
+  <CanBeDeleted>0</CanBeDeleted>
+  <isquickfindquery>0</isquickfindquery>
+  <isprivate>0</isprivate>
+  <isdefault>1</isdefault>
+  <returnedtypecode>10012</returnedtypecode>
+  <savedqueryid>{37ec1d07-beac-44e5-8a95-250bc036de60}</savedqueryid>
+  <layoutxml>
+    <grid name="resultset" object="10012" jump="tc_templatecd" select="1" icon="1" preview="1">
+      <row name="result" id="tc_dydocumentprofiletemplateid">
+        <cell name="tc_templatecd" width="300" />
+        <cell name="createdon" width="125" />
+      </row>
+    </grid>
+  </layoutxml>
+  <querytype>1</querytype>
+  <fetchxml>
+    <fetch version="1.0" mapping="logical">
+      <entity name="tc_dydocumentprofiletemplate">
+        <attribute name="tc_dydocumentprofiletemplateid" />
+        <attribute name="tc_templatecd" />
+        <attribute name="createdon" />
+        <order attribute="tc_templatecd" descending="false" />
+      </entity>
+    </fetch>
+  </fetchxml>
+  <IntroducedVersion>0.4.0.0</IntroducedVersion>
+  <LocalizedNames>
+    <LocalizedName description="Document Profile Template Advanced Find View" languagecode="1033" />
+  </LocalizedNames>
+</savedquery>
