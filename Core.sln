@@ -3,25 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.136
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core", "Core\Core.csproj", "{B7747AA4-0BF1-4DB9-8725-AC1CF5E1FDA7}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebResources", "WebResources\WebResources.csproj", "{68670149-40FE-4EA9-A624-572B2C595F69}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core.TCDirectory", "Employee\Core.TCDirectory.csproj", "{6C1CDD84-B766-4DA4-A57F-149895E9078C}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core.User", "User\Core.User.csproj", "{B81936E9-0B7C-4535-97C5-B6C85C9BBC3C}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core.Localization", "Localization\Core.Localization.csproj", "{56E63E6D-35E9-48B5-A549-1321610F197A}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{5B1C70B4-E426-4BAF-9393-B6A99DE16566}"
 	ProjectSection(SolutionItems) = preProject
 		.gitignore = .gitignore
-		Changelog.txt = Changelog.txt
-		Translations - CoreSearch.xlsx = Translations - CoreSearch.xlsx
-		Translations - DocumentSearch.xlsx = Translations - DocumentSearch.xlsx
-		Translations - EmployeeSearch.xlsx = Translations - EmployeeSearch.xlsx
-		Translations - OrganizationSearch.xlsx = Translations - OrganizationSearch.xlsx
-		Translations - UploadLabels.xlsx = Translations - UploadLabels.xlsx
 	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core.Events", "Core.Events\Core.Events.csproj", "{820AB040-7427-454C-A3A9-0061259BAA22}"
@@ -32,24 +16,18 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core.Utilities", "Core.Util
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core.Workflow", "Core.Workflow\Core.Workflow.csproj", "{88DA4F7F-112E-41F1-B65A-58591CD374B2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core.Localization", "Core.Localization\Core.Localization.csproj", "{56E63E6D-35E9-48B5-A549-1321610F197A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core.TCDirectory", "Core.TCDirectory\Core.TCDirectory.csproj", "{6C1CDD84-B766-4DA4-A57F-149895E9078C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core.User", "Core.User\Core.User.csproj", "{B81936E9-0B7C-4535-97C5-B6C85C9BBC3C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{B7747AA4-0BF1-4DB9-8725-AC1CF5E1FDA7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{B7747AA4-0BF1-4DB9-8725-AC1CF5E1FDA7}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{68670149-40FE-4EA9-A624-572B2C595F69}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{68670149-40FE-4EA9-A624-572B2C595F69}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{6C1CDD84-B766-4DA4-A57F-149895E9078C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{6C1CDD84-B766-4DA4-A57F-149895E9078C}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{B81936E9-0B7C-4535-97C5-B6C85C9BBC3C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{B81936E9-0B7C-4535-97C5-B6C85C9BBC3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{56E63E6D-35E9-48B5-A549-1321610F197A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{56E63E6D-35E9-48B5-A549-1321610F197A}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{56E63E6D-35E9-48B5-A549-1321610F197A}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{56E63E6D-35E9-48B5-A549-1321610F197A}.Release|Any CPU.Build.0 = Release|Any CPU
 		{820AB040-7427-454C-A3A9-0061259BAA22}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{820AB040-7427-454C-A3A9-0061259BAA22}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{820AB040-7427-454C-A3A9-0061259BAA22}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -66,6 +44,18 @@ Global
 		{88DA4F7F-112E-41F1-B65A-58591CD374B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{88DA4F7F-112E-41F1-B65A-58591CD374B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{88DA4F7F-112E-41F1-B65A-58591CD374B2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{56E63E6D-35E9-48B5-A549-1321610F197A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56E63E6D-35E9-48B5-A549-1321610F197A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56E63E6D-35E9-48B5-A549-1321610F197A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56E63E6D-35E9-48B5-A549-1321610F197A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6C1CDD84-B766-4DA4-A57F-149895E9078C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C1CDD84-B766-4DA4-A57F-149895E9078C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C1CDD84-B766-4DA4-A57F-149895E9078C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C1CDD84-B766-4DA4-A57F-149895E9078C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B81936E9-0B7C-4535-97C5-B6C85C9BBC3C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B81936E9-0B7C-4535-97C5-B6C85C9BBC3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B81936E9-0B7C-4535-97C5-B6C85C9BBC3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B81936E9-0B7C-4535-97C5-B6C85C9BBC3C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
