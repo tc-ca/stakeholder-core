@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedquery>
+  <IsCustomizable>1</IsCustomizable>
+  <CanBeDeleted>0</CanBeDeleted>
+  <isquickfindquery>0</isquickfindquery>
+  <isprivate>0</isprivate>
+  <isdefault>1</isdefault>
+  <returnedtypecode>10013</returnedtypecode>
+  <savedqueryid>{23f3976e-39da-4d69-ae37-e5b1fcb42a1a}</savedqueryid>
+  <layoutxml>
+    <grid name="resultset" object="10013" jump="tc_membernm" select="1" icon="1" preview="1">
+      <row name="result" id="tc_aycontactgroupmemberid">
+        <cell name="tc_contactid" width="200" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+        <cell name="tc_groupid" width="200" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+      </row>
+    </grid>
+  </layoutxml>
+  <querytype>0</querytype>
+  <fetchxml>
+    <fetch version="1.0" mapping="logical">
+      <entity name="tc_aycontactgroupmember">
+        <order attribute="tc_contactid" descending="false" />
+        <filter type="and">
+          <condition attribute="statecode" operator="eq" value="0" />
+        </filter>
+        <attribute name="tc_groupid" />
+        <attribute name="tc_contactid" />
+        <attribute name="tc_aycontactgroupmemberid" />
+      </entity>
+    </fetch>
+  </fetchxml>
+  <IntroducedVersion>0.1.0.0</IntroducedVersion>
+  <LocalizedNames>
+    <LocalizedName description="Active Contact Group Membership" languagecode="1033" />
+  </LocalizedNames>
+</savedquery>

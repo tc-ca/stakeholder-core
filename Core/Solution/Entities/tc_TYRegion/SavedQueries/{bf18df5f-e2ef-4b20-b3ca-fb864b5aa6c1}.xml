@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedquery>
+  <IsCustomizable>1</IsCustomizable>
+  <CanBeDeleted>0</CanBeDeleted>
+  <isquickfindquery>0</isquickfindquery>
+  <isprivate>0</isprivate>
+  <isdefault>1</isdefault>
+  <returnedtypecode>10017</returnedtypecode>
+  <savedqueryid>{bf18df5f-e2ef-4b20-b3ca-fb864b5aa6c1}</savedqueryid>
+  <layoutxml>
+    <grid name="resultset" object="10017" jump="tc_regionnm" select="1" icon="1" preview="1">
+      <row name="result" id="tc_tyregionid">
+        <cell name="tc_regionnm" width="300" />
+        <cell name="tc_parentregionid" width="200" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+      </row>
+    </grid>
+  </layoutxml>
+  <querytype>1</querytype>
+  <fetchxml>
+    <fetch version="1.0" mapping="logical">
+      <entity name="tc_tyregion">
+        <attribute name="tc_regionnm" />
+        <order attribute="tc_regionnm" descending="false" />
+        <attribute name="tc_parentregionid" />
+        <attribute name="tc_tyregionid" />
+      </entity>
+    </fetch>
+  </fetchxml>
+  <IntroducedVersion>0.1.0.0</IntroducedVersion>
+  <LocalizedNames>
+    <LocalizedName description="Region Advanced Find View" languagecode="1033" />
+  </LocalizedNames>
+</savedquery>

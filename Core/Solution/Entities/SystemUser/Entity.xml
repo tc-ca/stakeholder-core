@@ -100,28 +100,5 @@
     </entity>
   </EntityInfo>
   <FormXml />
-  <SavedQueries />
   <RibbonDiffXml />
-  <Strings>
-    <Strings ResourceKey="Error_Message_0x80046203">
-      <String languagecode="1033" Comment="">This field map is invalid. A valid field map must meet these requirements:       - The data type must match.       - The length of the target field cannot be shorter than the source field.       - The format should match.       - The target field must not be used in another mapping.       - The source field must be visible on the entity form.       - The target field must be a field a user can enter data into.       - Address ID values cannot be mapped.</String>
-    </Strings>
-  </Strings>
-  <HierarchyRules>
-    <HierarchyRule unmodified="1">
-      <HierarchyRuleID>{809e575f-4801-42e6-8329-aa83bc5cc835}</HierarchyRuleID>
-      <PrimaryEntityFormID>{c68d6c09-d7a7-4959-8d0f-44b8cff9b452}</PrimaryEntityFormID>
-      <PrimaryEntityLogicalName>systemuser</PrimaryEntityLogicalName>
-      <ShowDisabled>1</ShowDisabled>
-      <IntroducedVersion>7.0.0.0</IntroducedVersion>
-      <LocalizedNames>
-        <LocalizedName description="User Hierarchy" languagecode="1033" />
-        <LocalizedName description="Hiérarchie d'utilisateur" languagecode="1036" />
-      </LocalizedNames>
-      <Descriptions>
-        <Description description="This is the user hierarchy definition." languagecode="1033" />
-        <Description description="Il s'agit de la définition de la hiérarchie d'utilisateur." languagecode="1036" />
-      </Descriptions>
-    </HierarchyRule>
-  </HierarchyRules>
 </Entity>

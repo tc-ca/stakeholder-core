@@ -1,0 +1,195 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<systemform>
+  <formid>{29a7b97b-bcaa-4eed-b733-2bae9c0be8c6}</formid>
+  <IntroducedVersion>0.1.0.0</IntroducedVersion>
+  <FormPresentation>1</FormPresentation>
+  <FormActivationState>1</FormActivationState>
+  <form>
+    <tabs>
+      <tab verticallayout="true" id="{03990f09-bff2-4843-95b5-e5a70950d2d4}" IsUserDefined="1">
+        <labels>
+          <label description="General" languagecode="1033" />
+        </labels>
+        <columns>
+          <column width="100%">
+            <sections>
+              <section showlabel="false" showbar="false" IsUserDefined="0" id="{21f49d5e-96bc-4bd7-8682-48f016f14e74}">
+                <labels>
+                  <label description="General" languagecode="1033" />
+                </labels>
+                <rows>
+                  <row>
+                    <cell id="{03034127-c864-4b50-a030-374ce4ab1ec3}" showlabel="true" locklevel="0" visible="false">
+                      <labels>
+                        <label description="Name" languagecode="1033" />
+                      </labels>
+                      <control id="tc_regionnm" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="tc_regionnm" uniqueid="{7ca6b960-e2ca-1cc0-eac3-2b8249c5e670}" disabled="false" />
+                    </cell>
+                  </row>
+                  <row>
+                    <cell id="{c2d12535-8ebc-bdcc-0b40-2d554c76ae4e}" showlabel="true" locklevel="0">
+                      <labels>
+                        <label description="Name (English)" languagecode="1033" />
+                      </labels>
+                      <control id="tc_regionenm" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="tc_regionenm" disabled="false" />
+                    </cell>
+                  </row>
+                  <row>
+                    <cell id="{d1749ac6-8054-20a7-7555-db8db9dee2dd}" showlabel="true" locklevel="0">
+                      <labels>
+                        <label description="Name (French)" languagecode="1033" />
+                      </labels>
+                      <control id="tc_regionfnm" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="tc_regionfnm" disabled="false" />
+                    </cell>
+                  </row>
+                  <row>
+                    <cell id="{6ca46383-26d2-c86e-837d-796b1a1be473}" showlabel="true" locklevel="0">
+                      <labels>
+                        <label description="Parent Region" languagecode="1033" />
+                      </labels>
+                      <control id="tc_parentregionid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="tc_parentregionid" disabled="false" />
+                    </cell>
+                  </row>
+                </rows>
+              </section>
+            </sections>
+          </column>
+        </columns>
+      </tab>
+      <tab name="childRegionTab" id="{941aa50c-dcdb-b879-7375-a0dbb64d9aa3}" IsUserDefined="0" locklevel="0" showlabel="true" expanded="false">
+        <labels>
+          <label description="Child Regions" languagecode="1033" />
+        </labels>
+        <columns>
+          <column width="100%">
+            <sections>
+              <section name="tab_2_section_1" showlabel="false" showbar="false" locklevel="0" id="{5e37c167-46b4-bcac-0ba2-ed1b45a45ad6}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115">
+                <labels>
+                  <label description="Section" languagecode="1033" />
+                </labels>
+                <rows>
+                  <row>
+                    <cell id="{deab8829-79e7-9756-96c4-628790b60e97}" showlabel="false" colspan="1" auto="false" rowspan="6">
+                      <labels>
+                        <label description="Regions (Parent Region)" languagecode="1033" />
+                      </labels>
+                      <control id="childRegionGrid" classid="{E7A81278-8635-4d9e-8D4D-59480B391C5B}" indicationOfSubgrid="true">
+                        <parameters>
+                          <ViewId>{2AA9F519-D61D-44A7-B289-5D75EAF6BA4C}</ViewId>
+                          <IsUserView>false</IsUserView>
+                          <RelationshipName>tc_TYRegion_TYRegion_ParentRegionId</RelationshipName>
+                          <TargetEntityType>tc_tyregion</TargetEntityType>
+                          <AutoExpand>Fixed</AutoExpand>
+                          <EnableQuickFind>false</EnableQuickFind>
+                          <EnableViewPicker>false</EnableViewPicker>
+                          <ViewIds>{2AA9F519-D61D-44A7-B289-5D75EAF6BA4C}</ViewIds>
+                          <EnableJumpBar>false</EnableJumpBar>
+                          <ChartGridMode>Grid</ChartGridMode>
+                          <VisualizationId />
+                          <IsUserChart>false</IsUserChart>
+                          <EnableChartPicker>false</EnableChartPicker>
+                          <RecordsPerPage>4</RecordsPerPage>
+                        </parameters>
+                      </control>
+                    </cell>
+                  </row>
+                  <row />
+                  <row />
+                  <row />
+                  <row />
+                  <row />
+                </rows>
+              </section>
+            </sections>
+          </column>
+        </columns>
+      </tab>
+    </tabs>
+    <header id="{67cf7d44-75b6-42eb-95dd-4f348693147b}" columns="11" labelwidth="115" celllabelalignment="Left" celllabelposition="Left">
+      <rows>
+        <row>
+          <cell id="{81070d3b-da28-381a-dcb7-b6457b165747}" showlabel="true" locklevel="0">
+            <labels>
+              <label description="Owner" languagecode="1033" />
+              <label description="Propriétaire" languagecode="1036" />
+            </labels>
+            <control id="header_ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" disabled="false" />
+          </cell>
+          <cell id="{8b783ce6-ee75-44e6-d16d-36a56c3d12da}" showlabel="true" locklevel="0">
+            <labels>
+              <label description="Status Reason" languagecode="1033" />
+              <label description="Raison du statut" languagecode="1036" />
+            </labels>
+            <control id="header_statuscode" classid="{5D68B988-0661-4db2-BC3E-17598AD3BE6C}" datafieldname="statuscode" disabled="false" />
+          </cell>
+        </row>
+      </rows>
+    </header>
+    <footer id="{4ebb2e5d-65fe-40d1-99c2-3fdbe1024ad9}" columns="111">
+      <rows>
+        <row>
+          <cell id="{0d3590a4-95d7-3870-4658-5472497bab66}" showlabel="true" locklevel="0">
+            <labels>
+              <label description="Modified By" languagecode="1033" />
+              <label description="Modifié par" languagecode="1036" />
+            </labels>
+            <control id="footer_modifiedby" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="modifiedby" disabled="true" />
+          </cell>
+          <cell id="{3c667c71-042b-ced6-aa19-5bb2641de992}" showlabel="true" locklevel="0">
+            <labels>
+              <label description="Modified On" languagecode="1033" />
+              <label description="Modifié le" languagecode="1036" />
+            </labels>
+            <control id="footer_modifiedon" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="modifiedon" disabled="true" />
+          </cell>
+          <cell id="{40082518-9539-4dcb-e51a-e2ad9c5a6106}" showlabel="true" locklevel="0">
+            <labels>
+              <label description="Created On" languagecode="1033" />
+              <label description="Créé le" languagecode="1036" />
+            </labels>
+            <control id="footer_createdon" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="createdon" disabled="true" />
+          </cell>
+        </row>
+      </rows>
+    </footer>
+    <Navigation>
+      <NavBar></NavBar>
+      <NavBarAreas>
+        <NavBarArea Id="Info">
+          <Titles>
+            <Title LCID="1033" Text="Common" />
+          </Titles>
+        </NavBarArea>
+        <NavBarArea Id="Sales">
+          <Titles>
+            <Title LCID="1033" Text="Sales" />
+          </Titles>
+        </NavBarArea>
+        <NavBarArea Id="Service">
+          <Titles>
+            <Title LCID="1033" Text="Service" />
+          </Titles>
+        </NavBarArea>
+        <NavBarArea Id="Marketing">
+          <Titles>
+            <Title LCID="1033" Text="Marketing" />
+          </Titles>
+        </NavBarArea>
+        <NavBarArea Id="ProcessCenter">
+          <Titles>
+            <Title LCID="1033" Text="Process Sessions" />
+          </Titles>
+        </NavBarArea>
+      </NavBarAreas>
+    </Navigation>
+    <controlDescriptions />
+  </form>
+  <IsCustomizable>1</IsCustomizable>
+  <CanBeDeleted>1</CanBeDeleted>
+  <LocalizedNames>
+    <LocalizedName description="Information" languagecode="1033" />
+  </LocalizedNames>
+  <Descriptions>
+    <Description description="A form for this entity." languagecode="1033" />
+  </Descriptions>
+</systemform>

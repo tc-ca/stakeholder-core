@@ -8,7 +8,7 @@
     <Descriptions>
       <Description description="Core CRM solution. Contains common components shared between many solutions." languagecode="1033" />
     </Descriptions>
-    <Version>0.5.2.4</Version>
+    <Version>0.6.0.0</Version>
     <Managed>0</Managed>
     <Publisher>
       <UniqueName>DefaultPublisherTransportCanada</UniqueName>
@@ -84,24 +84,44 @@
       </Addresses>
     </Publisher>
     <RootComponents>
-      <RootComponent type="1" schemaName="account" behavior="0" />
-      <RootComponent type="1" schemaName="contact" behavior="0" />
-      <RootComponent type="1" schemaName="systemuser" behavior="0" />
+      <RootComponent type="1" schemaName="account" behavior="1" />
+      <RootComponent type="1" schemaName="connection" behavior="1" />
+      <RootComponent type="1" schemaName="contact" behavior="1" />
+      <RootComponent type="1" schemaName="customeraddress" behavior="1" />
+      <RootComponent type="1" schemaName="systemuser" behavior="1" />
+      <RootComponent type="1" schemaName="tc_aycontactgroupmember" behavior="0" />
       <RootComponent type="1" schemaName="tc_ayemployee" behavior="0" />
+      <RootComponent type="1" schemaName="tc_ayorganizationgroupmember" behavior="0" />
       <RootComponent type="1" schemaName="tc_ayorganizationunit" behavior="0" />
+      <RootComponent type="1" schemaName="tc_aystakeholdergroup" behavior="0" />
       <RootComponent type="1" schemaName="tc_dydocumentprofiletemplate" behavior="0" />
       <RootComponent type="1" schemaName="tc_dyeventlog" behavior="0" />
       <RootComponent type="1" schemaName="tc_dyidgenerator" behavior="0" />
       <RootComponent type="1" schemaName="tc_tyeventtype" behavior="0" />
+      <RootComponent type="1" schemaName="tc_tyorganizationtype" behavior="0" />
+      <RootComponent type="1" schemaName="tc_tyregion" behavior="0" />
       <RootComponent type="1" schemaName="tc_tytag" behavior="0" />
       <RootComponent type="1" schemaName="tc_tytagcategory" behavior="0" />
       <RootComponent type="20" id="{1331f3bf-e8cd-e611-812f-000c2958e3a5}" behavior="0" />
       <RootComponent type="20" id="{73b1990c-e9cd-e611-812f-000c2958e3a5}" behavior="0" />
       <RootComponent type="20" behavior="0" parentId="{119f245c-3cc8-4b62-b31c-d1a046ced15d}" />
+      <RootComponent type="29" id="{2b4357bf-1128-48f1-9220-ae27813b2f53}" behavior="0" />
+      <RootComponent type="29" id="{6f1bfde3-021b-4288-b6fa-3b2932bb182f}" behavior="0" />
+      <RootComponent type="29" id="{8f1bc0db-870a-40f9-bcda-04159981e557}" behavior="0" />
+      <RootComponent type="29" id="{9079f22f-3e0a-4984-96c5-594a2590b422}" behavior="0" />
+      <RootComponent type="29" id="{a83c8a67-1199-428a-bed2-3eabf50720b3}" behavior="0" />
+      <RootComponent type="29" id="{ae664298-919c-4c12-b60a-2a9e3dc20414}" behavior="0" />
       <RootComponent type="60" id="{15915835-b87c-49ec-9ffc-bfac3ac44ef1}" behavior="0" />
+      <RootComponent type="60" id="{1fed44d1-ae68-4a41-bd2b-f13acac4acfa}" />
+      <RootComponent type="60" id="{38636ed3-bae8-4160-9245-ff9ea0597861}" />
+      <RootComponent type="60" id="{4968ca12-0f3d-4e29-ace4-7b9a75c478f1}" />
+      <RootComponent type="60" id="{6e4595c0-01cc-45c8-8bef-7c0b720c8840}" />
       <RootComponent type="60" id="{7028ee4e-8cee-4285-871e-652f30a5d821}" behavior="0" />
       <RootComponent type="60" id="{70ad8b15-e3f3-4d7d-9e4b-16cb4e51b484}" behavior="0" />
-      <RootComponent type="60" id="{c9e7ec2d-efca-4e4c-b3e3-f63c4bba5e4b}" behavior="0" />
+      <RootComponent type="60" id="{8448b78f-8f42-454e-8e2a-f8196b0419af}" />
+      <RootComponent type="61" schemaName="tc_/Core/AddressValidation/labels.js" behavior="0" />
+      <RootComponent type="61" schemaName="tc_/Core/AddressValidation/main.html" behavior="0" />
+      <RootComponent type="61" schemaName="tc_/Core/AddressValidation/main.js" behavior="0" />
       <RootComponent type="61" schemaName="tc_/Core/AjaxLoader.gif" behavior="0" />
       <RootComponent type="61" schemaName="tc_/Core/autocomplete.css" behavior="0" />
       <RootComponent type="61" schemaName="tc_/Core/autocomplete.html" behavior="0" />
@@ -151,6 +171,8 @@
       <RootComponent type="61" schemaName="tc_/Core/fullcalendar/3.9.0/fullcalendar.min.css" behavior="0" />
       <RootComponent type="61" schemaName="tc_/Core/fullcalendar/3.9.0/fullcalendar.min.js" behavior="0" />
       <RootComponent type="61" schemaName="tc_/Core/fullcalendar/3.9.0/moment.min.js" behavior="0" />
+      <RootComponent type="61" schemaName="tc_/Core/group16.png" behavior="0" />
+      <RootComponent type="61" schemaName="tc_/Core/group32.png" behavior="0" />
       <RootComponent type="61" schemaName="tc_/Core/Icons/DocumentProfileTemplate16.png" behavior="0" />
       <RootComponent type="61" schemaName="tc_/Core/Icons/DocumentProfileTemplate32.png" behavior="0" />
       <RootComponent type="61" schemaName="tc_/Core/Icons/eDocs16.png" behavior="0" />
@@ -182,6 +204,8 @@
       <RootComponent type="61" schemaName="tc_/Core/RdimsDocument.js" behavior="0" />
       <RootComponent type="61" schemaName="tc_/Core/RdimsDocumentSearch.js" behavior="0" />
       <RootComponent type="61" schemaName="tc_/Core/RdimsDocumentSearchLabels.xml" behavior="0" />
+      <RootComponent type="61" schemaName="tc_/Core/region16.png" behavior="0" />
+      <RootComponent type="61" schemaName="tc_/Core/region32.png" behavior="0" />
       <RootComponent type="61" schemaName="tc_/Core/RequiredLevels.js" behavior="0" />
       <RootComponent type="61" schemaName="tc_/Core/SDK.MetaData.js" behavior="0" />
       <RootComponent type="61" schemaName="tc_/Core/SDK.REST.js" behavior="0" />
@@ -206,26 +230,44 @@
       <RootComponent type="91" schemaName="Core.User, Version=1.0.0.0, Culture=neutral, PublicKeyToken=f963c938e2370194" behavior="0" />
       <RootComponent type="91" schemaName="Core.Workflow, Version=1.0.0.0, Culture=neutral, PublicKeyToken=270ec4ec01352598" behavior="0" />
       <RootComponent type="92" id="{04f4cf9d-3cf5-e611-8133-000c2958e3a5}" behavior="0" />
+      <RootComponent type="92" id="{07e3b750-7bcd-e811-8b96-00155ddc0400}" behavior="0" />
       <RootComponent type="92" id="{0a451699-c2f3-e611-8133-000c2958e3a5}" behavior="0" />
+      <RootComponent type="92" id="{0ad07ed1-8dcd-e811-8b96-00155ddc0400}" behavior="0" />
+      <RootComponent type="92" id="{12dd8084-8dcd-e811-8b96-00155ddc0400}" behavior="0" />
       <RootComponent type="92" id="{12de4346-b7f3-e611-8133-000c2958e3a5}" behavior="0" />
+      <RootComponent type="92" id="{1309b2fc-7ecd-e811-8b96-00155ddc0400}" behavior="0" />
+      <RootComponent type="92" id="{1708cfc7-8dcd-e811-8b96-00155ddc0400}" behavior="0" />
       <RootComponent type="92" id="{1ad90b64-a6f3-e611-8133-000c2958e3a5}" behavior="0" />
       <RootComponent type="92" id="{1bccbbb0-c2f3-e611-8133-000c2958e3a5}" behavior="0" />
       <RootComponent type="92" id="{2251672d-b4f3-e611-8133-000c2958e3a5}" behavior="0" />
       <RootComponent type="92" id="{2288462d-a7f3-e611-8133-000c2958e3a5}" behavior="0" />
       <RootComponent type="92" id="{24d0984f-b7f3-e611-8133-000c2958e3a5}" behavior="0" />
+      <RootComponent type="92" id="{275e2a16-8ecd-e811-8b96-00155ddc0400}" behavior="0" />
+      <RootComponent type="92" id="{2842f9e5-8dcd-e811-8b96-00155ddc0400}" behavior="0" />
       <RootComponent type="92" id="{34496107-a7f3-e611-8133-000c2958e3a5}" behavior="0" />
       <RootComponent type="92" id="{3b1931c4-9cec-e611-8132-000c2958e3a5}" behavior="0" />
       <RootComponent type="92" id="{40b309e3-9cec-e611-8132-000c2958e3a5}" behavior="0" />
       <RootComponent type="92" id="{44479644-a7f3-e611-8133-000c2958e3a5}" behavior="0" />
       <RootComponent type="92" id="{4664cace-9cec-e611-8132-000c2958e3a5}" behavior="0" />
+      <RootComponent type="92" id="{49ee3233-7bcd-e811-8b96-00155ddc0400}" behavior="0" />
+      <RootComponent type="92" id="{61cebc9f-8dcd-e811-8b96-00155ddc0400}" behavior="0" />
+      <RootComponent type="92" id="{71455848-8ecd-e811-8b96-00155ddc0400}" behavior="0" />
       <RootComponent type="92" id="{73b142f4-bbe8-e611-8131-000c2958e3a5}" behavior="0" />
+      <RootComponent type="92" id="{90e4597a-7fcd-e811-8b96-00155ddc0400}" behavior="0" />
+      <RootComponent type="92" id="{90e8ee1b-7bcd-e811-8b96-00155ddc0400}" behavior="0" />
+      <RootComponent type="92" id="{97f7bcb8-8dcd-e811-8b96-00155ddc0400}" behavior="0" />
       <RootComponent type="92" id="{9fd40450-b4f3-e611-8133-000c2958e3a5}" behavior="0" />
+      <RootComponent type="92" id="{a2f51225-8ecd-e811-8b96-00155ddc0400}" behavior="0" />
       <RootComponent type="92" id="{a41710f4-37ea-e611-8131-000c2958e3a5}" behavior="0" />
       <RootComponent type="92" id="{a44aca1f-bce8-e611-8131-000c2958e3a5}" behavior="0" />
       <RootComponent type="92" id="{a91567dd-c7f3-e611-8133-000c2958e3a5}" behavior="0" />
       <RootComponent type="92" id="{acfe131c-b4f3-e611-8133-000c2958e3a5}" behavior="0" />
+      <RootComponent type="92" id="{b7fe28b1-8dcd-e811-8b96-00155ddc0400}" behavior="0" />
+      <RootComponent type="92" id="{c32a883a-8ecd-e811-8b96-00155ddc0400}" behavior="0" />
       <RootComponent type="92" id="{c3fbdc0a-bce8-e611-8131-000c2958e3a5}" behavior="0" />
+      <RootComponent type="92" id="{c42b69e9-7acd-e811-8b96-00155ddc0400}" behavior="0" />
       <RootComponent type="92" id="{c6e250ee-c7f3-e611-8133-000c2958e3a5}" behavior="0" />
+      <RootComponent type="92" id="{eca15bdb-8dcd-e811-8b96-00155ddc0400}" behavior="0" />
       <RootComponent type="92" id="{ed777159-b4f3-e611-8133-000c2958e3a5}" behavior="0" />
       <RootComponent type="92" id="{f1b171a9-3cf5-e611-8133-000c2958e3a5}" behavior="0" />
       <RootComponent type="92" id="{ff98bbf4-9cec-e611-8132-000c2958e3a5}" behavior="0" />
@@ -236,72 +278,8 @@
         <Dependent key="1" type="62" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="2" type="1" schemaName="tc_tyorganizationtype" displayName="Organization Type" solution="Active" />
-        <Dependent key="3" type="10" schemaName="tc_TYOrganizationType_Account_OrganizationTypeId" displayName="tc_TYOrganizationType_Account_OrganizationTypeId" parentSchemaName="account" parentDisplayName="Organization" />
-      </MissingDependency>
-      <MissingDependency>
-        <Required key="4" type="1" schemaName="tc_ayorganizationgroupmember" displayName="Organization Group Member" solution="Active" />
-        <Dependent key="5" type="1" schemaName="account" displayName="Organization" />
-      </MissingDependency>
-      <MissingDependency>
-        <Required key="6" type="1" schemaName="tc_aycontactgroupmember" displayName="Contact Group Member" solution="Active" />
-        <Dependent key="7" type="1" schemaName="contact" displayName="Contact" />
-      </MissingDependency>
-      <MissingDependency>
-        <Required key="8" type="1" schemaName="msdyn_wallsavedqueryusersettings" displayName="Filter" solution="ActivityFeedsCore (8.2.0.0)" />
-        <Dependent key="9" type="1" schemaName="systemuser" displayName="User" />
-      </MissingDependency>
-      <MissingDependency>
-        <Required key="10" type="1" schemaName="msdyn_postruleconfig" displayName="Post Rule Configuration" solution="ActivityFeedsCore (8.2.0.0)" />
+        <Required key="2" type="1" schemaName="msdyn_postruleconfig" displayName="Post Rule Configuration" solution="ActivityFeedsCore (8.2.0.0)" />
         <Dependent key="1" type="62" />
-      </MissingDependency>
-      <MissingDependency>
-        <Required key="11" type="2" schemaName="tc_typenm" displayName="Name" parentSchemaName="tc_tyorganizationtype" parentDisplayName="Organization Type" solution="Active" />
-        <Dependent key="3" type="10" schemaName="tc_TYOrganizationType_Account_OrganizationTypeId" displayName="tc_TYOrganizationType_Account_OrganizationTypeId" parentSchemaName="account" parentDisplayName="Organization" />
-      </MissingDependency>
-      <MissingDependency>
-        <Required key="12" type="2" schemaName="tc_tyorganizationtypeid" displayName="Organization Type" parentSchemaName="tc_tyorganizationtype" parentDisplayName="Organization Type" solution="Active" />
-        <Dependent key="3" type="10" schemaName="tc_TYOrganizationType_Account_OrganizationTypeId" displayName="tc_TYOrganizationType_Account_OrganizationTypeId" parentSchemaName="account" parentDisplayName="Organization" />
-      </MissingDependency>
-      <MissingDependency>
-        <Required key="13" type="1" schemaName="tc_tyregion" displayName="Region" solution="Active" />
-        <Dependent key="14" type="10" schemaName="tc_TYRegion_Contact" displayName="tc_TYRegion_Contact" parentSchemaName="tc_tyregion" parentDisplayName="Region" />
-      </MissingDependency>
-      <MissingDependency>
-        <Required key="15" type="26" schemaName="Connected Organizations" displayName="Connected Organizations" parentSchemaName="connection" parentDisplayName="Connection" solution="Active" id="{f62b5f46-d7c8-e811-8b96-00155ddc0400}" />
-        <Dependent key="16" type="60" displayName="Contact" parentDisplayName="Contact" id="{1fed44d1-ae68-4a41-bd2b-f13acac4acfa}" />
-      </MissingDependency>
-      <MissingDependency>
-        <Required key="17" type="61" schemaName="msdyn_/RecordWall.htm" displayName="msdyn_/RecordWall.htm" solution="ActivityFeedsCore (8.2.0.0)" />
-        <Dependent key="18" type="60" displayName="Information" parentDisplayName="Contact" id="{894cc46a-b0cb-4ab0-8bf6-200544e46a2d}" />
-      </MissingDependency>
-      <MissingDependency>
-        <Required key="17" type="61" schemaName="msdyn_/RecordWall.htm" displayName="msdyn_/RecordWall.htm" solution="ActivityFeedsCore (8.2.0.0)" />
-        <Dependent key="19" type="60" displayName="Information" parentDisplayName="Organization" id="{b053a39a-041a-4356-acef-ddf00182762b}" />
-      </MissingDependency>
-      <MissingDependency>
-        <Required key="17" type="61" schemaName="msdyn_/RecordWall.htm" displayName="msdyn_/RecordWall.htm" solution="ActivityFeedsCore (8.2.0.0)" />
-        <Dependent key="20" type="60" displayName="Information" parentDisplayName="User" id="{c0d7d7dd-afd0-4675-85fe-1cc5a48be6df}" />
-      </MissingDependency>
-      <MissingDependency>
-        <Required key="21" type="61" schemaName="tc_/Core/AddressValidation/main.html" displayName="tc_/Core/AddressValidation/main.html" solution="Active" />
-        <Dependent key="22" type="60" displayName="Organization" parentDisplayName="Organization" id="{8448b78f-8f42-454e-8e2a-f8196b0419af}" />
-      </MissingDependency>
-      <MissingDependency>
-        <Required key="21" type="61" schemaName="tc_/Core/AddressValidation/main.html" displayName="tc_/Core/AddressValidation/main.html" solution="Active" />
-        <Dependent key="16" type="60" displayName="Contact" parentDisplayName="Contact" id="{1fed44d1-ae68-4a41-bd2b-f13acac4acfa}" />
-      </MissingDependency>
-      <MissingDependency>
-        <Required key="23" type="61" schemaName="msdyn_/ActivityFeeds.Form.js" displayName="msdyn_/ActivityFeeds.Form.js" solution="ActivityFeedsCore (8.2.0.0)" />
-        <Dependent key="19" type="60" displayName="Information" parentDisplayName="Organization" id="{b053a39a-041a-4356-acef-ddf00182762b}" />
-      </MissingDependency>
-      <MissingDependency>
-        <Required key="23" type="61" schemaName="msdyn_/ActivityFeeds.Form.js" displayName="msdyn_/ActivityFeeds.Form.js" solution="ActivityFeedsCore (8.2.0.0)" />
-        <Dependent key="18" type="60" displayName="Information" parentDisplayName="Contact" id="{894cc46a-b0cb-4ab0-8bf6-200544e46a2d}" />
-      </MissingDependency>
-      <MissingDependency>
-        <Required key="23" type="61" schemaName="msdyn_/ActivityFeeds.Form.js" displayName="msdyn_/ActivityFeeds.Form.js" solution="ActivityFeedsCore (8.2.0.0)" />
-        <Dependent key="20" type="60" displayName="Information" parentDisplayName="User" id="{c0d7d7dd-afd0-4675-85fe-1cc5a48be6df}" />
       </MissingDependency>
     </MissingDependencies>
   </SolutionManifest>

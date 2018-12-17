@@ -17,32 +17,6 @@
         <Description description="Personne liée à une division, telle qu'un client, un fournisseur ou un collègue." languagecode="1036" />
       </Descriptions>
       <attributes>
-        <attribute PhysicalName="ParentCustomerId">
-          <Type>customer</Type>
-          <Name>parentcustomerid</Name>
-          <LogicalName>parentcustomerid</LogicalName>
-          <RequiredLevel>none</RequiredLevel>
-          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
-          <ImeMode>auto</ImeMode>
-          <ValidForUpdateApi>1</ValidForUpdateApi>
-          <ValidForReadApi>1</ValidForReadApi>
-          <ValidForCreateApi>1</ValidForCreateApi>
-          <IsCustomField>0</IsCustomField>
-          <IsAuditEnabled>1</IsAuditEnabled>
-          <IsSecured>0</IsSecured>
-          <IntroducedVersion>5.0.0.0</IntroducedVersion>
-          <SourceType>0</SourceType>
-          <IsGlobalFilterEnabled>1</IsGlobalFilterEnabled>
-          <IsSortableEnabled>0</IsSortableEnabled>
-          <displaynames>
-            <displayname description="Organization" languagecode="1033" />
-            <displayname description="Nom de la société" languagecode="1036" />
-          </displaynames>
-          <Descriptions>
-            <Description description="Select the parent account or parent contact for the contact to provide a quick link to additional details, such as financial information, activities, and opportunities." languagecode="1033" />
-            <Description description="Sélectionnez le compte parent ou le contact parent du contact pour fournir un lien rapide vers les détails supplémentaires, comme les informations financières, les activités et les opportunités." languagecode="1036" />
-          </Descriptions>
-        </attribute>
         <attribute PhysicalName="tc_DocumentsTxt">
           <Type>ntext</Type>
           <Name>tc_documentstxt</Name>
@@ -131,7 +105,5 @@
     </entity>
   </EntityInfo>
   <FormXml />
-  <SavedQueries />
-  <Visualizations />
   <RibbonDiffXml />
 </Entity>

@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedquery>
+  <IsCustomizable>1</IsCustomizable>
+  <CanBeDeleted>0</CanBeDeleted>
+  <isquickfindquery>1</isquickfindquery>
+  <isprivate>0</isprivate>
+  <isdefault>1</isdefault>
+  <returnedtypecode>10017</returnedtypecode>
+  <savedqueryid>{0f507bc6-020c-47a5-9587-262c926b12d5}</savedqueryid>
+  <layoutxml>
+    <grid name="resultset" object="10017" jump="tc_regionnm" select="1" icon="1" preview="1">
+      <row name="result" id="tc_tyregionid">
+        <cell name="tc_regionnm" width="300" />
+        <cell name="tc_parentregionid" width="200" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+      </row>
+    </grid>
+  </layoutxml>
+  <querytype>4</querytype>
+  <fetchxml>
+    <fetch version="1.0" mapping="logical">
+      <entity name="tc_tyregion">
+        <attribute name="tc_regionnm" />
+        <order attribute="tc_regionnm" descending="false" />
+        <filter type="and">
+          <condition attribute="statecode" operator="eq" value="0" />
+        </filter>
+        <filter type="or" isquickfindfields="1">
+          <condition attribute="tc_parentregionid" operator="like" value="{0}" />
+          <condition attribute="tc_regionnm" operator="like" value="{0}" />
+        </filter>
+        <attribute name="tc_parentregionid" />
+        <attribute name="tc_tyregionid" />
+      </entity>
+    </fetch>
+  </fetchxml>
+  <IntroducedVersion>0.1.0.0</IntroducedVersion>
+  <LocalizedNames>
+    <LocalizedName description="Quick Find Active Regions" languagecode="1033" />
+  </LocalizedNames>
+</savedquery>

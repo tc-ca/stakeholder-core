@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<WebResource>
+  <WebResourceId>{1359017e-42d9-e811-8b96-00155ddc0400}</WebResourceId>
+  <Name>tc_/Core/AddressValidation/labels.js</Name>
+  <DisplayName>Core - AddressValidation - labels.js</DisplayName>
+  <WebResourceType>3</WebResourceType>
+  <IntroducedVersion>0.1.0.11</IntroducedVersion>
+  <IsEnabledForMobileClient>0</IsEnabledForMobileClient>
+  <IsAvailableForMobileOffline>0</IsAvailableForMobileOffline>
+  <DependencyXml>&lt;Dependencies&gt;&lt;Dependency componentType="WebResource"/&gt;&lt;/Dependencies&gt;</DependencyXml>
+  <IsCustomizable>1</IsCustomizable>
+  <CanBeDeleted>1</CanBeDeleted>
+  <IsHidden>0</IsHidden>
+  <FileName>/WebResources/tc_CoreAddressValidationlabelsjs1359017E-42D9-E811-8B96-00155DDC0400</FileName>
+</WebResource>

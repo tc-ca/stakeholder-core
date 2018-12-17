@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<systemform>
+  <formid>{b0a3575c-2655-4ecf-96df-6d3726624865}</formid>
+  <IntroducedVersion>0.1.0.5</IntroducedVersion>
+  <FormPresentation>1</FormPresentation>
+  <FormActivationState>1</FormActivationState>
+  <form maxWidth="1900">
+    <tabs>
+      <tab id="{9faa81dd-8f44-4a1d-bdfa-959ebdaa7389}" name="tab_1" showlabel="false">
+        <labels>
+          <label description="Tab" languagecode="1033" />
+        </labels>
+        <columns>
+          <column width="33%">
+            <sections>
+              <section id="{945747fc-33b9-424c-aaf9-3f78a8846f7b}" name="tab_1_column_1_section_1" columns="1" showlabel="false" showbar="false" IsUserDefined="0">
+                <labels>
+                  <label description="section" languagecode="1033" />
+                </labels>
+                <rows>
+                  <row>
+                    <cell id="{a3a074eb-7462-45c6-be2e-561e1f97c5a5}">
+                      <labels>
+                        <label description="" languagecode="1033" />
+                      </labels>
+                    </cell>
+                  </row>
+                </rows>
+              </section>
+            </sections>
+          </column>
+          <column width="33%">
+            <sections>
+              <section id="{65005bc9-d049-4d8c-a521-7cc59772fb6b}" name="tab_1_column_2_section_1" columns="1" showlabel="false" showbar="false" IsUserDefined="0">
+                <labels>
+                  <label description="section" languagecode="1033" />
+                </labels>
+                <rows>
+                  <row>
+                    <cell id="{17868171-88e0-d943-3c29-a4e62a1721ca}" showlabel="true" locklevel="0">
+                      <labels>
+                        <label description="Group" languagecode="1033" />
+                      </labels>
+                      <control id="tc_groupid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="tc_groupid" disabled="false" />
+                    </cell>
+                  </row>
+                  <row>
+                    <cell id="{a688a0ac-c2d5-315a-a181-6417a90b1680}" showlabel="true" locklevel="0">
+                      <labels>
+                        <label description="Contact" languagecode="1033" />
+                      </labels>
+                      <control id="tc_contactid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="tc_contactid" disabled="false" />
+                    </cell>
+                  </row>
+                </rows>
+              </section>
+            </sections>
+          </column>
+          <column width="33%">
+            <sections>
+              <section id="{19d233b4-37ff-4183-8384-bfc92ce35227}" name="tab_1_column_3_section_1" columns="1" showlabel="false" showbar="false" IsUserDefined="0">
+                <labels>
+                  <label description="section" languagecode="1033" />
+                </labels>
+                <rows>
+                  <row>
+                    <cell id="{9c02535c-dae8-7076-bdb5-7a3ae2796647}" showlabel="true" locklevel="0">
+                      <labels>
+                        <label description="From" languagecode="1033" />
+                      </labels>
+                      <control id="tc_fromdte" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="tc_fromdte" disabled="false" />
+                    </cell>
+                  </row>
+                  <row>
+                    <cell id="{61ddcb61-085b-d0bb-5620-798845915b89}" showlabel="true" locklevel="0">
+                      <labels>
+                        <label description="To" languagecode="1033" />
+                      </labels>
+                      <control id="tc_todte" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="tc_todte" disabled="false" />
+                    </cell>
+                  </row>
+                </rows>
+              </section>
+            </sections>
+          </column>
+        </columns>
+      </tab>
+    </tabs>
+    <DisplayConditions Order="1">
+      <Role Id="{627090ff-40a3-4053-8790-584edc5be201}" />
+      <Role Id="{119f245c-3cc8-4b62-b31c-d1a046ced15d}" />
+    </DisplayConditions>
+  </form>
+  <IsCustomizable>1</IsCustomizable>
+  <CanBeDeleted>1</CanBeDeleted>
+  <LocalizedNames>
+    <LocalizedName description="Quick Create" languagecode="1033" />
+  </LocalizedNames>
+</systemform>

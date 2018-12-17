@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SdkMessageProcessingStep Name="Core.Localization.Create: Create tc_aystakeholdergroup" SdkMessageProcessingStepId="{12dd8084-8dcd-e811-8b96-00155ddc0400}">
+  <PluginTypeName>Core.Localization.Create, Core.Localization, Version=1.0.0.0, Culture=neutral, PublicKeyToken=270ec4ec01352598</PluginTypeName>
+  <PrimaryEntity>tc_aystakeholdergroup</PrimaryEntity>
+  <AsyncAutoDelete>0</AsyncAutoDelete>
+  <Configuration>&lt;Settings&gt;
+  &lt;Items&gt;
+    &lt;Item&gt;
+      &lt;Field&gt;tc_groupnm&lt;/Field&gt;
+      &lt;FieldEn&gt;tc_groupenm&lt;/FieldEn&gt;
+      &lt;FieldFr&gt;tc_groupfnm&lt;/FieldFr&gt;
+    &lt;/Item&gt;
+  &lt;/Items&gt;
+&lt;/Settings&gt;</Configuration>
+  <Description>Core.Localization.Create: Create tc_aystakeholdergroup</Description>
+  <FilteringAttributes></FilteringAttributes>
+  <InvocationSource>0</InvocationSource>
+  <Mode>0</Mode>
+  <Rank>1</Rank>
+  <SdkMessageId>{9ebdbb1b-ea3e-db11-86a7-000a3a5473e8}</SdkMessageId>
+  <EventHandlerTypeCode>4602</EventHandlerTypeCode>
+  <Stage>10</Stage>
+  <IsCustomizable>1</IsCustomizable>
+  <IsHidden>0</IsHidden>
+  <SupportedDeployment>0</SupportedDeployment>
+  <IntroducedVersion>1.0</IntroducedVersion>
+  <SdkMessageProcessingStepImages />
+</SdkMessageProcessingStep>

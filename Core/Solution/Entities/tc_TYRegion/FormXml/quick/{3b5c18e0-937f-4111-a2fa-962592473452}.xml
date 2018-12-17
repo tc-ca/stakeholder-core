@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<systemform>
+  <formid>{3b5c18e0-937f-4111-a2fa-962592473452}</formid>
+  <IntroducedVersion>0.1.0.4</IntroducedVersion>
+  <FormPresentation>1</FormPresentation>
+  <FormActivationState>1</FormActivationState>
+  <form maxWidth="400">
+    <tabs>
+      <tab id="{2e001877-70bc-4c8c-9e5f-d09379d229a8}" name="tab_1" showlabel="false">
+        <labels>
+          <label description="Tab" languagecode="1033" />
+        </labels>
+        <columns>
+          <column width="100%">
+            <sections>
+              <section id="{bc5daab7-941b-4258-8f7f-6b0b9fe7c2ba}" name="tab_1_column_1_section_1" columns="1" showlabel="false" showbar="false" IsUserDefined="0">
+                <labels>
+                  <label description="section" languagecode="1033" />
+                </labels>
+                <rows>
+                  <row>
+                    <cell id="{b87a221a-a3eb-930e-a09b-1d54c6456580}" showlabel="true" locklevel="0">
+                      <labels>
+                        <label description="Name" languagecode="1033" />
+                      </labels>
+                      <control id="tc_regionnm" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="tc_regionnm" disabled="false" />
+                    </cell>
+                  </row>
+                  <row>
+                    <cell id="{5bbcec37-47a8-3356-b1d1-81e2ac63c5e6}" showlabel="true" locklevel="0">
+                      <labels>
+                        <label description="Parent Region" languagecode="1033" />
+                      </labels>
+                      <control id="tc_parentregionid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="tc_parentregionid" disabled="false" />
+                    </cell>
+                  </row>
+                </rows>
+              </section>
+            </sections>
+          </column>
+        </columns>
+      </tab>
+    </tabs>
+    <DisplayConditions Order="1">
+      <Role Id="{627090ff-40a3-4053-8790-584edc5be201}" />
+      <Role Id="{119f245c-3cc8-4b62-b31c-d1a046ced15d}" />
+    </DisplayConditions>
+  </form>
+  <IsCustomizable>1</IsCustomizable>
+  <CanBeDeleted>1</CanBeDeleted>
+  <LocalizedNames>
+    <LocalizedName description="Quick View" languagecode="1033" />
+  </LocalizedNames>
+</systemform>

@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<WebResource>
+  <WebResourceId>{1c48a8f7-fbc7-e811-8b96-00155ddc0400}</WebResourceId>
+  <Name>tc_/Core/group16.png</Name>
+  <DisplayName>Core - group16.png</DisplayName>
+  <WebResourceType>5</WebResourceType>
+  <IntroducedVersion>0.1.0.0</IntroducedVersion>
+  <IsEnabledForMobileClient>0</IsEnabledForMobileClient>
+  <IsAvailableForMobileOffline>0</IsAvailableForMobileOffline>
+  <DependencyXml>&lt;Dependencies&gt;&lt;Dependency componentType="WebResource"/&gt;&lt;/Dependencies&gt;</DependencyXml>
+  <IsCustomizable>1</IsCustomizable>
+  <CanBeDeleted>1</CanBeDeleted>
+  <IsHidden>0</IsHidden>
+  <FileName>/WebResources/tc_Coregroup16png1C48A8F7-FBC7-E811-8B96-00155DDC0400</FileName>
+</WebResource>

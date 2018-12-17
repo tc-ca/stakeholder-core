@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedquery>
+  <IsCustomizable>1</IsCustomizable>
+  <CanBeDeleted>0</CanBeDeleted>
+  <isquickfindquery>0</isquickfindquery>
+  <isprivate>0</isprivate>
+  <isdefault>1</isdefault>
+  <returnedtypecode>10016</returnedtypecode>
+  <savedqueryid>{d49261ec-21fc-4487-84fa-125e3e127894}</savedqueryid>
+  <layoutxml>
+    <grid name="" object="10016" jump="tc_typenm" select="1" icon="1" preview="1">
+      <row name="tc_tyorganizationtype" id="tc_tyorganizationtypeid">
+        <cell name="tc_typenm" width="300" />
+        <cell name="tc_parenttypeid" width="200" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+      </row>
+    </grid>
+  </layoutxml>
+  <querytype>2</querytype>
+  <fetchxml>
+    <fetch version="1.0" mapping="logical">
+      <entity name="tc_tyorganizationtype">
+        <attribute name="tc_typenm" />
+        <order attribute="tc_typenm" descending="false" />
+        <filter type="and">
+          <condition attribute="statecode" operator="eq" value="0" />
+        </filter>
+        <attribute name="tc_parenttypeid" />
+        <attribute name="tc_tyorganizationtypeid" />
+      </entity>
+    </fetch>
+  </fetchxml>
+  <IntroducedVersion>0.1.0.1</IntroducedVersion>
+  <LocalizedNames>
+    <LocalizedName description="Organization Type Associated View" languagecode="1033" />
+  </LocalizedNames>
+</savedquery>

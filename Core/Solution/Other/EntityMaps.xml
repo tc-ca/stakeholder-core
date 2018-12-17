@@ -1,6 +1,16 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <EntityMaps>
   <EntityMap>
+    <EntitySource>account</EntitySource>
+    <EntityTarget>tc_ayorganizationgroupmember</EntityTarget>
+    <AttributeMaps />
+  </EntityMap>
+  <EntityMap>
+    <EntitySource>contact</EntitySource>
+    <EntityTarget>tc_aycontactgroupmember</EntityTarget>
+    <AttributeMaps />
+  </EntityMap>
+  <EntityMap>
     <EntitySource>contact</EntitySource>
     <EntityTarget>tc_ayemployee</EntityTarget>
     <AttributeMaps />
@@ -41,8 +51,38 @@
     <AttributeMaps />
   </EntityMap>
   <EntityMap>
+    <EntitySource>tc_aystakeholdergroup</EntitySource>
+    <EntityTarget>tc_aycontactgroupmember</EntityTarget>
+    <AttributeMaps />
+  </EntityMap>
+  <EntityMap>
+    <EntitySource>tc_aystakeholdergroup</EntitySource>
+    <EntityTarget>tc_ayorganizationgroupmember</EntityTarget>
+    <AttributeMaps />
+  </EntityMap>
+  <EntityMap>
+    <EntitySource>tc_aystakeholdergroup</EntitySource>
+    <EntityTarget>tc_aystakeholdergroup</EntityTarget>
+    <AttributeMaps />
+  </EntityMap>
+  <EntityMap>
     <EntitySource>tc_tyeventtype</EntitySource>
     <EntityTarget>tc_dyeventlog</EntityTarget>
+    <AttributeMaps />
+  </EntityMap>
+  <EntityMap>
+    <EntitySource>tc_tyorganizationtype</EntitySource>
+    <EntityTarget>account</EntityTarget>
+    <AttributeMaps />
+  </EntityMap>
+  <EntityMap>
+    <EntitySource>tc_tyorganizationtype</EntitySource>
+    <EntityTarget>tc_tyorganizationtype</EntityTarget>
+    <AttributeMaps />
+  </EntityMap>
+  <EntityMap>
+    <EntitySource>tc_tyregion</EntitySource>
+    <EntityTarget>tc_tyregion</EntityTarget>
     <AttributeMaps />
   </EntityMap>
   <EntityMap>
