@@ -1787,6 +1787,18 @@
             <displayname description="DomainName" languagecode="1033" />
           </displaynames>
         </EntityKey>
+        <EntityKey>
+          <Name>tc_EmailAddress</Name>
+          <LogicalName>tc_emailaddress</LogicalName>
+          <IntroducedVersion>0.6.0.0</IntroducedVersion>
+          <IsCustomizable>0</IsCustomizable>
+          <EntityKeyAttributes>
+            <AttributeName>emailaddress</AttributeName>
+          </EntityKeyAttributes>
+          <displaynames>
+            <displayname description="EmailAddress" languagecode="1033" />
+          </displaynames>
+        </EntityKey>
       </EntityKeys>
       <EntitySetName>tc_ayemployees</EntitySetName>
       <IsDuplicateCheckSupported>1</IsDuplicateCheckSupported>
