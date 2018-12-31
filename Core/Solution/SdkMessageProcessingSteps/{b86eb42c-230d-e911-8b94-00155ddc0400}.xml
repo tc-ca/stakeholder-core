@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SdkMessageProcessingStep Name="Core.Localization.Connection: Retrieve connectionrole" SdkMessageProcessingStepId="{b86eb42c-230d-e911-8b94-00155ddc0400}">
+  <PluginTypeName>Core.Localization.Connection, Core.Localization, Version=1.0.0.0, Culture=neutral, PublicKeyToken=270ec4ec01352598</PluginTypeName>
+  <PrimaryEntity>connectionrole</PrimaryEntity>
+  <AsyncAutoDelete>0</AsyncAutoDelete>
+  <Configuration>&lt;?xml version="1.0" encoding="UTF-8" standalone="yes"?&gt;
+&lt;Labels xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"&gt;
+  &lt;Items&gt;
+ &lt;LabelItem&gt;
+  &lt;Key&gt;Affected By&lt;/Key&gt;
+  &lt;English&gt;Affected By&lt;/English&gt;
+  &lt;French&gt;Affecté par&lt;/French&gt;
+ &lt;/LabelItem&gt;
+ &lt;LabelItem&gt;
+  &lt;Key&gt;Affects&lt;/Key&gt;
+  &lt;English&gt;Affects&lt;/English&gt;
+  &lt;French&gt;Affecter&lt;/French&gt;
+ &lt;/LabelItem&gt;
+ &lt;LabelItem&gt;
+  &lt;Key&gt;Owned By&lt;/Key&gt;
+  &lt;English&gt;Owned By&lt;/English&gt;
+  &lt;French&gt;Appartenant à&lt;/French&gt;
+ &lt;/LabelItem&gt;
+ &lt;LabelItem&gt;
+  &lt;Key&gt;Owner&lt;/Key&gt;
+  &lt;English&gt;Owner&lt;/English&gt;
+  &lt;French&gt;Propriétaire&lt;/French&gt;
+ &lt;/LabelItem&gt;
+  &lt;/Items&gt;
+&lt;/Labels&gt;</Configuration>
+  <Description>Core.Localization.Connection: Retrieve connectionrole</Description>
+  <FilteringAttributes></FilteringAttributes>
+  <InvocationSource>0</InvocationSource>
+  <Mode>0</Mode>
+  <Rank>1</Rank>
+  <SdkMessageId>{f2bdbb1b-ea3e-db11-86a7-000a3a5473e8}</SdkMessageId>
+  <EventHandlerTypeCode>4602</EventHandlerTypeCode>
+  <Stage>40</Stage>
+  <IsCustomizable>1</IsCustomizable>
+  <IsHidden>0</IsHidden>
+  <SupportedDeployment>0</SupportedDeployment>
+  <IntroducedVersion>1.0</IntroducedVersion>
+  <SdkMessageProcessingStepImages />
+</SdkMessageProcessingStep>

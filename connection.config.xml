@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Labels xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Items>
+	<LabelItem>
+		<Key>Affected By</Key>
+		<English>Affected By</English>
+		<French>Affecté par</French>
+	</LabelItem>
+	<LabelItem>
+		<Key>Affects</Key>
+		<English>Affects</English>
+		<French>Affecter</French>
+	</LabelItem>
+	<LabelItem>
+		<Key>Owned By</Key>
+		<English>Owned By</English>
+		<French>Appartenant à</French>
+	</LabelItem>
+	<LabelItem>
+		<Key>Owner</Key>
+		<English>Owner</English>
+		<French>Propriétaire</French>
+	</LabelItem>
+  </Items>
+</Labels>

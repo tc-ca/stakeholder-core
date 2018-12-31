@@ -5,6 +5,9 @@
   <IntroducedVersion>1.0</IntroducedVersion>
   <FileName>/PluginAssemblies/CoreLocalization-3590E7B3-8D84-4B52-9167-06F0A99FFBAE/CoreLocalization.dll</FileName>
   <PluginTypes>
+    <PluginType AssemblyQualifiedName="Core.Localization.Connection, Core.Localization, Version=1.0.0.0, Culture=neutral, PublicKeyToken=270ec4ec01352598" Name="Core.Localization.Connection">
+      <FriendlyName>11697d09-5fcb-4909-aad2-b3a601e00ddf</FriendlyName>
+    </PluginType>
     <PluginType AssemblyQualifiedName="Core.Localization.Create, Core.Localization, Version=1.0.0.0, Culture=neutral, PublicKeyToken=270ec4ec01352598" Name="Core.Localization.Create">
       <FriendlyName>df05c2cc-0fff-48f9-9ee4-a4370365ed8c</FriendlyName>
     </PluginType>
