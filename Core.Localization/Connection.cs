@@ -15,11 +15,11 @@ namespace Core.Localization
         private static readonly string ROLE_1 = "record1roleid";
         private static readonly string ROLE_2 = "record2roleid";
         private static readonly string NAME = "name";
-        private static Labels labels;
 
         private ITracingService tracer;
         private IPluginExecutionContext context;
         private IOrganizationService service;
+        private Labels labels;
         private int lcid;
 
         #region Secure/Unsecure Configuration Setup
@@ -42,16 +42,10 @@ namespace Core.Localization
 
             try
             {
-                var serializer = new XmlSerializer(typeof(Labels));
-                using (var reader = new StringReader(_unsecureConfig))
-                {
-                    labels = serializer.Deserialize(reader) as Labels;
-                }
-
+                labels = new LabelFactory().BuildFromConfig(_unsecureConfig);
                 lcid = Language.GetLcid(context.InitiatingUserId, service);
 
-                if (context.PrimaryEntityName.Equals("connectionrole") && context.MessageName.Equals("Retrieve")) SingleRole();
-                else if (context.PrimaryEntityName.Equals("connectionrole") && context.MessageName.Equals("RetrieveMultiple")) ManyRoles();
+                if (context.PrimaryEntityName.Equals("connectionrole") && context.MessageName.Equals("RetrieveMultiple")) ManyRoles();
                 else if (context.PrimaryEntityName.Equals("connection") && context.MessageName.Equals("Retrieve")) SingleConnection();
                 else if (context.PrimaryEntityName.Equals("connection") && context.MessageName.Equals("RetrieveMultiple")) ManyConnections();
             }
@@ -63,12 +57,11 @@ namespace Core.Localization
 
         private void SingleConnection()
         {
+            tracer.Trace("Checking for entity...");
+            if (!context.OutputParameters.ContainsKey("BusinessEntity")) return;
 
-        }
-
-        private void SingleRole()
-        {
-
+            var entity = (Entity)context.OutputParameters["BusinessEntity"];
+            LocalizeConnection(entity);
         }
 
         private void ManyConnections()
@@ -77,67 +70,50 @@ namespace Core.Localization
             if (!context.OutputParameters.ContainsKey("BusinessEntityCollection")) return;
 
             var entities = (EntityCollection)context.OutputParameters["BusinessEntityCollection"];
-            foreach(var entity in entities.Entities)
-            {
-                tracer.Trace("Localizing connection:");
-                if(entity.Contains(ROLE_1))
-                {
-                    var role1 = entity.GetAttributeValue<EntityReference>(ROLE_1);
-                    tracer.Trace($"\tRole 1 (before): {role1.Name}");
-                    if (labels.Contains(role1.Name)) role1.Name = labels[role1.Name][lcid];
-                    entity[ROLE_1] = role1;
-                    tracer.Trace($"\tRole 1 (after): {role1.Name}");
-                }
-
-                if(entity.Contains(ROLE_2))
-                {
-                    var role2 = entity.GetAttributeValue<EntityReference>(ROLE_2);
-                    tracer.Trace($"\tRole 2 (before): {role2.Name}");
-                    if (labels.Contains(role2.Name)) role2.Name = labels[role2.Name][lcid];
-                    entity[ROLE_2] = role2;
-                    tracer.Trace($"\tRole 2 (after): {role2.Name}");
-                }
-            }
+            foreach (var entity in entities.Entities) LocalizeConnection(entity);
         }
 
         private void ManyRoles()
         {
+            tracer.Trace("Checking for entity collection...");
+            if (!context.OutputParameters.ContainsKey("BusinessEntityCollection")) return;
 
+            var entities = (EntityCollection)context.OutputParameters["BusinessEntityCollection"];
+            foreach (var entity in entities.Entities) LocalizeRole(entity);
         }
 
-        [Serializable]
-        public class Labels
+        private void LocalizeConnection(Entity entity)
         {
-            public List<LabelItem> Items { get; set; }
-
-            public bool Contains(string key)
+            tracer.Trace("Localizing connection:");
+            if (entity.Contains(ROLE_1))
             {
-                return Items.Any(x => x.Key.Equals(key));
+                var role1 = entity.GetAttributeValue<EntityReference>(ROLE_1);
+                tracer.Trace($"\tRole 1 (before): {role1.Name}");
+                if (labels.Contains(role1.Name)) role1.Name = labels[role1.Name][lcid];
+                entity[ROLE_1] = role1;
+                tracer.Trace($"\tRole 1 (after): {role1.Name}");
             }
 
-            public LabelItem this[string key]
+            if (entity.Contains(ROLE_2))
             {
-                get
-                {
-                    return Items.Single(x => x.Key.Equals(key));
-                }
+                var role2 = entity.GetAttributeValue<EntityReference>(ROLE_2);
+                tracer.Trace($"\tRole 2 (before): {role2.Name}");
+                if (labels.Contains(role2.Name)) role2.Name = labels[role2.Name][lcid];
+                entity[ROLE_2] = role2;
+                tracer.Trace($"\tRole 2 (after): {role2.Name}");
             }
         }
 
-        [Serializable]
-        public class LabelItem
+        private void LocalizeRole(Entity entity)
         {
-            public string Key { get; set; }
-            public string English { get; set; }
-            public string French { get; set; }
-
-            public string this[int lcid]
+            tracer.Trace("Localizing connection role:");
+            if(entity.Contains(NAME))
             {
-                get
-                {
-                    if (lcid == 1036) return French;
-                    else return English;
-                }
+                var name = entity.GetAttributeValue<string>(NAME);
+                tracer.Trace($"\tName (before): {name}");
+                if (labels.Contains(name)) name = labels[name][lcid];
+                entity[NAME] = name;
+                tracer.Trace($"\tName (after): {name}");
             }
         }
     }
