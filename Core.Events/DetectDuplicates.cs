@@ -40,8 +40,8 @@ namespace Core.Events
                         context.OrganizationName, 
                         entity.LogicalName, 
                         duplicates[0].Id, 
-                        lcid == 1033 ? "view existing record." : "FR - view existing record");
-                    throw new Exception(lcid == 1033 ? "Cannot create duplicate record: " + link : "FR - Cannot create duplicate record: " + link);
+                        lcid == 1033 ? "open" : "ouvert");
+                    throw new Exception(lcid == 1033 ? "Duplicate of an existing record: " + link : "Double d'un enregistrement existant: " + link);
                 }
             }
             catch (Exception e)

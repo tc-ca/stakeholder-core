@@ -8,7 +8,7 @@
     <Descriptions>
       <Description description="Core CRM solution. Contains common components shared between many solutions." languagecode="1033" />
     </Descriptions>
-    <Version>0.6.0.4</Version>
+    <Version>0.6.0.6</Version>
     <Managed>0</Managed>
     <Publisher>
       <UniqueName>DefaultPublisherTransportCanada</UniqueName>
@@ -103,8 +103,8 @@
       <RootComponent type="1" schemaName="tc_tytag" behavior="0" />
       <RootComponent type="1" schemaName="tc_tytagcategory" behavior="0" />
       <RootComponent type="20" id="{1331f3bf-e8cd-e611-812f-000c2958e3a5}" behavior="0" />
-      <RootComponent type="20" id="{73b1990c-e9cd-e611-812f-000c2958e3a5}" behavior="0" />
       <RootComponent type="20" behavior="0" parentId="{119f245c-3cc8-4b62-b31c-d1a046ced15d}" />
+      <RootComponent type="20" id="{73b1990c-e9cd-e611-812f-000c2958e3a5}" behavior="0" />
       <RootComponent type="29" id="{2b4357bf-1128-48f1-9220-ae27813b2f53}" behavior="0" />
       <RootComponent type="29" id="{6f1bfde3-021b-4288-b6fa-3b2932bb182f}" behavior="0" />
       <RootComponent type="29" id="{8f1bc0db-870a-40f9-bcda-04159981e557}" behavior="0" />
@@ -234,6 +234,7 @@
       <RootComponent type="92" id="{07e3b750-7bcd-e811-8b96-00155ddc0400}" behavior="0" />
       <RootComponent type="92" id="{0a451699-c2f3-e611-8133-000c2958e3a5}" behavior="0" />
       <RootComponent type="92" id="{0ad07ed1-8dcd-e811-8b96-00155ddc0400}" behavior="0" />
+      <RootComponent type="92" id="{0b2b6c69-5b10-e911-8b98-00155ddc0400}" behavior="0" />
       <RootComponent type="92" id="{0fbbc43b-230d-e911-8b94-00155ddc0400}" behavior="0" />
       <RootComponent type="92" id="{12dd8084-8dcd-e811-8b96-00155ddc0400}" behavior="0" />
       <RootComponent type="92" id="{12de4346-b7f3-e611-8133-000c2958e3a5}" behavior="0" />
@@ -265,6 +266,7 @@
       <RootComponent type="92" id="{a44aca1f-bce8-e611-8131-000c2958e3a5}" behavior="0" />
       <RootComponent type="92" id="{a91567dd-c7f3-e611-8133-000c2958e3a5}" behavior="0" />
       <RootComponent type="92" id="{acfe131c-b4f3-e611-8133-000c2958e3a5}" behavior="0" />
+      <RootComponent type="92" id="{b00ecf79-5b10-e911-8b98-00155ddc0400}" behavior="0" />
       <RootComponent type="92" id="{b7fe28b1-8dcd-e811-8b96-00155ddc0400}" behavior="0" />
       <RootComponent type="92" id="{c32a883a-8ecd-e811-8b96-00155ddc0400}" behavior="0" />
       <RootComponent type="92" id="{c3fbdc0a-bce8-e611-8131-000c2958e3a5}" behavior="0" />

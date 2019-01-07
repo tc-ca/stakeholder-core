@@ -2,4 +2,3 @@
 # you can fill it from the obj\CONFIG\PROJECT.ilmerge generated on every build
 # and finetune merge order to your satisfaction
 
-Core.Utilities.dll
