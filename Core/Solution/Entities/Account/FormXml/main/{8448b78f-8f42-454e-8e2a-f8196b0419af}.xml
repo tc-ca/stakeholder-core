@@ -292,14 +292,14 @@
                       </labels>
                       <control id="connectionGrid" classid="{E7A81278-8635-4d9e-8D4D-59480B391C5B}" indicationOfSubgrid="true" uniqueid="{346ae63e-4aad-a172-a03d-943c886503b3}">
                         <parameters>
-                          <ViewId>{7C0E0725-CCD9-4525-9313-665FD075652F}</ViewId>
+                          <ViewId>{D0526B31-D7C8-E811-8B96-00155DDC0400}</ViewId>
                           <IsUserView>false</IsUserView>
                           <RelationshipName>account_connections1</RelationshipName>
                           <TargetEntityType>connection</TargetEntityType>
                           <AutoExpand>Fixed</AutoExpand>
                           <EnableQuickFind>false</EnableQuickFind>
                           <EnableViewPicker>false</EnableViewPicker>
-                          <ViewIds>{7C0E0725-CCD9-4525-9313-665FD075652F}</ViewIds>
+                          <ViewIds>{7C0E0725-CCD9-4525-9313-665FD075652F},{D0526B31-D7C8-E811-8B96-00155DDC0400}</ViewIds>
                           <EnableJumpBar>false</EnableJumpBar>
                           <ChartGridMode>Grid</ChartGridMode>
                           <VisualizationId />
