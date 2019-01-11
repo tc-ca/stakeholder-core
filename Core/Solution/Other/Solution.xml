@@ -8,7 +8,7 @@
     <Descriptions>
       <Description description="Core CRM solution. Contains common components shared between many solutions." languagecode="1033" />
     </Descriptions>
-    <Version>0.6.0.6</Version>
+    <Version>0.6.0.7</Version>
     <Managed>0</Managed>
     <Publisher>
       <UniqueName>DefaultPublisherTransportCanada</UniqueName>
