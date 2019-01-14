@@ -8,3 +8,4 @@ Core/*.ps1
 Core/*.log
 **/CRMDeveloperExtensions.config
 **/*.zip
+
