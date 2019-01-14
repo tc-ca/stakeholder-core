@@ -1,0 +1,53 @@
+
+<entities xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <entity name="duplicaterule" displayname="Duplicate Detection Rule">
+    <records>
+      <record id="8310265a-4b10-e911-8b98-00155ddc0400">
+        <field name="excludeinactiverecords" value="True" />
+        <field name="iscasesensitive" value="False" />
+        <field name="baseentityname" value="connection" />
+        <field name="duplicateruleid" value="8310265a-4b10-e911-8b98-00155ddc0400" />
+        <field name="matchingentityname" value="connection" />
+        <field name="name" value="Connections with the same records and roles" />
+      </record>
+    </records>
+    <m2mrelationships />
+  </entity>
+  <entity name="duplicaterulecondition" displayname="Duplicate Rule Condition">
+    <records>
+      <record id="8410265a-4b10-e911-8b98-00155ddc0400">
+        <field name="baseattributename" value="record1id" />
+        <field name="duplicateruleconditionid" value="8410265a-4b10-e911-8b98-00155ddc0400" />
+        <field name="ignoreblankvalues" value="False" />
+        <field name="matchingattributename" value="record1id" />
+        <field name="operatorcode" value="0" />
+        <field name="regardingobjectid" value="8310265a-4b10-e911-8b98-00155ddc0400" lookupentity="duplicaterule" />
+      </record>
+      <record id="8510265a-4b10-e911-8b98-00155ddc0400">
+        <field name="baseattributename" value="record2id" />
+        <field name="duplicateruleconditionid" value="8510265a-4b10-e911-8b98-00155ddc0400" />
+        <field name="ignoreblankvalues" value="False" />
+        <field name="matchingattributename" value="record2id" />
+        <field name="operatorcode" value="0" />
+        <field name="regardingobjectid" value="8310265a-4b10-e911-8b98-00155ddc0400" lookupentity="duplicaterule" />
+      </record>
+      <record id="8610265a-4b10-e911-8b98-00155ddc0400">
+        <field name="baseattributename" value="record1roleid" />
+        <field name="duplicateruleconditionid" value="8610265a-4b10-e911-8b98-00155ddc0400" />
+        <field name="ignoreblankvalues" value="False" />
+        <field name="matchingattributename" value="record1roleid" />
+        <field name="operatorcode" value="0" />
+        <field name="regardingobjectid" value="8310265a-4b10-e911-8b98-00155ddc0400" lookupentity="duplicaterule" />
+      </record>
+      <record id="8710265a-4b10-e911-8b98-00155ddc0400">
+        <field name="baseattributename" value="record2roleid" />
+        <field name="duplicateruleconditionid" value="8710265a-4b10-e911-8b98-00155ddc0400" />
+        <field name="ignoreblankvalues" value="False" />
+        <field name="matchingattributename" value="record2roleid" />
+        <field name="operatorcode" value="0" />
+        <field name="regardingobjectid" value="8310265a-4b10-e911-8b98-00155ddc0400" lookupentity="duplicaterule" />
+      </record>
+    </records>
+    <m2mrelationships />
+  </entity>
+</entities>

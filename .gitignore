@@ -6,6 +6,7 @@
 *.cred
 Core/*.ps1
 Core/*.log
+Core.Migration/*.ps1
 **/CRMDeveloperExtensions.config
 **/*.zip
 
