@@ -1,6 +1,7 @@
 ﻿using System;
 using Microsoft.Xrm.Sdk;
-using Core.Utilities;
+using Microsoft.Crm.Sdk.Messages;
+using Microsoft.Xrm.Sdk.Query;
 
 namespace Core.Localization
 {
@@ -26,7 +27,7 @@ namespace Core.Localization
 
             try
             {
-                var lcid = Language.GetLcid(context.InitiatingUserId, service);
+                var lcid = (int)service.Retrieve("usersettings", context.InitiatingUserId, new ColumnSet("uilanguageid"))["uilanguageid"];
                 var entity = (Entity)context.OutputParameters["BusinessEntity"];
                 var config = new Configuration(_unsecureConfig);
                 config.Read(entity, lcid);

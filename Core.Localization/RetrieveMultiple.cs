@@ -1,6 +1,6 @@
 ﻿using Microsoft.Xrm.Sdk;
+using Microsoft.Xrm.Sdk.Query;
 using System;
-using Core.Utilities;
 
 namespace Core.Localization
 {
@@ -28,7 +28,7 @@ namespace Core.Localization
             {
                 if (!context.OutputParameters.ContainsKey("BusinessEntityCollection")) return;
 
-                var lcid = Language.GetLcid(context.InitiatingUserId, service);
+                var lcid = (int)service.Retrieve("usersettings", context.InitiatingUserId, new ColumnSet("uilanguageid"))["uilanguageid"];
                 var entities = (EntityCollection)context.OutputParameters["BusinessEntityCollection"];
                 var settings = new Configuration(_unsecureConfig);
                 foreach (var entity in entities.Entities)

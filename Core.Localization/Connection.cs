@@ -3,10 +3,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Resources;
 using Microsoft.Xrm.Sdk;
-using Core.Utilities;
 using System.Reflection;
 using System.Xml.Serialization;
 using System.IO;
+using Microsoft.Xrm.Sdk.Query;
 
 namespace Core.Localization
 {
@@ -43,7 +43,7 @@ namespace Core.Localization
             try
             {
                 labels = new LabelFactory().BuildFromConfig(_unsecureConfig);
-                lcid = Language.GetLcid(context.InitiatingUserId, service);
+                lcid = (int)service.Retrieve("usersettings", context.InitiatingUserId, new ColumnSet("uilanguageid"))["uilanguageid"];
 
                 if (context.PrimaryEntityName.Equals("connectionrole") && context.MessageName.Equals("RetrieveMultiple")) ManyRoles();
                 else if (context.PrimaryEntityName.Equals("connection") && context.MessageName.Equals("Retrieve")) SingleConnection();
