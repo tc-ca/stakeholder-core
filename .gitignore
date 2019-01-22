@@ -9,3 +9,4 @@ Core/*.log
 Core.Migration/*.ps1
 **/CRMDeveloperExtensions.config
 **/*.zip
+
