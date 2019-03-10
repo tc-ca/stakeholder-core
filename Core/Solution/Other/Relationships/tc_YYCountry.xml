@@ -1,21 +1,23 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <EntityRelationships>
-  <EntityRelationship Name="position_users">
+  <EntityRelationship Name="tc_tc_yycountry_tc_yyprovincestate">
     <EntityRelationshipType>OneToMany</EntityRelationshipType>
-    <IntroducedVersion>7.0.0.0</IntroducedVersion>
+    <IsCustomizable>1</IsCustomizable>
+    <IntroducedVersion>0.6.0.8</IntroducedVersion>
     <IsHierarchical>0</IsHierarchical>
-    <ReferencingEntityName>SystemUser</ReferencingEntityName>
-    <ReferencedEntityName>Position</ReferencedEntityName>
+    <ReferencingEntityName>tc_YYProvinceState</ReferencingEntityName>
+    <ReferencedEntityName>tc_YYCountry</ReferencedEntityName>
     <CascadeAssign>NoCascade</CascadeAssign>
-    <CascadeDelete>Restrict</CascadeDelete>
+    <CascadeDelete>RemoveLink</CascadeDelete>
     <CascadeReparent>NoCascade</CascadeReparent>
     <CascadeShare>NoCascade</CascadeShare>
     <CascadeUnshare>NoCascade</CascadeUnshare>
-    <ReferencingAttributeName>PositionId</ReferencingAttributeName>
+    <CascadeRollupView>NoCascade</CascadeRollupView>
+    <IsValidForAdvancedFind>1</IsValidForAdvancedFind>
+    <ReferencingAttributeName>tc_CountryId</ReferencingAttributeName>
     <RelationshipDescription>
       <Descriptions>
-        <Description description="User's position in hierarchical security model." languagecode="1033" />
-        <Description description="Poste de l'utilisateur dans le modèle de sécurité hiérarchique." languagecode="1036" />
+        <Description description="Province/State's country" languagecode="1033" />
       </Descriptions>
     </RelationshipDescription>
     <EntityRelationshipRoles>
@@ -23,10 +25,14 @@
         <NavPaneDisplayOption>UseCollectionName</NavPaneDisplayOption>
         <NavPaneArea>Details</NavPaneArea>
         <NavPaneOrder>10000</NavPaneOrder>
-        <NavigationPropertyName>positionid</NavigationPropertyName>
+        <NavigationPropertyName>tc_CountryId</NavigationPropertyName>
+        <CustomLabels>
+          <CustomLabel description="" languagecode="1033" />
+        </CustomLabels>
         <RelationshipRoleType>1</RelationshipRoleType>
       </EntityRelationshipRole>
       <EntityRelationshipRole>
+        <NavigationPropertyName>tc_tc_yycountry_tc_yyprovincestate</NavigationPropertyName>
         <RelationshipRoleType>0</RelationshipRoleType>
       </EntityRelationshipRole>
     </EntityRelationshipRoles>

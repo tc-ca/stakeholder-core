@@ -1,17 +1,17 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Entity>
-  <Name LocalizedName="Country" OriginalName="Country">tc_YYCountry</Name>
-  <ObjectTypeCode>10018</ObjectTypeCode>
+  <Name LocalizedName="Province/State" OriginalName="Province/State">tc_YYProvinceState</Name>
+  <ObjectTypeCode>10020</ObjectTypeCode>
   <EntityInfo>
-    <entity Name="tc_YYCountry">
+    <entity Name="tc_YYProvinceState">
       <LocalizedNames>
-        <LocalizedName description="Country" languagecode="1033" />
+        <LocalizedName description="Province/State" languagecode="1033" />
       </LocalizedNames>
       <LocalizedCollectionNames>
-        <LocalizedCollectionName description="Countries" languagecode="1033" />
+        <LocalizedCollectionName description="Provinces/States" languagecode="1033" />
       </LocalizedCollectionNames>
       <Descriptions>
-        <Description description="The country entity for Transport Canada" languagecode="1033" />
+        <Description description="Stores a list of Canadian and International provinces/states" languagecode="1033" />
       </Descriptions>
       <attributes>
         <attribute PhysicalName="CreatedBy">
@@ -536,17 +536,17 @@
           <IsSortableEnabled>0</IsSortableEnabled>
           <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
           <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
-          <optionset Name="tc_yycountry_statecode">
+          <optionset Name="tc_yyprovincestate_statecode">
             <OptionSetType>state</OptionSetType>
-            <IntroducedVersion>0.5.2.4</IntroducedVersion>
+            <IntroducedVersion>0.6.0.8</IntroducedVersion>
             <IsCustomizable>1</IsCustomizable>
             <displaynames>
               <displayname description="Status" languagecode="1033" />
               <displayname description="Statut" languagecode="1036" />
             </displaynames>
             <Descriptions>
-              <Description description="Status of the Country" languagecode="1033" />
-              <Description description="Statut de l'élément Country" languagecode="1036" />
+              <Description description="Status of the Province/State" languagecode="1033" />
+              <Description description="Statut de l'élément Province/State" languagecode="1036" />
             </Descriptions>
             <states>
               <state value="0" defaultstatus="1" invariantname="Active">
@@ -568,8 +568,8 @@
             <displayname description="Statut" languagecode="1036" />
           </displaynames>
           <Descriptions>
-            <Description description="Status of the Country" languagecode="1033" />
-            <Description description="Statut de l'élément Country" languagecode="1036" />
+            <Description description="Status of the Province/State" languagecode="1033" />
+            <Description description="Statut de l'élément Province/State" languagecode="1036" />
           </Descriptions>
         </attribute>
         <attribute PhysicalName="statuscode">
@@ -596,17 +596,17 @@
           <IsSortableEnabled>0</IsSortableEnabled>
           <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
           <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
-          <optionset Name="tc_yycountry_statuscode">
+          <optionset Name="tc_yyprovincestate_statuscode">
             <OptionSetType>status</OptionSetType>
-            <IntroducedVersion>0.5.2.4</IntroducedVersion>
+            <IntroducedVersion>0.6.0.8</IntroducedVersion>
             <IsCustomizable>1</IsCustomizable>
             <displaynames>
               <displayname description="Status Reason" languagecode="1033" />
               <displayname description="Raison du statut" languagecode="1036" />
             </displaynames>
             <Descriptions>
-              <Description description="Reason for the status of the Country" languagecode="1033" />
-              <Description description="Raison du statut de l'élément Country" languagecode="1036" />
+              <Description description="Reason for the status of the Province/State" languagecode="1033" />
+              <Description description="Raison du statut de l'élément Province/State" languagecode="1036" />
             </Descriptions>
             <statuses>
               <status value="1" state="0">
@@ -628,14 +628,46 @@
             <displayname description="Raison du statut" languagecode="1036" />
           </displaynames>
           <Descriptions>
-            <Description description="Reason for the status of the Country" languagecode="1033" />
-            <Description description="Raison du statut de l'élément Country" languagecode="1036" />
+            <Description description="Reason for the status of the Province/State" languagecode="1033" />
+            <Description description="Raison du statut de l'élément Province/State" languagecode="1036" />
           </Descriptions>
         </attribute>
-        <attribute PhysicalName="tc_CountryCodeTxt">
+        <attribute PhysicalName="tc_CountryId">
+          <Type>lookup</Type>
+          <Name>tc_countryid</Name>
+          <LogicalName>tc_countryid</LogicalName>
+          <RequiredLevel>required</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ValidForUpdateApi>1</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>1</ValidForCreateApi>
+          <IsCustomField>1</IsCustomField>
+          <IsAuditEnabled>0</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>0.6.0.8</IntroducedVersion>
+          <IsCustomizable>1</IsCustomizable>
+          <IsRenameable>1</IsRenameable>
+          <CanModifySearchSettings>1</CanModifySearchSettings>
+          <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
+          <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
+          <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
+          <LookupStyle>single</LookupStyle>
+          <LookupTypes />
+          <displaynames>
+            <displayname description="Country" languagecode="1033" />
+          </displaynames>
+          <Descriptions>
+            <Description description="Province/State's country" languagecode="1033" />
+          </Descriptions>
+        </attribute>
+        <attribute PhysicalName="tc_ProvinceStateCodeTxt">
           <Type>nvarchar</Type>
-          <Name>tc_countrycodetxt</Name>
-          <LogicalName>tc_countrycodetxt</LogicalName>
+          <Name>tc_provincestatecodetxt</Name>
+          <LogicalName>tc_provincestatecodetxt</LogicalName>
           <RequiredLevel>none</RequiredLevel>
           <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
           <ImeMode>auto</ImeMode>
@@ -660,16 +692,16 @@
           <MaxLength>100</MaxLength>
           <Length>200</Length>
           <displaynames>
-            <displayname description="Country Code" languagecode="1033" />
+            <displayname description="Province/State Code" languagecode="1033" />
           </displaynames>
           <Descriptions>
             <Description description="" languagecode="1033" />
           </Descriptions>
         </attribute>
-        <attribute PhysicalName="tc_CountryEnm">
+        <attribute PhysicalName="tc_ProvinceStateEnm">
           <Type>nvarchar</Type>
-          <Name>tc_countryenm</Name>
-          <LogicalName>tc_countryenm</LogicalName>
+          <Name>tc_provincestateenm</Name>
+          <LogicalName>tc_provincestateenm</LogicalName>
           <RequiredLevel>none</RequiredLevel>
           <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
           <ImeMode>auto</ImeMode>
@@ -700,10 +732,10 @@
             <Description description="" languagecode="1033" />
           </Descriptions>
         </attribute>
-        <attribute PhysicalName="tc_CountryFnm">
+        <attribute PhysicalName="tc_ProvinceStateFnm">
           <Type>nvarchar</Type>
-          <Name>tc_countryfnm</Name>
-          <LogicalName>tc_countryfnm</LogicalName>
+          <Name>tc_provincestatefnm</Name>
+          <LogicalName>tc_provincestatefnm</LogicalName>
           <RequiredLevel>none</RequiredLevel>
           <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
           <ImeMode>auto</ImeMode>
@@ -734,10 +766,10 @@
             <Description description="" languagecode="1033" />
           </Descriptions>
         </attribute>
-        <attribute PhysicalName="tc_CountryNm">
+        <attribute PhysicalName="tc_ProvinceStateNm">
           <Type>nvarchar</Type>
-          <Name>tc_countrynm</Name>
-          <LogicalName>tc_countrynm</LogicalName>
+          <Name>tc_provincestatenm</Name>
+          <LogicalName>tc_provincestatenm</LogicalName>
           <RequiredLevel>required</RequiredLevel>
           <DisplayMask>PrimaryName|ValidForAdvancedFind|ValidForForm|ValidForGrid|RequiredForForm</DisplayMask>
           <ImeMode>auto</ImeMode>
@@ -765,13 +797,13 @@
             <displayname description="Name" languagecode="1033" />
           </displaynames>
           <Descriptions>
-            <Description description="The country name" languagecode="1033" />
+            <Description description="The name of the custom entity." languagecode="1033" />
           </Descriptions>
         </attribute>
-        <attribute PhysicalName="tc_YYCountryId">
+        <attribute PhysicalName="tc_YYProvinceStateId">
           <Type>primarykey</Type>
-          <Name>tc_yycountryid</Name>
-          <LogicalName>tc_yycountryid</LogicalName>
+          <Name>tc_yyprovincestateid</Name>
+          <LogicalName>tc_yyprovincestateid</LogicalName>
           <RequiredLevel>systemrequired</RequiredLevel>
           <DisplayMask>ValidForAdvancedFind|RequiredForGrid</DisplayMask>
           <ImeMode>auto</ImeMode>
@@ -792,7 +824,7 @@
           <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
           <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
           <displaynames>
-            <displayname description="Country" languagecode="1033" />
+            <displayname description="Province/State" languagecode="1033" />
           </displaynames>
           <Descriptions>
             <Description description="Unique identifier for entity instances" languagecode="1033" />
@@ -870,7 +902,7 @@
           </Descriptions>
         </attribute>
       </attributes>
-      <EntitySetName>tc_yycountries</EntitySetName>
+      <EntitySetName>tc_yyprovincestates</EntitySetName>
       <IsDuplicateCheckSupported>1</IsDuplicateCheckSupported>
       <IsBusinessProcessEnabled>0</IsBusinessProcessEnabled>
       <IsRequiredOffline>0</IsRequiredOffline>
@@ -925,6 +957,7 @@
       <EnforceStateTransitions>0</EnforceStateTransitions>
       <CanChangeHierarchicalRelationship>1</CanChangeHierarchicalRelationship>
       <EntityHelpUrlEnabled>0</EntityHelpUrlEnabled>
+      <EntityHelpUrl></EntityHelpUrl>
       <ChangeTrackingEnabled>0</ChangeTrackingEnabled>
       <CanChangeTrackingBeEnabled>1</CanChangeTrackingBeEnabled>
       <IsEnabledForExternalChannels>0</IsEnabledForExternalChannels>
@@ -935,8 +968,8 @@
   <RibbonDiffXml />
   <CustomControlDefaultConfigs>
     <CustomControlDefaultConfig>
-      <PrimaryEntityTypeCode>10018</PrimaryEntityTypeCode>
-      <CustomControlDefaultConfigId>{a5eaceda-3243-e911-8b8c-00155d022401}</CustomControlDefaultConfigId>
+      <PrimaryEntityTypeCode>10020</PrimaryEntityTypeCode>
+      <CustomControlDefaultConfigId>{5a23cbd3-8143-e911-8b8b-00155d022402}</CustomControlDefaultConfigId>
       <ControlDescriptionXML>
         <controlDescriptions />
       </ControlDescriptionXML>

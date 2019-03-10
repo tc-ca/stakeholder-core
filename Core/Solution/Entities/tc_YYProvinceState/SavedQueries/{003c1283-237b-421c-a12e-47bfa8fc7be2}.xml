@@ -5,12 +5,12 @@
   <isquickfindquery>0</isquickfindquery>
   <isprivate>0</isprivate>
   <isdefault>1</isdefault>
-  <returnedtypecode>10018</returnedtypecode>
-  <savedqueryid>{e131632f-0ce6-4d8f-86f4-a14bd43c16ca}</savedqueryid>
+  <returnedtypecode>10020</returnedtypecode>
+  <savedqueryid>{003c1283-237b-421c-a12e-47bfa8fc7be2}</savedqueryid>
   <layoutxml>
-    <grid name="resultset" object="10018" jump="tc_countrynm" select="1" icon="1" preview="1">
-      <row name="result" id="tc_yycountryid">
-        <cell name="tc_countrynm" width="300" />
+    <grid name="resultset" object="10020" jump="tc_provincestatenm" select="1" icon="1" preview="1">
+      <row name="result" id="tc_yyprovincestateid">
+        <cell name="tc_provincestatenm" width="300" />
         <cell name="createdon" width="125" />
       </row>
     </grid>
@@ -18,11 +18,11 @@
   <querytype>0</querytype>
   <fetchxml>
     <fetch version="1.0" mapping="logical">
-      <entity name="tc_yycountry">
-        <attribute name="tc_yycountryid" />
-        <attribute name="tc_countrynm" />
+      <entity name="tc_yyprovincestate">
+        <attribute name="tc_yyprovincestateid" />
+        <attribute name="tc_provincestatenm" />
         <attribute name="createdon" />
-        <order attribute="tc_countrynm" descending="false" />
+        <order attribute="tc_provincestatenm" descending="false" />
         <filter type="and">
           <condition attribute="statecode" operator="eq" value="0" />
         </filter>
@@ -31,6 +31,6 @@
   </fetchxml>
   <IntroducedVersion>0.6.0.8</IntroducedVersion>
   <LocalizedNames>
-    <LocalizedName description="Active Countries" languagecode="1033" />
+    <LocalizedName description="Active Provinces/States" languagecode="1033" />
   </LocalizedNames>
 </savedquery>

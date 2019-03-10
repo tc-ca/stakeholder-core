@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <EntityRelationships>
-  <EntityRelationship Name="lk_externalparty_account_createdby" unmodified="1">
+  <EntityRelationship Name="lk_externalparty_account_createdby">
     <EntityRelationshipType>OneToMany</EntityRelationshipType>
     <IntroducedVersion>8.0.0.0</IntroducedVersion>
     <IsHierarchical>0</IsHierarchical>
@@ -19,7 +19,7 @@
       </Descriptions>
     </RelationshipDescription>
   </EntityRelationship>
-  <EntityRelationship Name="lk_externalparty_account_modifiedby" unmodified="1">
+  <EntityRelationship Name="lk_externalparty_account_modifiedby">
     <EntityRelationshipType>OneToMany</EntityRelationshipType>
     <IntroducedVersion>8.0.0.0</IntroducedVersion>
     <IsHierarchical>0</IsHierarchical>
@@ -38,7 +38,7 @@
       </Descriptions>
     </RelationshipDescription>
   </EntityRelationship>
-  <EntityRelationship Name="lk_externalparty_contact_createdby" unmodified="1">
+  <EntityRelationship Name="lk_externalparty_contact_createdby">
     <EntityRelationshipType>OneToMany</EntityRelationshipType>
     <IntroducedVersion>8.0.0.0</IntroducedVersion>
     <IsHierarchical>0</IsHierarchical>
@@ -57,7 +57,7 @@
       </Descriptions>
     </RelationshipDescription>
   </EntityRelationship>
-  <EntityRelationship Name="lk_externalparty_contact_modifiedby" unmodified="1">
+  <EntityRelationship Name="lk_externalparty_contact_modifiedby">
     <EntityRelationshipType>OneToMany</EntityRelationshipType>
     <IntroducedVersion>8.0.0.0</IntroducedVersion>
     <IsHierarchical>0</IsHierarchical>

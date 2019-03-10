@@ -8,7 +8,7 @@
     <Descriptions>
       <Description description="Core CRM solution. Contains common components shared between many solutions." languagecode="1033" />
     </Descriptions>
-    <Version>0.6.0.8</Version>
+    <Version>0.6.0.9</Version>
     <Managed>0</Managed>
     <Publisher>
       <UniqueName>DefaultPublisherTransportCanada</UniqueName>
@@ -103,6 +103,7 @@
       <RootComponent type="1" schemaName="tc_tytag" behavior="0" />
       <RootComponent type="1" schemaName="tc_tytagcategory" behavior="0" />
       <RootComponent type="1" schemaName="tc_yycountry" behavior="0" />
+      <RootComponent type="1" schemaName="tc_yyprovincestate" behavior="0" />
       <RootComponent type="20" id="{1331f3bf-e8cd-e611-812f-000c2958e3a5}" behavior="0" />
       <RootComponent type="20" id="{73b1990c-e9cd-e611-812f-000c2958e3a5}" behavior="0" />
       <RootComponent type="20" behavior="0" parentId="{119f245c-3cc8-4b62-b31c-d1a046ced15d}" />
@@ -119,7 +120,9 @@
       <RootComponent type="60" id="{6e4595c0-01cc-45c8-8bef-7c0b720c8840}" behavior="0" />
       <RootComponent type="60" id="{7028ee4e-8cee-4285-871e-652f30a5d821}" behavior="0" />
       <RootComponent type="60" id="{70ad8b15-e3f3-4d7d-9e4b-16cb4e51b484}" behavior="0" />
+      <RootComponent type="60" id="{77c4575e-5caf-4c70-9631-8bbbbbaba5ab}" behavior="0" />
       <RootComponent type="60" id="{8448b78f-8f42-454e-8e2a-f8196b0419af}" behavior="0" />
+      <RootComponent type="60" id="{993d718d-04b6-4ce6-aac2-8a9d3ccb5120}" behavior="0" />
       <RootComponent type="60" id="{c9e7ec2d-efca-4e4c-b3e3-f63c4bba5e4b}" behavior="0" />
       <RootComponent type="61" schemaName="tc_/Core/AddressValidation/labels.js" behavior="0" />
       <RootComponent type="61" schemaName="tc_/Core/AddressValidation/main.html" behavior="0" />
@@ -293,28 +296,28 @@
         <Dependent key="3" type="62" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="5" type="61" schemaName="msdyn_/RecordWall.htm" displayName="msdyn_/RecordWall.htm" solution="ActivityFeedsCore (8.2.0.0)" />
-        <Dependent key="6" type="60" displayName="Information" parentDisplayName="Contact" id="{894cc46a-b0cb-4ab0-8bf6-200544e46a2d}" />
+        <Required key="5" type="61" schemaName="msdyn_/ActivityFeeds.Form.js" displayName="msdyn_/ActivityFeeds.Form.js" solution="ActivityFeedsCore (8.2.0.0)" />
+        <Dependent key="6" type="60" displayName="Information" parentDisplayName="User" id="{c0d7d7dd-afd0-4675-85fe-1cc5a48be6df}" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="5" type="61" schemaName="msdyn_/RecordWall.htm" displayName="msdyn_/RecordWall.htm" solution="ActivityFeedsCore (8.2.0.0)" />
+        <Required key="5" type="61" schemaName="msdyn_/ActivityFeeds.Form.js" displayName="msdyn_/ActivityFeeds.Form.js" solution="ActivityFeedsCore (8.2.0.0)" />
         <Dependent key="7" type="60" displayName="Information" parentDisplayName="Organization" id="{b053a39a-041a-4356-acef-ddf00182762b}" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="5" type="61" schemaName="msdyn_/RecordWall.htm" displayName="msdyn_/RecordWall.htm" solution="ActivityFeedsCore (8.2.0.0)" />
-        <Dependent key="8" type="60" displayName="Information" parentDisplayName="User" id="{c0d7d7dd-afd0-4675-85fe-1cc5a48be6df}" />
+        <Required key="5" type="61" schemaName="msdyn_/ActivityFeeds.Form.js" displayName="msdyn_/ActivityFeeds.Form.js" solution="ActivityFeedsCore (8.2.0.0)" />
+        <Dependent key="8" type="60" displayName="Information" parentDisplayName="Contact" id="{894cc46a-b0cb-4ab0-8bf6-200544e46a2d}" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="9" type="61" schemaName="msdyn_/ActivityFeeds.Form.js" displayName="msdyn_/ActivityFeeds.Form.js" solution="ActivityFeedsCore (8.2.0.0)" />
-        <Dependent key="8" type="60" displayName="Information" parentDisplayName="User" id="{c0d7d7dd-afd0-4675-85fe-1cc5a48be6df}" />
+        <Required key="9" type="61" schemaName="msdyn_/RecordWall.htm" displayName="msdyn_/RecordWall.htm" solution="ActivityFeedsCore (8.2.0.0)" />
+        <Dependent key="8" type="60" displayName="Information" parentDisplayName="Contact" id="{894cc46a-b0cb-4ab0-8bf6-200544e46a2d}" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="9" type="61" schemaName="msdyn_/ActivityFeeds.Form.js" displayName="msdyn_/ActivityFeeds.Form.js" solution="ActivityFeedsCore (8.2.0.0)" />
+        <Required key="9" type="61" schemaName="msdyn_/RecordWall.htm" displayName="msdyn_/RecordWall.htm" solution="ActivityFeedsCore (8.2.0.0)" />
         <Dependent key="7" type="60" displayName="Information" parentDisplayName="Organization" id="{b053a39a-041a-4356-acef-ddf00182762b}" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="9" type="61" schemaName="msdyn_/ActivityFeeds.Form.js" displayName="msdyn_/ActivityFeeds.Form.js" solution="ActivityFeedsCore (8.2.0.0)" />
-        <Dependent key="6" type="60" displayName="Information" parentDisplayName="Contact" id="{894cc46a-b0cb-4ab0-8bf6-200544e46a2d}" />
+        <Required key="9" type="61" schemaName="msdyn_/RecordWall.htm" displayName="msdyn_/RecordWall.htm" solution="ActivityFeedsCore (8.2.0.0)" />
+        <Dependent key="6" type="60" displayName="Information" parentDisplayName="User" id="{c0d7d7dd-afd0-4675-85fe-1cc5a48be6df}" />
       </MissingDependency>
     </MissingDependencies>
   </SolutionManifest>
