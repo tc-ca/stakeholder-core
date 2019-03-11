@@ -36,44 +36,6 @@
       </EntityRelationshipRole>
     </EntityRelationshipRoles>
   </EntityRelationship>
-  <EntityRelationship Name="team_accounts" unmodified="1">
-    <EntityRelationshipType>OneToMany</EntityRelationshipType>
-    <IntroducedVersion>5.0.0.0</IntroducedVersion>
-    <IsHierarchical>0</IsHierarchical>
-    <ReferencingEntityName>Account</ReferencingEntityName>
-    <ReferencedEntityName>Team</ReferencedEntityName>
-    <CascadeAssign>NoCascade</CascadeAssign>
-    <CascadeDelete>NoCascade</CascadeDelete>
-    <CascadeReparent>NoCascade</CascadeReparent>
-    <CascadeShare>NoCascade</CascadeShare>
-    <CascadeUnshare>NoCascade</CascadeUnshare>
-    <ReferencingAttributeName>OwningTeam</ReferencingAttributeName>
-    <RelationshipDescription>
-      <Descriptions>
-        <Description description="Unique identifier of the team who owns the account." languagecode="1033" />
-        <Description description="Identificateur unique de l’équipe propriétaire du compte." languagecode="1036" />
-      </Descriptions>
-    </RelationshipDescription>
-  </EntityRelationship>
-  <EntityRelationship Name="team_contacts" unmodified="1">
-    <EntityRelationshipType>OneToMany</EntityRelationshipType>
-    <IntroducedVersion>5.0.0.0</IntroducedVersion>
-    <IsHierarchical>0</IsHierarchical>
-    <ReferencingEntityName>Contact</ReferencingEntityName>
-    <ReferencedEntityName>Team</ReferencedEntityName>
-    <CascadeAssign>NoCascade</CascadeAssign>
-    <CascadeDelete>NoCascade</CascadeDelete>
-    <CascadeReparent>NoCascade</CascadeReparent>
-    <CascadeShare>NoCascade</CascadeShare>
-    <CascadeUnshare>NoCascade</CascadeUnshare>
-    <ReferencingAttributeName>OwningTeam</ReferencingAttributeName>
-    <RelationshipDescription>
-      <Descriptions>
-        <Description description="Unique identifier of the team who owns the contact." languagecode="1033" />
-        <Description description="Identificateur unique de l’équipe propriétaire du contact." languagecode="1036" />
-      </Descriptions>
-    </RelationshipDescription>
-  </EntityRelationship>
   <EntityRelationship Name="team_tc_aycontactgroupmember">
     <EntityRelationshipType>OneToMany</EntityRelationshipType>
     <IsCustomizable>1</IsCustomizable>
@@ -248,26 +210,6 @@
     <RelationshipDescription>
       <Descriptions>
         <Description description="Unique identifier for the team that owns the record." languagecode="1033" />
-      </Descriptions>
-    </RelationshipDescription>
-  </EntityRelationship>
-  <EntityRelationship Name="team_tc_yycountry">
-    <EntityRelationshipType>OneToMany</EntityRelationshipType>
-    <IsCustomizable>1</IsCustomizable>
-    <IntroducedVersion>0.6.0.8</IntroducedVersion>
-    <IsHierarchical>0</IsHierarchical>
-    <ReferencingEntityName>tc_YYCountry</ReferencingEntityName>
-    <ReferencedEntityName>Team</ReferencedEntityName>
-    <CascadeAssign>NoCascade</CascadeAssign>
-    <CascadeDelete>NoCascade</CascadeDelete>
-    <CascadeReparent>NoCascade</CascadeReparent>
-    <CascadeShare>NoCascade</CascadeShare>
-    <CascadeUnshare>NoCascade</CascadeUnshare>
-    <ReferencingAttributeName>OwningTeam</ReferencingAttributeName>
-    <RelationshipDescription>
-      <Descriptions>
-        <Description description="Unique identifier for the team that owns the record." languagecode="1033" />
-        <Description description="Identificateur unique pour l’équipe à qui appartient l’enregistrement." languagecode="1036" />
       </Descriptions>
     </RelationshipDescription>
   </EntityRelationship>

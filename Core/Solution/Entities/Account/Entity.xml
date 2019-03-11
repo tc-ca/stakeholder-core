@@ -17,35 +17,6 @@
         <Description description="Entité commerciale qui représente un client ou un prospect. Société facturée dans les transactions professionnelles." languagecode="1036" />
       </Descriptions>
       <attributes>
-        <attribute PhysicalName="Name">
-          <Type>nvarchar</Type>
-          <Name>name</Name>
-          <LogicalName>name</LogicalName>
-          <RequiredLevel>required</RequiredLevel>
-          <DisplayMask>ActivityRegardingName|ActivityPointerRegardingName|PrimaryName|ValidForAdvancedFind|ValidForForm|ValidForGrid|RequiredForForm|RequiredForGrid</DisplayMask>
-          <ImeMode>active</ImeMode>
-          <ValidForUpdateApi>1</ValidForUpdateApi>
-          <ValidForReadApi>1</ValidForReadApi>
-          <ValidForCreateApi>1</ValidForCreateApi>
-          <IsCustomField>0</IsCustomField>
-          <IsAuditEnabled>1</IsAuditEnabled>
-          <IsSecured>0</IsSecured>
-          <IntroducedVersion>5.0.0.0</IntroducedVersion>
-          <SourceType>0</SourceType>
-          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
-          <IsSortableEnabled>1</IsSortableEnabled>
-          <Format>text</Format>
-          <MaxLength>160</MaxLength>
-          <Length>320</Length>
-          <displaynames>
-            <displayname description="Organization Name" languagecode="1033" />
-            <displayname description="Nom du compte" languagecode="1036" />
-          </displaynames>
-          <Descriptions>
-            <Description description="Type the company or business name." languagecode="1033" />
-            <Description description="Tapez le nom de la société ou de la division." languagecode="1036" />
-          </Descriptions>
-        </attribute>
         <attribute PhysicalName="tc_OrganizationTypeId">
           <Type>lookup</Type>
           <Name>tc_organizationtypeid</Name>
@@ -133,24 +104,5 @@
     </entity>
   </EntityInfo>
   <FormXml />
-  <SavedQueries />
-  <Visualizations />
   <RibbonDiffXml />
-  <HierarchyRules>
-    <HierarchyRule unmodified="1">
-      <HierarchyRuleID>{4ef9fbbf-dcca-e311-b3e2-0024e84720c0}</HierarchyRuleID>
-      <PrimaryEntityFormID>{69cff312-cfb6-4289-9631-249ab85d2c62}</PrimaryEntityFormID>
-      <PrimaryEntityLogicalName>account</PrimaryEntityLogicalName>
-      <ShowDisabled>1</ShowDisabled>
-      <IntroducedVersion>7.0.0.0</IntroducedVersion>
-      <LocalizedNames>
-        <LocalizedName description="Account Hierarchy" languagecode="1033" />
-        <LocalizedName description="Hiérarchie de compte" languagecode="1036" />
-      </LocalizedNames>
-      <Descriptions>
-        <Description description="This is the account hierarchy definition." languagecode="1033" />
-        <Description description="Il s'agit de la définition de la hiérarchie de compte." languagecode="1036" />
-      </Descriptions>
-    </HierarchyRule>
-  </HierarchyRules>
 </Entity>

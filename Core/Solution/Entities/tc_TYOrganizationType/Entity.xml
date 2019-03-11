@@ -538,7 +538,7 @@
           <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
           <optionset Name="tc_tyorganizationtype_statecode">
             <OptionSetType>state</OptionSetType>
-            <IntroducedVersion>0.5.2.4</IntroducedVersion>
+            <IntroducedVersion>0.1.0.15</IntroducedVersion>
             <IsCustomizable>1</IsCustomizable>
             <displaynames>
               <displayname description="Status" languagecode="1033" />
@@ -596,7 +596,7 @@
           <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
           <optionset Name="tc_tyorganizationtype_statuscode">
             <OptionSetType>status</OptionSetType>
-            <IntroducedVersion>0.5.2.4</IntroducedVersion>
+            <IntroducedVersion>0.1.0.15</IntroducedVersion>
             <IsCustomizable>1</IsCustomizable>
             <displaynames>
               <displayname description="Status Reason" languagecode="1033" />

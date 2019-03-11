@@ -82,7 +82,6 @@
     <RolePrivilege name="prvAppendtc_TYEventType" level="Global" />
     <RolePrivilege name="prvAppendtc_TYOrganizationType" level="Global" />
     <RolePrivilege name="prvAppendtc_TYRegion" level="Global" />
-    <RolePrivilege name="prvAppendtc_YYCountry" level="Global" />
     <RolePrivilege name="prvAppendTeam" level="Global" />
     <RolePrivilege name="prvAppendToAccount" level="Global" />
     <RolePrivilege name="prvAppendToActivity" level="Global" />
@@ -159,7 +158,6 @@
     <RolePrivilege name="prvAppendTotc_TYEventType" level="Global" />
     <RolePrivilege name="prvAppendTotc_TYOrganizationType" level="Global" />
     <RolePrivilege name="prvAppendTotc_TYRegion" level="Global" />
-    <RolePrivilege name="prvAppendTotc_YYCountry" level="Global" />
     <RolePrivilege name="prvAppendToTeam" level="Global" />
     <RolePrivilege name="prvAppendToTraceLog" level="Global" />
     <RolePrivilege name="prvAppendToTransactionCurrency" level="Global" />
@@ -219,7 +217,6 @@
     <RolePrivilege name="prvAssigntc_DYIdGenerator" level="Global" />
     <RolePrivilege name="prvAssigntc_TYOrganizationType" level="Global" />
     <RolePrivilege name="prvAssigntc_TYRegion" level="Global" />
-    <RolePrivilege name="prvAssigntc_YYCountry" level="Global" />
     <RolePrivilege name="prvAssignUserEntityInstanceData" level="Basic" />
     <RolePrivilege name="prvAssignUserForm" level="Basic" />
     <RolePrivilege name="prvAssignUserQuery" level="Basic" />
@@ -324,7 +321,6 @@
     <RolePrivilege name="prvCreatetc_TYEventType" level="Global" />
     <RolePrivilege name="prvCreatetc_TYOrganizationType" level="Global" />
     <RolePrivilege name="prvCreatetc_TYRegion" level="Global" />
-    <RolePrivilege name="prvCreatetc_YYCountry" level="Global" />
     <RolePrivilege name="prvCreateTeam" level="Global" />
     <RolePrivilege name="prvCreateTraceLog" level="Global" />
     <RolePrivilege name="prvCreateTranslationProcess" level="Global" />
@@ -434,7 +430,6 @@
     <RolePrivilege name="prvDeletetc_TYEventType" level="Global" />
     <RolePrivilege name="prvDeletetc_TYOrganizationType" level="Global" />
     <RolePrivilege name="prvDeletetc_TYRegion" level="Global" />
-    <RolePrivilege name="prvDeletetc_YYCountry" level="Global" />
     <RolePrivilege name="prvDeleteTeam" level="Global" />
     <RolePrivilege name="prvDeleteTranslationProcess" level="Global" />
     <RolePrivilege name="prvDeleteUserApplicationMetadata" level="Basic" />
@@ -581,7 +576,6 @@
     <RolePrivilege name="prvReadtc_TYEventType" level="Global" />
     <RolePrivilege name="prvReadtc_TYOrganizationType" level="Global" />
     <RolePrivilege name="prvReadtc_TYRegion" level="Global" />
-    <RolePrivilege name="prvReadtc_YYCountry" level="Global" />
     <RolePrivilege name="prvReadTeam" level="Global" />
     <RolePrivilege name="prvReadTerritory" level="Global" />
     <RolePrivilege name="prvReadTraceLog" level="Global" />
@@ -646,7 +640,6 @@
     <RolePrivilege name="prvSharetc_DYIdGenerator" level="Global" />
     <RolePrivilege name="prvSharetc_TYOrganizationType" level="Global" />
     <RolePrivilege name="prvSharetc_TYRegion" level="Global" />
-    <RolePrivilege name="prvSharetc_YYCountry" level="Global" />
     <RolePrivilege name="prvShareUserEntityInstanceData" level="Basic" />
     <RolePrivilege name="prvShareUserEntityUISettings" level="Basic" />
     <RolePrivilege name="prvShareUserForm" level="Basic" />
@@ -764,7 +757,6 @@
     <RolePrivilege name="prvWritetc_TYEventType" level="Global" />
     <RolePrivilege name="prvWritetc_TYOrganizationType" level="Global" />
     <RolePrivilege name="prvWritetc_TYRegion" level="Global" />
-    <RolePrivilege name="prvWritetc_YYCountry" level="Global" />
     <RolePrivilege name="prvWriteTeam" level="Global" />
     <RolePrivilege name="prvWriteTerritory" level="Global" />
     <RolePrivilege name="prvWriteTranslationProcess" level="Global" />
