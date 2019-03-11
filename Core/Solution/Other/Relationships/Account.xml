@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <EntityRelationships>
-  <EntityRelationship Name="account_master_account">
+  <EntityRelationship Name="account_master_account" unmodified="1">
     <EntityRelationshipType>OneToMany</EntityRelationshipType>
     <IntroducedVersion>5.0.0.0</IntroducedVersion>
     <IsHierarchical>0</IsHierarchical>
@@ -19,7 +19,7 @@
       </Descriptions>
     </RelationshipDescription>
   </EntityRelationship>
-  <EntityRelationship Name="account_parent_account">
+  <EntityRelationship Name="account_parent_account" unmodified="1">
     <EntityRelationshipType>OneToMany</EntityRelationshipType>
     <IntroducedVersion>5.0.0.0</IntroducedVersion>
     <IsHierarchical>1</IsHierarchical>
@@ -44,9 +44,6 @@
         <NavPaneOrder>40</NavPaneOrder>
         <NavigationPropertyName>parentaccountid</NavigationPropertyName>
         <RelationshipRoleType>1</RelationshipRoleType>
-      </EntityRelationshipRole>
-      <EntityRelationshipRole>
-        <RelationshipRoleType>0</RelationshipRoleType>
       </EntityRelationshipRole>
     </EntityRelationshipRoles>
   </EntityRelationship>

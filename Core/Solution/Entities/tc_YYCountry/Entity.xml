@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Entity>
   <Name LocalizedName="Country" OriginalName="Country">tc_YYCountry</Name>
-  <ObjectTypeCode>10018</ObjectTypeCode>
+  <ObjectTypeCode>10019</ObjectTypeCode>
   <EntityInfo>
     <entity Name="tc_YYCountry">
       <LocalizedNames>
@@ -538,7 +538,7 @@
           <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
           <optionset Name="tc_yycountry_statecode">
             <OptionSetType>state</OptionSetType>
-            <IntroducedVersion>0.5.2.4</IntroducedVersion>
+            <IntroducedVersion>0.6.0.8</IntroducedVersion>
             <IsCustomizable>1</IsCustomizable>
             <displaynames>
               <displayname description="Status" languagecode="1033" />
@@ -598,7 +598,7 @@
           <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
           <optionset Name="tc_yycountry_statuscode">
             <OptionSetType>status</OptionSetType>
-            <IntroducedVersion>0.5.2.4</IntroducedVersion>
+            <IntroducedVersion>0.6.0.8</IntroducedVersion>
             <IsCustomizable>1</IsCustomizable>
             <displaynames>
               <displayname description="Status Reason" languagecode="1033" />
@@ -935,7 +935,7 @@
   <RibbonDiffXml />
   <CustomControlDefaultConfigs>
     <CustomControlDefaultConfig>
-      <PrimaryEntityTypeCode>10018</PrimaryEntityTypeCode>
+      <PrimaryEntityTypeCode>10019</PrimaryEntityTypeCode>
       <CustomControlDefaultConfigId>{a5eaceda-3243-e911-8b8c-00155d022401}</CustomControlDefaultConfigId>
       <ControlDescriptionXML>
         <controlDescriptions />

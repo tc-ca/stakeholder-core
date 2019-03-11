@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <EntityRelationships>
-  <EntityRelationship Name="manualsla_account">
+  <EntityRelationship Name="manualsla_account" unmodified="1">
     <EntityRelationshipType>OneToMany</EntityRelationshipType>
     <IntroducedVersion>8.1.0.0</IntroducedVersion>
     <IsHierarchical>0</IsHierarchical>
@@ -27,12 +27,9 @@
         <NavigationPropertyName>sla_account_sla</NavigationPropertyName>
         <RelationshipRoleType>1</RelationshipRoleType>
       </EntityRelationshipRole>
-      <EntityRelationshipRole>
-        <RelationshipRoleType>0</RelationshipRoleType>
-      </EntityRelationshipRole>
     </EntityRelationshipRoles>
   </EntityRelationship>
-  <EntityRelationship Name="manualsla_contact">
+  <EntityRelationship Name="manualsla_contact" unmodified="1">
     <EntityRelationshipType>OneToMany</EntityRelationshipType>
     <IntroducedVersion>8.1.0.0</IntroducedVersion>
     <IsHierarchical>0</IsHierarchical>
@@ -59,12 +56,9 @@
         <NavigationPropertyName>sla_contact_sla</NavigationPropertyName>
         <RelationshipRoleType>1</RelationshipRoleType>
       </EntityRelationshipRole>
-      <EntityRelationshipRole>
-        <RelationshipRoleType>0</RelationshipRoleType>
-      </EntityRelationshipRole>
     </EntityRelationshipRoles>
   </EntityRelationship>
-  <EntityRelationship Name="sla_account">
+  <EntityRelationship Name="sla_account" unmodified="1">
     <EntityRelationshipType>OneToMany</EntityRelationshipType>
     <IntroducedVersion>8.1.0.0</IntroducedVersion>
     <IsHierarchical>0</IsHierarchical>
@@ -84,7 +78,7 @@
       </Descriptions>
     </RelationshipDescription>
   </EntityRelationship>
-  <EntityRelationship Name="sla_contact">
+  <EntityRelationship Name="sla_contact" unmodified="1">
     <EntityRelationshipType>OneToMany</EntityRelationshipType>
     <IntroducedVersion>8.1.0.0</IntroducedVersion>
     <IsHierarchical>0</IsHierarchical>

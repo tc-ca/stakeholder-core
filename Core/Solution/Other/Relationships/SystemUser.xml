@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <EntityRelationships>
-  <EntityRelationship Name="contact_owning_user">
+  <EntityRelationship Name="contact_owning_user" unmodified="1">
     <EntityRelationshipType>OneToMany</EntityRelationshipType>
     <IntroducedVersion>5.0.0.0</IntroducedVersion>
     <IsHierarchical>0</IsHierarchical>
@@ -19,7 +19,7 @@
       </Descriptions>
     </RelationshipDescription>
   </EntityRelationship>
-  <EntityRelationship Name="lk_accountbase_createdby">
+  <EntityRelationship Name="lk_accountbase_createdby" unmodified="1">
     <EntityRelationshipType>OneToMany</EntityRelationshipType>
     <IntroducedVersion>5.0.0.0</IntroducedVersion>
     <IsHierarchical>0</IsHierarchical>
@@ -38,7 +38,7 @@
       </Descriptions>
     </RelationshipDescription>
   </EntityRelationship>
-  <EntityRelationship Name="lk_accountbase_modifiedby">
+  <EntityRelationship Name="lk_accountbase_modifiedby" unmodified="1">
     <EntityRelationshipType>OneToMany</EntityRelationshipType>
     <IntroducedVersion>5.0.0.0</IntroducedVersion>
     <IsHierarchical>0</IsHierarchical>
@@ -57,7 +57,7 @@
       </Descriptions>
     </RelationshipDescription>
   </EntityRelationship>
-  <EntityRelationship Name="lk_contactbase_createdby">
+  <EntityRelationship Name="lk_contactbase_createdby" unmodified="1">
     <EntityRelationshipType>OneToMany</EntityRelationshipType>
     <IntroducedVersion>5.0.0.0</IntroducedVersion>
     <IsHierarchical>0</IsHierarchical>
@@ -76,7 +76,7 @@
       </Descriptions>
     </RelationshipDescription>
   </EntityRelationship>
-  <EntityRelationship Name="lk_contactbase_modifiedby">
+  <EntityRelationship Name="lk_contactbase_modifiedby" unmodified="1">
     <EntityRelationshipType>OneToMany</EntityRelationshipType>
     <IntroducedVersion>5.0.0.0</IntroducedVersion>
     <IsHierarchical>0</IsHierarchical>
@@ -95,7 +95,7 @@
       </Descriptions>
     </RelationshipDescription>
   </EntityRelationship>
-  <EntityRelationship Name="lk_systemuserbase_createdby">
+  <EntityRelationship Name="lk_systemuserbase_createdby" unmodified="1">
     <EntityRelationshipType>OneToMany</EntityRelationshipType>
     <IntroducedVersion>5.0.0.0</IntroducedVersion>
     <IsHierarchical>0</IsHierarchical>
@@ -114,7 +114,7 @@
       </Descriptions>
     </RelationshipDescription>
   </EntityRelationship>
-  <EntityRelationship Name="lk_systemuserbase_modifiedby">
+  <EntityRelationship Name="lk_systemuserbase_modifiedby" unmodified="1">
     <EntityRelationshipType>OneToMany</EntityRelationshipType>
     <IntroducedVersion>5.0.0.0</IntroducedVersion>
     <IsHierarchical>0</IsHierarchical>
@@ -693,47 +693,7 @@
       </Descriptions>
     </RelationshipDescription>
   </EntityRelationship>
-  <EntityRelationship Name="lk_tc_yyprovincestate_createdby">
-    <EntityRelationshipType>OneToMany</EntityRelationshipType>
-    <IsCustomizable>1</IsCustomizable>
-    <IntroducedVersion>0.6.0.8</IntroducedVersion>
-    <IsHierarchical>0</IsHierarchical>
-    <ReferencingEntityName>tc_YYProvinceState</ReferencingEntityName>
-    <ReferencedEntityName>SystemUser</ReferencedEntityName>
-    <CascadeAssign>NoCascade</CascadeAssign>
-    <CascadeDelete>NoCascade</CascadeDelete>
-    <CascadeReparent>NoCascade</CascadeReparent>
-    <CascadeShare>NoCascade</CascadeShare>
-    <CascadeUnshare>NoCascade</CascadeUnshare>
-    <ReferencingAttributeName>CreatedBy</ReferencingAttributeName>
-    <RelationshipDescription>
-      <Descriptions>
-        <Description description="Unique identifier of the user who created the record." languagecode="1033" />
-        <Description description="Identificateur unique de l’utilisateur qui a créé l’enregistrement." languagecode="1036" />
-      </Descriptions>
-    </RelationshipDescription>
-  </EntityRelationship>
-  <EntityRelationship Name="lk_tc_yyprovincestate_modifiedby">
-    <EntityRelationshipType>OneToMany</EntityRelationshipType>
-    <IsCustomizable>1</IsCustomizable>
-    <IntroducedVersion>0.6.0.8</IntroducedVersion>
-    <IsHierarchical>0</IsHierarchical>
-    <ReferencingEntityName>tc_YYProvinceState</ReferencingEntityName>
-    <ReferencedEntityName>SystemUser</ReferencedEntityName>
-    <CascadeAssign>NoCascade</CascadeAssign>
-    <CascadeDelete>NoCascade</CascadeDelete>
-    <CascadeReparent>NoCascade</CascadeReparent>
-    <CascadeShare>NoCascade</CascadeShare>
-    <CascadeUnshare>NoCascade</CascadeUnshare>
-    <ReferencingAttributeName>ModifiedBy</ReferencingAttributeName>
-    <RelationshipDescription>
-      <Descriptions>
-        <Description description="Unique identifier of the user who modified the record." languagecode="1033" />
-        <Description description="Identificateur unique de l’utilisateur qui a modifié l’enregistrement." languagecode="1036" />
-      </Descriptions>
-    </RelationshipDescription>
-  </EntityRelationship>
-  <EntityRelationship Name="system_user_accounts">
+  <EntityRelationship Name="system_user_accounts" unmodified="1">
     <EntityRelationshipType>OneToMany</EntityRelationshipType>
     <IntroducedVersion>5.0.0.0</IntroducedVersion>
     <IsHierarchical>0</IsHierarchical>
@@ -752,7 +712,7 @@
       </Descriptions>
     </RelationshipDescription>
   </EntityRelationship>
-  <EntityRelationship Name="system_user_contacts">
+  <EntityRelationship Name="system_user_contacts" unmodified="1">
     <EntityRelationshipType>OneToMany</EntityRelationshipType>
     <IntroducedVersion>5.0.0.0</IntroducedVersion>
     <IsHierarchical>0</IsHierarchical>
@@ -808,7 +768,7 @@
       </EntityRelationshipRole>
     </EntityRelationshipRoles>
   </EntityRelationship>
-  <EntityRelationship Name="user_accounts">
+  <EntityRelationship Name="user_accounts" unmodified="1">
     <EntityRelationshipType>OneToMany</EntityRelationshipType>
     <IntroducedVersion>5.0.0.0</IntroducedVersion>
     <IsHierarchical>0</IsHierarchical>
@@ -827,7 +787,7 @@
       </Descriptions>
     </RelationshipDescription>
   </EntityRelationship>
-  <EntityRelationship Name="user_parent_user">
+  <EntityRelationship Name="user_parent_user" unmodified="1">
     <EntityRelationshipType>OneToMany</EntityRelationshipType>
     <IntroducedVersion>5.0.0.0</IntroducedVersion>
     <IsHierarchical>1</IsHierarchical>
@@ -1029,26 +989,6 @@
     <IntroducedVersion>0.6.0.8</IntroducedVersion>
     <IsHierarchical>0</IsHierarchical>
     <ReferencingEntityName>tc_YYCountry</ReferencingEntityName>
-    <ReferencedEntityName>SystemUser</ReferencedEntityName>
-    <CascadeAssign>NoCascade</CascadeAssign>
-    <CascadeDelete>NoCascade</CascadeDelete>
-    <CascadeReparent>NoCascade</CascadeReparent>
-    <CascadeShare>NoCascade</CascadeShare>
-    <CascadeUnshare>NoCascade</CascadeUnshare>
-    <ReferencingAttributeName>OwningUser</ReferencingAttributeName>
-    <RelationshipDescription>
-      <Descriptions>
-        <Description description="Unique identifier for the user that owns the record." languagecode="1033" />
-        <Description description="Identificateur unique de l'utilisateur propriétaire de l'enregistrement." languagecode="1036" />
-      </Descriptions>
-    </RelationshipDescription>
-  </EntityRelationship>
-  <EntityRelationship Name="user_tc_yyprovincestate">
-    <EntityRelationshipType>OneToMany</EntityRelationshipType>
-    <IsCustomizable>1</IsCustomizable>
-    <IntroducedVersion>0.6.0.8</IntroducedVersion>
-    <IsHierarchical>0</IsHierarchical>
-    <ReferencingEntityName>tc_YYProvinceState</ReferencingEntityName>
     <ReferencedEntityName>SystemUser</ReferencedEntityName>
     <CascadeAssign>NoCascade</CascadeAssign>
     <CascadeDelete>NoCascade</CascadeDelete>

@@ -1,12 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <EntityRelationships>
-  <EntityRelationship Name="account_master_account" />
-  <EntityRelationship Name="account_originating_lead" />
-  <EntityRelationship Name="account_parent_account" />
-  <EntityRelationship Name="account_primary_contact" />
-  <EntityRelationship Name="business_unit_accounts" />
-  <EntityRelationship Name="business_unit_contacts" />
-  <EntityRelationship Name="business_unit_system_users" />
+  <EntityRelationship Name="account_master_account" unmodified="1" />
+  <EntityRelationship Name="account_originating_lead" unmodified="1" />
+  <EntityRelationship Name="account_parent_account" unmodified="1" />
+  <EntityRelationship Name="account_primary_contact" unmodified="1" />
+  <EntityRelationship Name="business_unit_accounts" unmodified="1" />
+  <EntityRelationship Name="business_unit_contacts" unmodified="1" />
+  <EntityRelationship Name="business_unit_system_users" unmodified="1" />
   <EntityRelationship Name="business_unit_tc_aycontactgroupmember" />
   <EntityRelationship Name="business_unit_tc_ayorganizationgroupmember" />
   <EntityRelationship Name="business_unit_tc_aystakeholdergroup" />
@@ -17,27 +17,26 @@
   <EntityRelationship Name="business_unit_tc_tytag" />
   <EntityRelationship Name="business_unit_tc_tytagcategory" />
   <EntityRelationship Name="business_unit_tc_yycountry" />
-  <EntityRelationship Name="business_unit_tc_yyprovincestate" />
-  <EntityRelationship Name="calendar_system_users" />
+  <EntityRelationship Name="calendar_system_users" unmodified="1" />
   <EntityRelationship Name="contact_customer_accounts" />
   <EntityRelationship Name="contact_customer_contacts" />
-  <EntityRelationship Name="contact_master_contact" />
-  <EntityRelationship Name="contact_originating_lead" />
-  <EntityRelationship Name="contact_owning_user" />
-  <EntityRelationship Name="equipment_accounts" />
-  <EntityRelationship Name="equipment_contacts" />
+  <EntityRelationship Name="contact_master_contact" unmodified="1" />
+  <EntityRelationship Name="contact_originating_lead" unmodified="1" />
+  <EntityRelationship Name="contact_owning_user" unmodified="1" />
+  <EntityRelationship Name="equipment_accounts" unmodified="1" />
+  <EntityRelationship Name="equipment_contacts" unmodified="1" />
   <EntityRelationship Name="listaccount_association" unmodified="1" />
   <EntityRelationship Name="listcontact_association" unmodified="1" />
-  <EntityRelationship Name="lk_accountbase_createdby" />
-  <EntityRelationship Name="lk_accountbase_modifiedby" />
-  <EntityRelationship Name="lk_contactbase_createdby" />
-  <EntityRelationship Name="lk_contactbase_modifiedby" />
-  <EntityRelationship Name="lk_externalparty_account_createdby" />
-  <EntityRelationship Name="lk_externalparty_account_modifiedby" />
-  <EntityRelationship Name="lk_externalparty_contact_createdby" />
-  <EntityRelationship Name="lk_externalparty_contact_modifiedby" />
-  <EntityRelationship Name="lk_systemuserbase_createdby" />
-  <EntityRelationship Name="lk_systemuserbase_modifiedby" />
+  <EntityRelationship Name="lk_accountbase_createdby" unmodified="1" />
+  <EntityRelationship Name="lk_accountbase_modifiedby" unmodified="1" />
+  <EntityRelationship Name="lk_contactbase_createdby" unmodified="1" />
+  <EntityRelationship Name="lk_contactbase_modifiedby" unmodified="1" />
+  <EntityRelationship Name="lk_externalparty_account_createdby" unmodified="1" />
+  <EntityRelationship Name="lk_externalparty_account_modifiedby" unmodified="1" />
+  <EntityRelationship Name="lk_externalparty_contact_createdby" unmodified="1" />
+  <EntityRelationship Name="lk_externalparty_contact_modifiedby" unmodified="1" />
+  <EntityRelationship Name="lk_systemuserbase_createdby" unmodified="1" />
+  <EntityRelationship Name="lk_systemuserbase_modifiedby" unmodified="1" />
   <EntityRelationship Name="lk_tc_aycontactgroupmember_createdby" />
   <EntityRelationship Name="lk_tc_aycontactgroupmember_modifiedby" />
   <EntityRelationship Name="lk_tc_ayemployee_createdby" />
@@ -66,18 +65,16 @@
   <EntityRelationship Name="lk_tc_tytagcategory_modifiedby" />
   <EntityRelationship Name="lk_tc_yycountry_createdby" />
   <EntityRelationship Name="lk_tc_yycountry_modifiedby" />
-  <EntityRelationship Name="lk_tc_yyprovincestate_createdby" />
-  <EntityRelationship Name="lk_tc_yyprovincestate_modifiedby" />
-  <EntityRelationship Name="manualsla_account" />
-  <EntityRelationship Name="manualsla_contact" />
-  <EntityRelationship Name="MobileOfflineProfile_SystemUser" />
-  <EntityRelationship Name="organization_system_users" />
+  <EntityRelationship Name="manualsla_account" unmodified="1" />
+  <EntityRelationship Name="manualsla_contact" unmodified="1" />
+  <EntityRelationship Name="MobileOfflineProfile_SystemUser" unmodified="1" />
+  <EntityRelationship Name="organization_system_users" unmodified="1" />
   <EntityRelationship Name="organization_tc_ayemployee" />
   <EntityRelationship Name="organization_tc_ayorganizationunit" />
   <EntityRelationship Name="organization_tc_dyeventlog" />
   <EntityRelationship Name="organization_tc_tyeventtype" />
-  <EntityRelationship Name="owner_accounts" />
-  <EntityRelationship Name="owner_contacts" />
+  <EntityRelationship Name="owner_accounts" unmodified="1" />
+  <EntityRelationship Name="owner_contacts" unmodified="1" />
   <EntityRelationship Name="owner_tc_aycontactgroupmember" />
   <EntityRelationship Name="owner_tc_ayorganizationgroupmember" />
   <EntityRelationship Name="owner_tc_aystakeholdergroup" />
@@ -88,19 +85,18 @@
   <EntityRelationship Name="owner_tc_tytag" />
   <EntityRelationship Name="owner_tc_tytagcategory" />
   <EntityRelationship Name="owner_tc_yycountry" />
-  <EntityRelationship Name="owner_tc_yyprovincestate" />
-  <EntityRelationship Name="position_users" />
-  <EntityRelationship Name="price_level_accounts" />
-  <EntityRelationship Name="price_level_contacts" />
-  <EntityRelationship Name="queue_system_user" />
-  <EntityRelationship Name="service_accounts" />
-  <EntityRelationship Name="service_contacts" />
-  <EntityRelationship Name="site_system_users" />
-  <EntityRelationship Name="sla_account" />
-  <EntityRelationship Name="sla_contact" />
-  <EntityRelationship Name="system_user_accounts" />
-  <EntityRelationship Name="system_user_contacts" />
-  <EntityRelationship Name="systemuser_defaultmailbox_mailbox" />
+  <EntityRelationship Name="position_users" unmodified="1" />
+  <EntityRelationship Name="price_level_accounts" unmodified="1" />
+  <EntityRelationship Name="price_level_contacts" unmodified="1" />
+  <EntityRelationship Name="queue_system_user" unmodified="1" />
+  <EntityRelationship Name="service_accounts" unmodified="1" />
+  <EntityRelationship Name="service_contacts" unmodified="1" />
+  <EntityRelationship Name="site_system_users" unmodified="1" />
+  <EntityRelationship Name="sla_account" unmodified="1" />
+  <EntityRelationship Name="sla_contact" unmodified="1" />
+  <EntityRelationship Name="system_user_accounts" unmodified="1" />
+  <EntityRelationship Name="system_user_contacts" unmodified="1" />
+  <EntityRelationship Name="systemuser_defaultmailbox_mailbox" unmodified="1" />
   <EntityRelationship Name="tc_Account_AYOrganizationGroupMember_OrganizationId" />
   <EntityRelationship Name="tc_AYEmployee_AYOrganizationUnit_ManagerId" />
   <EntityRelationship Name="tc_ayemployee_dydocumentprofiletemplate_AuthorId" />
@@ -114,7 +110,6 @@
   <EntityRelationship Name="tc_Contact_AYContactGroupMember_ContactId" />
   <EntityRelationship Name="tc_Contact_AYEmployee_ContactId" />
   <EntityRelationship Name="tc_systemuser_ayemployee_UserAccountId" />
-  <EntityRelationship Name="tc_tc_yycountry_tc_yyprovincestate" />
   <EntityRelationship Name="tc_Team_DYIdGenerator_TeamId" />
   <EntityRelationship Name="tc_tyeventtype_dyeventlog_TypeId" />
   <EntityRelationship Name="tc_TYOrganizationType_Account_OrganizationTypeId" />
@@ -122,8 +117,8 @@
   <EntityRelationship Name="tc_TYRegion_Contact" />
   <EntityRelationship Name="tc_TYRegion_TYRegion_ParentRegionId" />
   <EntityRelationship Name="tc_TYTagCategory_TYTag_CategoryId" />
-  <EntityRelationship Name="team_accounts" />
-  <EntityRelationship Name="team_contacts" />
+  <EntityRelationship Name="team_accounts" unmodified="1" />
+  <EntityRelationship Name="team_contacts" unmodified="1" />
   <EntityRelationship Name="team_tc_aycontactgroupmember" />
   <EntityRelationship Name="team_tc_ayorganizationgroupmember" />
   <EntityRelationship Name="team_tc_aystakeholdergroup" />
@@ -134,13 +129,12 @@
   <EntityRelationship Name="team_tc_tytag" />
   <EntityRelationship Name="team_tc_tytagcategory" />
   <EntityRelationship Name="team_tc_yycountry" />
-  <EntityRelationship Name="team_tc_yyprovincestate" />
-  <EntityRelationship Name="territory_accounts" />
-  <EntityRelationship Name="territory_system_users" />
-  <EntityRelationship Name="transactioncurrency_account" />
-  <EntityRelationship Name="transactioncurrency_contact" />
-  <EntityRelationship Name="user_accounts" />
-  <EntityRelationship Name="user_parent_user" />
+  <EntityRelationship Name="territory_accounts" unmodified="1" />
+  <EntityRelationship Name="territory_system_users" unmodified="1" />
+  <EntityRelationship Name="transactioncurrency_account" unmodified="1" />
+  <EntityRelationship Name="transactioncurrency_contact" unmodified="1" />
+  <EntityRelationship Name="user_accounts" unmodified="1" />
+  <EntityRelationship Name="user_parent_user" unmodified="1" />
   <EntityRelationship Name="user_tc_aycontactgroupmember" />
   <EntityRelationship Name="user_tc_ayorganizationgroupmember" />
   <EntityRelationship Name="user_tc_aystakeholdergroup" />
@@ -151,5 +145,4 @@
   <EntityRelationship Name="user_tc_tytag" />
   <EntityRelationship Name="user_tc_tytagcategory" />
   <EntityRelationship Name="user_tc_yycountry" />
-  <EntityRelationship Name="user_tc_yyprovincestate" />
 </EntityRelationships>

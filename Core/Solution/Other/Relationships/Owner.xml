@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <EntityRelationships>
-  <EntityRelationship Name="owner_accounts">
+  <EntityRelationship Name="owner_accounts" unmodified="1">
     <EntityRelationshipType>OneToMany</EntityRelationshipType>
     <IntroducedVersion>5.0.0.0</IntroducedVersion>
     <IsHierarchical>0</IsHierarchical>
@@ -19,7 +19,7 @@
       </Descriptions>
     </RelationshipDescription>
   </EntityRelationship>
-  <EntityRelationship Name="owner_contacts">
+  <EntityRelationship Name="owner_contacts" unmodified="1">
     <EntityRelationshipType>OneToMany</EntityRelationshipType>
     <IntroducedVersion>5.0.0.0</IntroducedVersion>
     <IsHierarchical>0</IsHierarchical>
@@ -224,26 +224,6 @@
     <IntroducedVersion>0.6.0.8</IntroducedVersion>
     <IsHierarchical>0</IsHierarchical>
     <ReferencingEntityName>tc_YYCountry</ReferencingEntityName>
-    <ReferencedEntityName>Owner</ReferencedEntityName>
-    <CascadeAssign>NoCascade</CascadeAssign>
-    <CascadeDelete>NoCascade</CascadeDelete>
-    <CascadeReparent>NoCascade</CascadeReparent>
-    <CascadeShare>NoCascade</CascadeShare>
-    <CascadeUnshare>NoCascade</CascadeUnshare>
-    <ReferencingAttributeName>OwnerId</ReferencingAttributeName>
-    <RelationshipDescription>
-      <Descriptions>
-        <Description description="Owner Id" languagecode="1033" />
-        <Description description="ID du propriétaire" languagecode="1036" />
-      </Descriptions>
-    </RelationshipDescription>
-  </EntityRelationship>
-  <EntityRelationship Name="owner_tc_yyprovincestate">
-    <EntityRelationshipType>OneToMany</EntityRelationshipType>
-    <IsCustomizable>1</IsCustomizable>
-    <IntroducedVersion>0.6.0.8</IntroducedVersion>
-    <IsHierarchical>0</IsHierarchical>
-    <ReferencingEntityName>tc_YYProvinceState</ReferencingEntityName>
     <ReferencedEntityName>Owner</ReferencedEntityName>
     <CascadeAssign>NoCascade</CascadeAssign>
     <CascadeDelete>NoCascade</CascadeDelete>

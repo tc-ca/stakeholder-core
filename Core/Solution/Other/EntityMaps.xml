@@ -91,11 +91,6 @@
     <AttributeMaps />
   </EntityMap>
   <EntityMap>
-    <EntitySource>tc_yycountry</EntitySource>
-    <EntityTarget>tc_yyprovincestate</EntityTarget>
-    <AttributeMaps />
-  </EntityMap>
-  <EntityMap>
     <EntitySource>team</EntitySource>
     <EntityTarget>tc_dyidgenerator</EntityTarget>
     <AttributeMaps />
