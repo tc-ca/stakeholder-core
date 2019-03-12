@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Entity>
   <Name LocalizedName="Event Log" OriginalName="Event Log">tc_DYEventLog</Name>
-  <ObjectTypeCode>10007</ObjectTypeCode>
+  <ObjectTypeCode>10011</ObjectTypeCode>
   <EntityInfo>
     <entity Name="tc_DYEventLog">
       <LocalizedNames>
@@ -274,9 +274,11 @@
           <LookupTypes />
           <displaynames>
             <displayname description="Organization Id" languagecode="1033" />
+            <displayname description="ID d’organisation" languagecode="1036" />
           </displaynames>
           <Descriptions>
             <Description description="Unique identifier for the organization" languagecode="1033" />
+            <Description description="Identificateur unique de l’organisation" languagecode="1036" />
           </Descriptions>
         </attribute>
         <attribute PhysicalName="OverriddenCreatedOn">
@@ -339,7 +341,7 @@
           <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
           <optionset Name="tc_dyeventlog_statecode">
             <OptionSetType>state</OptionSetType>
-            <IntroducedVersion>0.3.4.4</IntroducedVersion>
+            <IntroducedVersion>0.6.0.7</IntroducedVersion>
             <IsCustomizable>1</IsCustomizable>
             <displaynames>
               <displayname description="Status" languagecode="1033" />
@@ -399,7 +401,7 @@
           <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
           <optionset Name="tc_dyeventlog_statuscode">
             <OptionSetType>status</OptionSetType>
-            <IntroducedVersion>0.3.4.4</IntroducedVersion>
+            <IntroducedVersion>0.6.0.7</IntroducedVersion>
             <IsCustomizable>1</IsCustomizable>
             <displaynames>
               <displayname description="Status Reason" languagecode="1033" />
@@ -660,9 +662,11 @@
           <MaxValue>2147483647</MaxValue>
           <displaynames>
             <displayname description="Time Zone Rule Version Number" languagecode="1033" />
+            <displayname description="Numéro de version de la règle du fuseau horaire" languagecode="1036" />
           </displaynames>
           <Descriptions>
             <Description description="For internal use only." languagecode="1033" />
+            <Description description="Utilisation interne uniquement." languagecode="1036" />
           </Descriptions>
         </attribute>
         <attribute PhysicalName="UTCConversionTimeZoneCode">
@@ -693,9 +697,11 @@
           <MaxValue>2147483647</MaxValue>
           <displaynames>
             <displayname description="UTC Conversion Time Zone Code" languagecode="1033" />
+            <displayname description="Code de fuseau horaire pour la conversion UTC" languagecode="1036" />
           </displaynames>
           <Descriptions>
             <Description description="Time zone code that was in use when the record was created." languagecode="1033" />
+            <Description description="Code de fuseau horaire utilisé à la création de l’enregistrement." languagecode="1036" />
           </Descriptions>
         </attribute>
       </attributes>
@@ -765,7 +771,7 @@
   <RibbonDiffXml />
   <CustomControlDefaultConfigs>
     <CustomControlDefaultConfig>
-      <PrimaryEntityTypeCode>10007</PrimaryEntityTypeCode>
+      <PrimaryEntityTypeCode>10011</PrimaryEntityTypeCode>
       <CustomControlDefaultConfigId>{98f01d4c-d452-e811-8b7c-00155ddc0400}</CustomControlDefaultConfigId>
       <ControlDescriptionXML>
         <controlDescriptions />

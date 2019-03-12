@@ -9,6 +9,8 @@
   <EntityRelationship Name="business_unit_tc_tyregion" />
   <EntityRelationship Name="business_unit_tc_tytag" />
   <EntityRelationship Name="business_unit_tc_tytagcategory" />
+  <EntityRelationship Name="business_unit_tc_yycountry" />
+  <EntityRelationship Name="business_unit_tc_yyprovincestate" />
   <EntityRelationship Name="lk_tc_aycontactgroupmember_createdby" />
   <EntityRelationship Name="lk_tc_aycontactgroupmember_modifiedby" />
   <EntityRelationship Name="lk_tc_ayemployee_createdby" />
@@ -35,6 +37,10 @@
   <EntityRelationship Name="lk_tc_tytag_modifiedby" />
   <EntityRelationship Name="lk_tc_tytagcategory_createdby" />
   <EntityRelationship Name="lk_tc_tytagcategory_modifiedby" />
+  <EntityRelationship Name="lk_tc_yycountry_createdby" />
+  <EntityRelationship Name="lk_tc_yycountry_modifiedby" />
+  <EntityRelationship Name="lk_tc_yyprovincestate_createdby" />
+  <EntityRelationship Name="lk_tc_yyprovincestate_modifiedby" />
   <EntityRelationship Name="organization_tc_ayemployee" />
   <EntityRelationship Name="organization_tc_ayorganizationunit" />
   <EntityRelationship Name="organization_tc_dyeventlog" />
@@ -48,6 +54,8 @@
   <EntityRelationship Name="owner_tc_tyregion" />
   <EntityRelationship Name="owner_tc_tytag" />
   <EntityRelationship Name="owner_tc_tytagcategory" />
+  <EntityRelationship Name="owner_tc_yycountry" />
+  <EntityRelationship Name="owner_tc_yyprovincestate" />
   <EntityRelationship Name="tc_Account_AYOrganizationGroupMember_OrganizationId" />
   <EntityRelationship Name="tc_AYEmployee_AYOrganizationUnit_ManagerId" />
   <EntityRelationship Name="tc_ayemployee_dydocumentprofiletemplate_AuthorId" />
@@ -61,6 +69,7 @@
   <EntityRelationship Name="tc_Contact_AYContactGroupMember_ContactId" />
   <EntityRelationship Name="tc_Contact_AYEmployee_ContactId" />
   <EntityRelationship Name="tc_systemuser_ayemployee_UserAccountId" />
+  <EntityRelationship Name="tc_tc_yycountry_tc_yyprovincestate" />
   <EntityRelationship Name="tc_Team_DYIdGenerator_TeamId" />
   <EntityRelationship Name="tc_tyeventtype_dyeventlog_TypeId" />
   <EntityRelationship Name="tc_TYOrganizationType_Account_OrganizationTypeId" />
@@ -77,6 +86,8 @@
   <EntityRelationship Name="team_tc_tyregion" />
   <EntityRelationship Name="team_tc_tytag" />
   <EntityRelationship Name="team_tc_tytagcategory" />
+  <EntityRelationship Name="team_tc_yycountry" />
+  <EntityRelationship Name="team_tc_yyprovincestate" />
   <EntityRelationship Name="user_tc_aycontactgroupmember" />
   <EntityRelationship Name="user_tc_ayorganizationgroupmember" />
   <EntityRelationship Name="user_tc_aystakeholdergroup" />
@@ -86,4 +97,6 @@
   <EntityRelationship Name="user_tc_tyregion" />
   <EntityRelationship Name="user_tc_tytag" />
   <EntityRelationship Name="user_tc_tytagcategory" />
+  <EntityRelationship Name="user_tc_yycountry" />
+  <EntityRelationship Name="user_tc_yyprovincestate" />
 </EntityRelationships>

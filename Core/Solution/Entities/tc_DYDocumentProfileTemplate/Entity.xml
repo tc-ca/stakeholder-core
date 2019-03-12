@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Entity>
   <Name LocalizedName="Document Profile Template" OriginalName="Document Profile Template">tc_DYDocumentProfileTemplate</Name>
-  <ObjectTypeCode>10012</ObjectTypeCode>
+  <ObjectTypeCode>10010</ObjectTypeCode>
   <EntityInfo>
     <entity Name="tc_DYDocumentProfileTemplate">
       <LocalizedNames>
@@ -538,7 +538,7 @@
           <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
           <optionset Name="tc_dydocumentprofiletemplate_statecode">
             <OptionSetType>state</OptionSetType>
-            <IntroducedVersion>0.3.5.0</IntroducedVersion>
+            <IntroducedVersion>0.6.0.7</IntroducedVersion>
             <IsCustomizable>1</IsCustomizable>
             <displaynames>
               <displayname description="Status" languagecode="1033" />
@@ -598,7 +598,7 @@
           <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
           <optionset Name="tc_dydocumentprofiletemplate_statuscode">
             <OptionSetType>status</OptionSetType>
-            <IntroducedVersion>0.3.5.0</IntroducedVersion>
+            <IntroducedVersion>0.6.0.7</IntroducedVersion>
             <IsCustomizable>1</IsCustomizable>
             <displaynames>
               <displayname description="Status Reason" languagecode="1033" />
@@ -726,7 +726,7 @@
           <AppDefaultValue>-1</AppDefaultValue>
           <optionset Name="tc_dydocumentprofiletemplate_tc_defaultlanguageid">
             <OptionSetType>picklist</OptionSetType>
-            <IntroducedVersion>0.3.5.0</IntroducedVersion>
+            <IntroducedVersion>0.6.0.7</IntroducedVersion>
             <IsCustomizable>1</IsCustomizable>
             <displaynames>
               <displayname description="Default Language" languagecode="1033" />
@@ -820,7 +820,7 @@
           <AppDefaultValue>-1</AppDefaultValue>
           <optionset Name="tc_dydocumentprofiletemplate_tc_defaultsecurityid">
             <OptionSetType>picklist</OptionSetType>
-            <IntroducedVersion>0.3.5.0</IntroducedVersion>
+            <IntroducedVersion>0.6.0.7</IntroducedVersion>
             <IsCustomizable>1</IsCustomizable>
             <displaynames>
               <displayname description="Default Security" languagecode="1033" />
@@ -1007,7 +1007,7 @@
           <AppDefaultValue>0</AppDefaultValue>
           <optionset Name="tc_dydocumentprofiletemplate_tc_entitydefaultind">
             <OptionSetType>bit</OptionSetType>
-            <IntroducedVersion>0.3.5.0</IntroducedVersion>
+            <IntroducedVersion>0.6.0.7</IntroducedVersion>
             <IsCustomizable>1</IsCustomizable>
             <displaynames>
               <displayname description="Entity Default" languagecode="1033" />
@@ -1062,7 +1062,7 @@
           <AppDefaultValue>0</AppDefaultValue>
           <optionset Name="tc_dydocumentprofiletemplate_tc_languageid">
             <OptionSetType>picklist</OptionSetType>
-            <IntroducedVersion>0.3.5.0</IntroducedVersion>
+            <IntroducedVersion>0.6.0.7</IntroducedVersion>
             <IsCustomizable>1</IsCustomizable>
             <displaynames>
               <displayname description="Language" languagecode="1033" />
@@ -1282,7 +1282,7 @@
   <RibbonDiffXml />
   <CustomControlDefaultConfigs>
     <CustomControlDefaultConfig>
-      <PrimaryEntityTypeCode>10012</PrimaryEntityTypeCode>
+      <PrimaryEntityTypeCode>10010</PrimaryEntityTypeCode>
       <CustomControlDefaultConfigId>{84ca8107-7742-e811-80eb-005056813f84}</CustomControlDefaultConfigId>
       <ControlDescriptionXML>
         <controlDescriptions />

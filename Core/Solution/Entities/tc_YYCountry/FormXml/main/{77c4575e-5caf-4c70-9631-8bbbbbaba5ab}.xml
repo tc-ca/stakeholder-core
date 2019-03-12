@@ -1,0 +1,125 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<systemform>
+  <formid>{77c4575e-5caf-4c70-9631-8bbbbbaba5ab}</formid>
+  <IntroducedVersion>0.6.0.8</IntroducedVersion>
+  <FormPresentation>1</FormPresentation>
+  <FormActivationState>1</FormActivationState>
+  <form>
+    <tabs>
+      <tab verticallayout="true" id="{a83dfbf5-f987-47b2-aadd-98313477be36}" IsUserDefined="1">
+        <labels>
+          <label description="General" languagecode="1033" />
+          <label description="Général" languagecode="1036" />
+        </labels>
+        <columns>
+          <column width="100%">
+            <sections>
+              <section showlabel="false" showbar="false" IsUserDefined="0" id="{c89d2717-9e56-4f82-8464-15134e8c1706}">
+                <labels>
+                  <label description="General" languagecode="1033" />
+                  <label description="Général" languagecode="1036" />
+                </labels>
+                <rows>
+                  <row>
+                    <cell id="{92a60cf8-dbd4-45c8-921e-0fb998b49594}">
+                      <labels>
+                        <label description="Name" languagecode="1033" />
+                      </labels>
+                      <control id="tc_countrynm" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="tc_countrynm" />
+                    </cell>
+                  </row>
+                  <row>
+                    <cell id="{c1bc66c1-75db-a05a-6b89-8e59795e2adc}" showlabel="true" locklevel="0">
+                      <labels>
+                        <label description="Country Code" languagecode="1033" />
+                      </labels>
+                      <control id="tc_countrycodetxt" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="tc_countrycodetxt" disabled="false" />
+                    </cell>
+                  </row>
+                  <row>
+                    <cell id="{e11f1ccd-dbf2-43a9-a37b-052319d44751}">
+                      <labels>
+                        <label description="Owner" languagecode="1033" />
+                        <label description="Propriétaire" languagecode="1036" />
+                      </labels>
+                      <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" />
+                    </cell>
+                  </row>
+                  <row>
+                    <cell id="{593b7aa8-bb24-c10c-b3dd-99c6592c9d6d}" showlabel="true" colspan="1" auto="false" rowspan="6">
+                      <labels>
+                        <label description="Provinces/States" languagecode="1033" />
+                      </labels>
+                      <control id="ProvincesStatesSubGrid" classid="{E7A81278-8635-4d9e-8D4D-59480B391C5B}" indicationOfSubgrid="true">
+                        <parameters>
+                          <ViewId>{003C1283-237B-421C-A12E-47BFA8FC7BE2}</ViewId>
+                          <IsUserView>false</IsUserView>
+                          <RelationshipName>tc_tc_yycountry_tc_yyprovincestate</RelationshipName>
+                          <TargetEntityType>tc_yyprovincestate</TargetEntityType>
+                          <AutoExpand>Fixed</AutoExpand>
+                          <EnableQuickFind>false</EnableQuickFind>
+                          <EnableViewPicker>false</EnableViewPicker>
+                          <ViewIds>{003C1283-237B-421C-A12E-47BFA8FC7BE2}</ViewIds>
+                          <EnableJumpBar>false</EnableJumpBar>
+                          <ChartGridMode>All</ChartGridMode>
+                          <VisualizationId></VisualizationId>
+                          <IsUserChart>false</IsUserChart>
+                          <EnableChartPicker>true</EnableChartPicker>
+                          <RecordsPerPage>4</RecordsPerPage>
+                        </parameters>
+                      </control>
+                    </cell>
+                  </row>
+                  <row />
+                  <row />
+                  <row />
+                  <row />
+                  <row />
+                </rows>
+              </section>
+            </sections>
+          </column>
+        </columns>
+      </tab>
+    </tabs>
+    <Navigation>
+      <NavBar></NavBar>
+      <NavBarAreas>
+        <NavBarArea Id="Info">
+          <Titles>
+            <Title LCID="1033" Text="Common" />
+          </Titles>
+        </NavBarArea>
+        <NavBarArea Id="Sales">
+          <Titles>
+            <Title LCID="1033" Text="Sales" />
+          </Titles>
+        </NavBarArea>
+        <NavBarArea Id="Service">
+          <Titles>
+            <Title LCID="1033" Text="Service" />
+          </Titles>
+        </NavBarArea>
+        <NavBarArea Id="Marketing">
+          <Titles>
+            <Title LCID="1033" Text="Marketing" />
+          </Titles>
+        </NavBarArea>
+        <NavBarArea Id="ProcessCenter">
+          <Titles>
+            <Title LCID="1033" Text="Process Sessions" />
+          </Titles>
+        </NavBarArea>
+      </NavBarAreas>
+    </Navigation>
+    <controlDescriptions />
+  </form>
+  <IsCustomizable>1</IsCustomizable>
+  <CanBeDeleted>1</CanBeDeleted>
+  <LocalizedNames>
+    <LocalizedName description="Information" languagecode="1033" />
+  </LocalizedNames>
+  <Descriptions>
+    <Description description="A form for this entity." languagecode="1033" />
+  </Descriptions>
+</systemform>

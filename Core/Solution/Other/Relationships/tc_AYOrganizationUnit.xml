@@ -49,6 +49,7 @@
     <CascadeReparent>NoCascade</CascadeReparent>
     <CascadeShare>NoCascade</CascadeShare>
     <CascadeUnshare>NoCascade</CascadeUnshare>
+    <CascadeRollupView>NoCascade</CascadeRollupView>
     <IsValidForAdvancedFind>1</IsValidForAdvancedFind>
     <ReferencingAttributeName>tc_ParentOrganizationId</ReferencingAttributeName>
     <RelationshipDescription>
