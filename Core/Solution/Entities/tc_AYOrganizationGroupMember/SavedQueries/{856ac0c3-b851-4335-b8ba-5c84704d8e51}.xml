@@ -5,10 +5,10 @@
   <isquickfindquery>0</isquickfindquery>
   <isprivate>0</isprivate>
   <isdefault>1</isdefault>
-  <returnedtypecode>10007</returnedtypecode>
+  <returnedtypecode>10028</returnedtypecode>
   <savedqueryid>{856ac0c3-b851-4335-b8ba-5c84704d8e51}</savedqueryid>
   <layoutxml>
-    <grid name="" object="10007" jump="tc_membernm" select="1" icon="1" preview="0">
+    <grid name="" object="10028" jump="tc_membernm" select="1" icon="1" preview="0">
       <row name="tc_ayorganizationgroupmember" id="tc_ayorganizationgroupmemberid">
         <cell name="tc_membernm" width="300" />
         <cell name="tc_organizationid" width="100" />

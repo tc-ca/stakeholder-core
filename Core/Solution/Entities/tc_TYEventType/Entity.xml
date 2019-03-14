@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Entity>
   <Name LocalizedName="Event Type" OriginalName="Event Type">tc_TYEventType</Name>
-  <ObjectTypeCode>10013</ObjectTypeCode>
+  <ObjectTypeCode>10022</ObjectTypeCode>
   <EntityInfo>
     <entity Name="tc_TYEventType">
       <LocalizedNames>
@@ -341,7 +341,7 @@
           <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
           <optionset Name="tc_tyeventtype_statecode">
             <OptionSetType>state</OptionSetType>
-            <IntroducedVersion>0.6.0.7</IntroducedVersion>
+            <IntroducedVersion>0.3.1.8</IntroducedVersion>
             <IsCustomizable>1</IsCustomizable>
             <displaynames>
               <displayname description="Status" languagecode="1033" />
@@ -401,7 +401,7 @@
           <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
           <optionset Name="tc_tyeventtype_statuscode">
             <OptionSetType>status</OptionSetType>
-            <IntroducedVersion>0.6.0.7</IntroducedVersion>
+            <IntroducedVersion>0.3.1.8</IntroducedVersion>
             <IsCustomizable>1</IsCustomizable>
             <displaynames>
               <displayname description="Status Reason" languagecode="1033" />
@@ -706,8 +706,8 @@
   <RibbonDiffXml />
   <CustomControlDefaultConfigs>
     <CustomControlDefaultConfig>
-      <PrimaryEntityTypeCode>10013</PrimaryEntityTypeCode>
-      <CustomControlDefaultConfigId>{ef5c9b53-d452-e811-8b7c-00155ddc0400}</CustomControlDefaultConfigId>
+      <PrimaryEntityTypeCode>10022</PrimaryEntityTypeCode>
+      <CustomControlDefaultConfigId>{6dc98107-7742-e811-80eb-005056813f84}</CustomControlDefaultConfigId>
       <ControlDescriptionXML>
         <controlDescriptions />
       </ControlDescriptionXML>

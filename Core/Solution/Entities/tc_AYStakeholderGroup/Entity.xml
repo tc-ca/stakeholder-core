@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Entity>
   <Name LocalizedName="Stakeholder Group" OriginalName="Stakeholder Group">tc_AYStakeholderGroup</Name>
-  <ObjectTypeCode>10009</ObjectTypeCode>
+  <ObjectTypeCode>10029</ObjectTypeCode>
   <EntityInfo>
     <entity Name="tc_AYStakeholderGroup">
       <LocalizedNames>
@@ -538,7 +538,7 @@
           <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
           <optionset Name="tc_aystakeholdergroup_statecode">
             <OptionSetType>state</OptionSetType>
-            <IntroducedVersion>0.6.0.7</IntroducedVersion>
+            <IntroducedVersion>0.6.0.1</IntroducedVersion>
             <IsCustomizable>1</IsCustomizable>
             <displaynames>
               <displayname description="Status" languagecode="1033" />
@@ -596,7 +596,7 @@
           <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
           <optionset Name="tc_aystakeholdergroup_statuscode">
             <OptionSetType>status</OptionSetType>
-            <IntroducedVersion>0.6.0.7</IntroducedVersion>
+            <IntroducedVersion>0.6.0.1</IntroducedVersion>
             <IsCustomizable>1</IsCustomizable>
             <displaynames>
               <displayname description="Status Reason" languagecode="1033" />
@@ -1027,7 +1027,7 @@
   <RibbonDiffXml />
   <CustomControlDefaultConfigs>
     <CustomControlDefaultConfig>
-      <PrimaryEntityTypeCode>10009</PrimaryEntityTypeCode>
+      <PrimaryEntityTypeCode>10029</PrimaryEntityTypeCode>
       <CustomControlDefaultConfigId>{2b52b158-b3c8-e811-8b96-00155ddc0400}</CustomControlDefaultConfigId>
       <ControlDescriptionXML>
         <controlDescriptions />

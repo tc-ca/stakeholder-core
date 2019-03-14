@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Entity>
   <Name LocalizedName="TC Organization" OriginalName="TC Organization">tc_AYOrganizationUnit</Name>
-  <ObjectTypeCode>10008</ObjectTypeCode>
+  <ObjectTypeCode>10014</ObjectTypeCode>
   <EntityInfo>
     <entity Name="tc_AYOrganizationUnit">
       <LocalizedNames>
@@ -341,7 +341,7 @@
           <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
           <optionset Name="tc_ayorganizationunit_statecode">
             <OptionSetType>state</OptionSetType>
-            <IntroducedVersion>0.6.0.7</IntroducedVersion>
+            <IntroducedVersion>0.2.3.2</IntroducedVersion>
             <IsCustomizable>1</IsCustomizable>
             <displaynames>
               <displayname description="Status" languagecode="1033" />
@@ -401,7 +401,7 @@
           <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
           <optionset Name="tc_ayorganizationunit_statuscode">
             <OptionSetType>status</OptionSetType>
-            <IntroducedVersion>0.6.0.7</IntroducedVersion>
+            <IntroducedVersion>0.2.3.2</IntroducedVersion>
             <IsCustomizable>1</IsCustomizable>
             <displaynames>
               <displayname description="Status Reason" languagecode="1033" />
@@ -564,7 +564,7 @@
           <AppDefaultValue>0</AppDefaultValue>
           <optionset Name="tc_ayorganizationunit_tc_archivedind">
             <OptionSetType>bit</OptionSetType>
-            <IntroducedVersion>0.6.0.7</IntroducedVersion>
+            <IntroducedVersion>0.3.1.8</IntroducedVersion>
             <IsCustomizable>1</IsCustomizable>
             <displaynames>
               <displayname description="Archived" languagecode="1033" />
@@ -1056,7 +1056,7 @@
           <AppDefaultValue>-1</AppDefaultValue>
           <optionset Name="tc_ayorganizationunit_tc_typeid">
             <OptionSetType>picklist</OptionSetType>
-            <IntroducedVersion>0.6.0.7</IntroducedVersion>
+            <IntroducedVersion>0.2.3.2</IntroducedVersion>
             <IsCustomizable>1</IsCustomizable>
             <displaynames>
               <displayname description="Organization Type" languagecode="1033" />
@@ -1256,8 +1256,8 @@
   <RibbonDiffXml />
   <CustomControlDefaultConfigs>
     <CustomControlDefaultConfig>
-      <PrimaryEntityTypeCode>10008</PrimaryEntityTypeCode>
-      <CustomControlDefaultConfigId>{dbef1d4c-d452-e811-8b7c-00155ddc0400}</CustomControlDefaultConfigId>
+      <PrimaryEntityTypeCode>10014</PrimaryEntityTypeCode>
+      <CustomControlDefaultConfigId>{d9c98107-7742-e811-80eb-005056813f84}</CustomControlDefaultConfigId>
       <ControlDescriptionXML>
         <controlDescriptions />
       </ControlDescriptionXML>

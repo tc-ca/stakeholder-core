@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Entity>
   <Name LocalizedName="Tag" OriginalName="Tag">tc_TYTag</Name>
-  <ObjectTypeCode>10016</ObjectTypeCode>
+  <ObjectTypeCode>10025</ObjectTypeCode>
   <EntityInfo>
     <entity Name="tc_TYTag">
       <LocalizedNames>
@@ -538,7 +538,7 @@
           <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
           <optionset Name="tc_tytag_statecode">
             <OptionSetType>state</OptionSetType>
-            <IntroducedVersion>0.6.0.7</IntroducedVersion>
+            <IntroducedVersion>0.3.3.1</IntroducedVersion>
             <IsCustomizable>1</IsCustomizable>
             <displaynames>
               <displayname description="Status" languagecode="1033" />
@@ -596,7 +596,7 @@
           <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
           <optionset Name="tc_tytag_statuscode">
             <OptionSetType>status</OptionSetType>
-            <IntroducedVersion>0.6.0.7</IntroducedVersion>
+            <IntroducedVersion>0.3.3.1</IntroducedVersion>
             <IsCustomizable>1</IsCustomizable>
             <displaynames>
               <displayname description="Status Reason" languagecode="1033" />
@@ -864,7 +864,7 @@
   <RibbonDiffXml />
   <CustomControlDefaultConfigs>
     <CustomControlDefaultConfig>
-      <PrimaryEntityTypeCode>10016</PrimaryEntityTypeCode>
+      <PrimaryEntityTypeCode>10025</PrimaryEntityTypeCode>
       <CustomControlDefaultConfigId>{af5d9b53-d452-e811-8b7c-00155ddc0400}</CustomControlDefaultConfigId>
       <ControlDescriptionXML>
         <controlDescriptions />

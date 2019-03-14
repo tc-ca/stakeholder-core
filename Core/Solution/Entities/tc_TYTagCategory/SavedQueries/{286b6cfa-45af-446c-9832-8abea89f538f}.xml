@@ -5,10 +5,10 @@
   <isquickfindquery>0</isquickfindquery>
   <isprivate>0</isprivate>
   <isdefault>1</isdefault>
-  <returnedtypecode>10017</returnedtypecode>
+  <returnedtypecode>10026</returnedtypecode>
   <savedqueryid>{286b6cfa-45af-446c-9832-8abea89f538f}</savedqueryid>
   <layoutxml>
-    <grid name="" object="10017" jump="tc_categorynm" select="1" icon="1" preview="0">
+    <grid name="" object="10026" jump="tc_categorynm" select="1" icon="1" preview="0">
       <row name="tc_tytagcategory" id="tc_tytagcategoryid">
         <cell name="tc_categorynm" width="300" />
       </row>

@@ -5,10 +5,10 @@
   <isquickfindquery>0</isquickfindquery>
   <isprivate>0</isprivate>
   <isdefault>0</isdefault>
-  <returnedtypecode>10010</returnedtypecode>
+  <returnedtypecode>10017</returnedtypecode>
   <savedqueryid>{74958041-4b7c-4e93-91e8-f3c2fe2dbfce}</savedqueryid>
   <layoutxml>
-    <grid name="resultset" object="10010" jump="tc_templatecd" select="1" icon="1" preview="1">
+    <grid name="resultset" object="10017" jump="tc_templatecd" select="1" icon="1" preview="1">
       <row name="result" id="tc_dydocumentprofiletemplateid">
         <cell name="tc_templatecd" width="300" />
         <cell name="tc_languageid" width="100" />

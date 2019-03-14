@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Entity>
   <Name LocalizedName="Region" OriginalName="Region">tc_TYRegion</Name>
-  <ObjectTypeCode>10015</ObjectTypeCode>
+  <ObjectTypeCode>10031</ObjectTypeCode>
   <EntityInfo>
     <entity Name="tc_TYRegion">
       <LocalizedNames>
@@ -538,7 +538,7 @@
           <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
           <optionset Name="tc_tyregion_statecode">
             <OptionSetType>state</OptionSetType>
-            <IntroducedVersion>0.6.0.7</IntroducedVersion>
+            <IntroducedVersion>0.6.0.1</IntroducedVersion>
             <IsCustomizable>1</IsCustomizable>
             <displaynames>
               <displayname description="Status" languagecode="1033" />
@@ -596,7 +596,7 @@
           <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
           <optionset Name="tc_tyregion_statuscode">
             <OptionSetType>status</OptionSetType>
-            <IntroducedVersion>0.6.0.7</IntroducedVersion>
+            <IntroducedVersion>0.6.0.1</IntroducedVersion>
             <IsCustomizable>1</IsCustomizable>
             <displaynames>
               <displayname description="Status Reason" languagecode="1033" />
@@ -919,8 +919,8 @@
           <IntroducedVersion>0.1.0.5</IntroducedVersion>
           <IsCustomizable>0</IsCustomizable>
           <EntityKeyAttributes>
-            <AttributeName>tc_parentregionguid</AttributeName>
             <AttributeName>tc_regionfnm</AttributeName>
+            <AttributeName>tc_parentregionguid</AttributeName>
           </EntityKeyAttributes>
           <displaynames>
             <displayname description="French Name and Parent Region" languagecode="1033" />
@@ -994,7 +994,7 @@
   <RibbonDiffXml />
   <CustomControlDefaultConfigs>
     <CustomControlDefaultConfig>
-      <PrimaryEntityTypeCode>10015</PrimaryEntityTypeCode>
+      <PrimaryEntityTypeCode>10031</PrimaryEntityTypeCode>
       <CustomControlDefaultConfigId>{0c699d3b-5980-e811-8b8b-00155ddc0400}</CustomControlDefaultConfigId>
       <ControlDescriptionXML>
         <controlDescriptions />

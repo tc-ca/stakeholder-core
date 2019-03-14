@@ -5,10 +5,10 @@
   <isquickfindquery>0</isquickfindquery>
   <isprivate>0</isprivate>
   <isdefault>1</isdefault>
-  <returnedtypecode>10015</returnedtypecode>
+  <returnedtypecode>10031</returnedtypecode>
   <savedqueryid>{5916d767-d516-4664-a1b6-ed64361925da}</savedqueryid>
   <layoutxml>
-    <grid name="" object="10015" jump="tc_regionnm" select="1" icon="1" preview="0">
+    <grid name="" object="10031" jump="tc_regionnm" select="1" icon="1" preview="0">
       <row name="tc_tyregion" id="tc_tyregionid">
         <cell name="tc_regionnm" width="300" />
         <cell name="tc_parentregionid" width="200" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />

@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Entity>
   <Name LocalizedName="Id Generator" OriginalName="Id Generator">tc_DYIdGenerator</Name>
-  <ObjectTypeCode>10012</ObjectTypeCode>
+  <ObjectTypeCode>10016</ObjectTypeCode>
   <EntityInfo>
     <entity Name="tc_DYIdGenerator">
       <LocalizedNames>
@@ -538,7 +538,7 @@
           <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
           <optionset Name="tc_dyidgenerator_statecode">
             <OptionSetType>state</OptionSetType>
-            <IntroducedVersion>0.6.0.7</IntroducedVersion>
+            <IntroducedVersion>0.2.3.2</IntroducedVersion>
             <IsCustomizable>1</IsCustomizable>
             <displaynames>
               <displayname description="Status" languagecode="1033" />
@@ -598,7 +598,7 @@
           <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
           <optionset Name="tc_dyidgenerator_statuscode">
             <OptionSetType>status</OptionSetType>
-            <IntroducedVersion>0.6.0.7</IntroducedVersion>
+            <IntroducedVersion>0.2.3.2</IntroducedVersion>
             <IsCustomizable>1</IsCustomizable>
             <displaynames>
               <displayname description="Status Reason" languagecode="1033" />
@@ -1071,8 +1071,8 @@
   <RibbonDiffXml />
   <CustomControlDefaultConfigs>
     <CustomControlDefaultConfig>
-      <PrimaryEntityTypeCode>10012</PrimaryEntityTypeCode>
-      <CustomControlDefaultConfigId>{5cf11d4c-d452-e811-8b7c-00155ddc0400}</CustomControlDefaultConfigId>
+      <PrimaryEntityTypeCode>10016</PrimaryEntityTypeCode>
+      <CustomControlDefaultConfigId>{55ca8107-7742-e811-80eb-005056813f84}</CustomControlDefaultConfigId>
       <ControlDescriptionXML>
         <controlDescriptions />
       </ControlDescriptionXML>

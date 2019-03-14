@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Entity>
   <Name LocalizedName="Employee" OriginalName="Employee">tc_AYEmployee</Name>
-  <ObjectTypeCode>10006</ObjectTypeCode>
+  <ObjectTypeCode>10013</ObjectTypeCode>
   <EntityInfo>
     <entity Name="tc_AYEmployee">
       <LocalizedNames>
@@ -376,7 +376,7 @@
           <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
           <optionset Name="tc_ayemployee_statecode">
             <OptionSetType>state</OptionSetType>
-            <IntroducedVersion>0.6.0.7</IntroducedVersion>
+            <IntroducedVersion>0.2.3.2</IntroducedVersion>
             <IsCustomizable>1</IsCustomizable>
             <displaynames>
               <displayname description="Status" languagecode="1033" />
@@ -436,7 +436,7 @@
           <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
           <optionset Name="tc_ayemployee_statuscode">
             <OptionSetType>status</OptionSetType>
-            <IntroducedVersion>0.6.0.7</IntroducedVersion>
+            <IntroducedVersion>0.2.3.2</IntroducedVersion>
             <IsCustomizable>1</IsCustomizable>
             <displaynames>
               <displayname description="Status Reason" languagecode="1033" />
@@ -1105,7 +1105,7 @@
           <AppDefaultValue>0</AppDefaultValue>
           <optionset Name="tc_ayemployee_tc_isformeremployeeind">
             <OptionSetType>bit</OptionSetType>
-            <IntroducedVersion>0.6.0.7</IntroducedVersion>
+            <IntroducedVersion>0.2.3.2</IntroducedVersion>
             <IsCustomizable>1</IsCustomizable>
             <displaynames>
               <displayname description="Is Former Employee" languagecode="1033" />
@@ -1874,8 +1874,8 @@
   <RibbonDiffXml />
   <CustomControlDefaultConfigs>
     <CustomControlDefaultConfig>
-      <PrimaryEntityTypeCode>10006</PrimaryEntityTypeCode>
-      <CustomControlDefaultConfigId>{70c5b638-d452-e811-8b7c-00155ddc0400}</CustomControlDefaultConfigId>
+      <PrimaryEntityTypeCode>10013</PrimaryEntityTypeCode>
+      <CustomControlDefaultConfigId>{ebc98107-7742-e811-80eb-005056813f84}</CustomControlDefaultConfigId>
       <ControlDescriptionXML>
         <controlDescriptions />
       </ControlDescriptionXML>
