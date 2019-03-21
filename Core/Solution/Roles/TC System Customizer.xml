@@ -80,7 +80,6 @@
     <RolePrivilege name="prvAppendtc_DYEventLog" level="Global" />
     <RolePrivilege name="prvAppendtc_DYIdGenerator" level="Global" />
     <RolePrivilege name="prvAppendtc_TYEventType" level="Global" />
-    <RolePrivilege name="prvAppendtc_TYOrganizationType" level="Global" />
     <RolePrivilege name="prvAppendtc_TYRegion" level="Global" />
     <RolePrivilege name="prvAppendtc_YYCountry" level="Global" />
     <RolePrivilege name="prvAppendtc_YYProvinceState" level="Global" />
@@ -158,7 +157,6 @@
     <RolePrivilege name="prvAppendTotc_DYEventLog" level="Global" />
     <RolePrivilege name="prvAppendTotc_DYIdGenerator" level="Global" />
     <RolePrivilege name="prvAppendTotc_TYEventType" level="Global" />
-    <RolePrivilege name="prvAppendTotc_TYOrganizationType" level="Global" />
     <RolePrivilege name="prvAppendTotc_TYRegion" level="Global" />
     <RolePrivilege name="prvAppendTotc_YYCountry" level="Global" />
     <RolePrivilege name="prvAppendTotc_YYProvinceState" level="Global" />
@@ -219,7 +217,6 @@
     <RolePrivilege name="prvAssigntc_AYStakeholderGroup" level="Global" />
     <RolePrivilege name="prvAssigntc_DYDocumentProfileTemplate" level="Global" />
     <RolePrivilege name="prvAssigntc_DYIdGenerator" level="Global" />
-    <RolePrivilege name="prvAssigntc_TYOrganizationType" level="Global" />
     <RolePrivilege name="prvAssigntc_TYRegion" level="Global" />
     <RolePrivilege name="prvAssigntc_YYCountry" level="Global" />
     <RolePrivilege name="prvAssigntc_YYProvinceState" level="Global" />
@@ -325,7 +322,6 @@
     <RolePrivilege name="prvCreatetc_DYEventLog" level="Global" />
     <RolePrivilege name="prvCreatetc_DYIdGenerator" level="Global" />
     <RolePrivilege name="prvCreatetc_TYEventType" level="Global" />
-    <RolePrivilege name="prvCreatetc_TYOrganizationType" level="Global" />
     <RolePrivilege name="prvCreatetc_TYRegion" level="Global" />
     <RolePrivilege name="prvCreatetc_YYCountry" level="Global" />
     <RolePrivilege name="prvCreatetc_YYProvinceState" level="Global" />
@@ -436,7 +432,6 @@
     <RolePrivilege name="prvDeletetc_DYEventLog" level="Global" />
     <RolePrivilege name="prvDeletetc_DYIdGenerator" level="Global" />
     <RolePrivilege name="prvDeletetc_TYEventType" level="Global" />
-    <RolePrivilege name="prvDeletetc_TYOrganizationType" level="Global" />
     <RolePrivilege name="prvDeletetc_TYRegion" level="Global" />
     <RolePrivilege name="prvDeletetc_YYCountry" level="Global" />
     <RolePrivilege name="prvDeletetc_YYProvinceState" level="Global" />
@@ -584,7 +579,6 @@
     <RolePrivilege name="prvReadtc_DYEventLog" level="Global" />
     <RolePrivilege name="prvReadtc_DYIdGenerator" level="Global" />
     <RolePrivilege name="prvReadtc_TYEventType" level="Global" />
-    <RolePrivilege name="prvReadtc_TYOrganizationType" level="Global" />
     <RolePrivilege name="prvReadtc_TYRegion" level="Global" />
     <RolePrivilege name="prvReadtc_YYCountry" level="Global" />
     <RolePrivilege name="prvReadtc_YYProvinceState" level="Global" />
@@ -650,7 +644,6 @@
     <RolePrivilege name="prvSharetc_AYStakeholderGroup" level="Global" />
     <RolePrivilege name="prvSharetc_DYDocumentProfileTemplate" level="Global" />
     <RolePrivilege name="prvSharetc_DYIdGenerator" level="Global" />
-    <RolePrivilege name="prvSharetc_TYOrganizationType" level="Global" />
     <RolePrivilege name="prvSharetc_TYRegion" level="Global" />
     <RolePrivilege name="prvSharetc_YYCountry" level="Global" />
     <RolePrivilege name="prvSharetc_YYProvinceState" level="Global" />
@@ -769,7 +762,6 @@
     <RolePrivilege name="prvWritetc_DYEventLog" level="Global" />
     <RolePrivilege name="prvWritetc_DYIdGenerator" level="Global" />
     <RolePrivilege name="prvWritetc_TYEventType" level="Global" />
-    <RolePrivilege name="prvWritetc_TYOrganizationType" level="Global" />
     <RolePrivilege name="prvWritetc_TYRegion" level="Global" />
     <RolePrivilege name="prvWritetc_YYCountry" level="Global" />
     <RolePrivilege name="prvWritetc_YYProvinceState" level="Global" />

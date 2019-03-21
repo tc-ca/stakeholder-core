@@ -71,16 +71,6 @@
     <AttributeMaps />
   </EntityMap>
   <EntityMap>
-    <EntitySource>tc_tyorganizationtype</EntitySource>
-    <EntityTarget>account</EntityTarget>
-    <AttributeMaps />
-  </EntityMap>
-  <EntityMap>
-    <EntitySource>tc_tyorganizationtype</EntitySource>
-    <EntityTarget>tc_tyorganizationtype</EntityTarget>
-    <AttributeMaps />
-  </EntityMap>
-  <EntityMap>
     <EntitySource>tc_tyregion</EntitySource>
     <EntityTarget>tc_tyregion</EntityTarget>
     <AttributeMaps />

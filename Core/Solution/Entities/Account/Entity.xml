@@ -16,41 +16,7 @@
         <Description description="Business that represents a customer or potential customer. The company that is billed in business transactions." languagecode="1033" />
         <Description description="Entité commerciale qui représente un client ou un prospect. Société facturée dans les transactions professionnelles." languagecode="1036" />
       </Descriptions>
-      <attributes>
-        <attribute PhysicalName="tc_OrganizationTypeId">
-          <Type>lookup</Type>
-          <Name>tc_organizationtypeid</Name>
-          <LogicalName>tc_organizationtypeid</LogicalName>
-          <RequiredLevel>none</RequiredLevel>
-          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
-          <ImeMode>auto</ImeMode>
-          <ValidForUpdateApi>1</ValidForUpdateApi>
-          <ValidForReadApi>1</ValidForReadApi>
-          <ValidForCreateApi>1</ValidForCreateApi>
-          <IsCustomField>1</IsCustomField>
-          <IsAuditEnabled>1</IsAuditEnabled>
-          <IsSecured>0</IsSecured>
-          <IntroducedVersion>0.1.0.2</IntroducedVersion>
-          <IsCustomizable>1</IsCustomizable>
-          <IsRenameable>1</IsRenameable>
-          <CanModifySearchSettings>1</CanModifySearchSettings>
-          <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
-          <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
-          <SourceType>0</SourceType>
-          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
-          <IsSortableEnabled>0</IsSortableEnabled>
-          <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
-          <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
-          <LookupStyle>single</LookupStyle>
-          <LookupTypes />
-          <displaynames>
-            <displayname description="Organization Type" languagecode="1033" />
-          </displaynames>
-          <Descriptions>
-            <Description description="The type the best describes this organization" languagecode="1033" />
-          </Descriptions>
-        </attribute>
-      </attributes>
+      <attributes />
       <EntitySetName>accounts</EntitySetName>
       <IsDuplicateCheckSupported>1</IsDuplicateCheckSupported>
       <IsBusinessProcessEnabled>1</IsBusinessProcessEnabled>
