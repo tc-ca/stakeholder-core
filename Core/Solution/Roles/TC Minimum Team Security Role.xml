@@ -10,6 +10,7 @@
     <RolePrivilege name="prvAppendPhoneToCaseProcess" level="Global" />
     <RolePrivilege name="prvAppendQueue" level="Basic" />
     <RolePrivilege name="prvAppendtc_AYEmployee" level="Global" />
+    <RolePrivilege name="prvAppendtc_YYCountry" level="Global" />
     <RolePrivilege name="prvAppendToAsyncOperation" level="Basic" />
     <RolePrivilege name="prvAppendToExpiredProcess" level="Global" />
     <RolePrivilege name="prvAppendToLeadToOpportunitySalesProcess" level="Global" />
@@ -18,6 +19,7 @@
     <RolePrivilege name="prvAppendToPhoneToCaseProcess" level="Global" />
     <RolePrivilege name="prvAppendToQueue" level="Global" />
     <RolePrivilege name="prvAppendTotc_AYEmployee" level="Global" />
+    <RolePrivilege name="prvAppendTotc_YYCountry" level="Global" />
     <RolePrivilege name="prvAppendToTranslationProcess" level="Global" />
     <RolePrivilege name="prvAppendToUser" level="Local" />
     <RolePrivilege name="prvAppendToUserSettings" level="Local" />
@@ -93,6 +95,7 @@
     <RolePrivilege name="prvReadSystemApplicationMetadata" level="Global" />
     <RolePrivilege name="prvReadSystemForm" level="Global" />
     <RolePrivilege name="prvReadtc_AYEmployee" level="Global" />
+    <RolePrivilege name="prvReadtc_YYCountry" level="Global" />
     <RolePrivilege name="prvReadTeam" level="Local" />
     <RolePrivilege name="prvReadTranslationProcess" level="Global" />
     <RolePrivilege name="prvReadUser" level="Local" />

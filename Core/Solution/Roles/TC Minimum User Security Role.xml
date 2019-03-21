@@ -16,6 +16,7 @@
     <RolePrivilege name="prvAppendPost" level="Global" />
     <RolePrivilege name="prvAppendtc_AYEmployee" level="Global" />
     <RolePrivilege name="prvAppendtc_DYDocumentProfileTemplate" level="Basic" />
+    <RolePrivilege name="prvAppendtc_YYCountry" level="Global" />
     <RolePrivilege name="prvAppendToAccount" level="Basic" />
     <RolePrivilege name="prvAppendToActivity" level="Basic" />
     <RolePrivilege name="prvAppendToAsyncOperation" level="Basic" />
@@ -28,6 +29,7 @@
     <RolePrivilege name="prvAppendToPost" level="Global" />
     <RolePrivilege name="prvAppendTotc_AYEmployee" level="Global" />
     <RolePrivilege name="prvAppendTotc_DYDocumentProfileTemplate" level="Basic" />
+    <RolePrivilege name="prvAppendTotc_YYCountry" level="Global" />
     <RolePrivilege name="prvAppendToTeam" level="Deep" />
     <RolePrivilege name="prvAppendToTransactionCurrency" level="Global" />
     <RolePrivilege name="prvAppendToTranslationProcess" level="Global" />
@@ -132,6 +134,7 @@
     <RolePrivilege name="prvReadSystemForm" level="Global" />
     <RolePrivilege name="prvReadtc_AYEmployee" level="Global" />
     <RolePrivilege name="prvReadtc_DYDocumentProfileTemplate" level="Basic" />
+    <RolePrivilege name="prvReadtc_YYCountry" level="Global" />
     <RolePrivilege name="prvReadTeam" level="Deep" />
     <RolePrivilege name="prvReadTheme" level="Global" />
     <RolePrivilege name="prvReadTransactionCurrency" level="Global" />
