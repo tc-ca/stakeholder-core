@@ -26,9 +26,15 @@ namespace Core.Localization
 
             try
             {
+              lcid = (int)service.Retrieve("usersettings", context.InitiatingUserId, new ColumnSet("uilanguageid"))["uilanguageid"];
+            }
+            catch(FaultException<OrganizationServiceFault> fe)
+            {
+              lcid = 1033; // service principle
+            }
+            try
+            {
                 if (!context.OutputParameters.ContainsKey("BusinessEntityCollection")) return;
-
-                var lcid = (int)service.Retrieve("usersettings", context.InitiatingUserId, new ColumnSet("uilanguageid"))["uilanguageid"];
                 var entities = (EntityCollection)context.OutputParameters["BusinessEntityCollection"];
                 var settings = new Configuration(_unsecureConfig);
                 foreach (var entity in entities.Entities)
