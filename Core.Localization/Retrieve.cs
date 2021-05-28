@@ -27,7 +27,14 @@ namespace Core.Localization
 
             try
             {
-                var lcid = (int)service.Retrieve("usersettings", context.InitiatingUserId, new ColumnSet("uilanguageid"))["uilanguageid"];
+              lcid = (int)service.Retrieve("usersettings", context.InitiatingUserId, new ColumnSet("uilanguageid"))["uilanguageid"];
+            }
+            catch(FaultException<OrganizationServiceFault> fe)
+            {
+              lcid = 1033; // service principle
+            }
+            try
+            {
                 var entity = (Entity)context.OutputParameters["BusinessEntity"];
                 var config = new Configuration(_unsecureConfig);
                 config.Read(entity, lcid);
